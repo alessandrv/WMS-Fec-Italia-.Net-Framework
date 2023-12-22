@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E90EA4BB-6D12-4E1D-AD06-A932C4A42D34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WMS_Fec_Italia.Net_Framework</RootNamespace>
+    <AssemblyName>WMS_Fec_Italia.Net_Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>C:\Users\acolle\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC943C232BD8CDE508863278DA81ED81115FD13C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WMS Fec Italia .Net Framework_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Box.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriModel.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriView.Designer.cs">
+      <DependentUpon>FornitoriView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="DatabaseSettings.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoriOrdineController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineModel.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineView.designer.cs">
+      <DependentUpon>FornitoreOrdineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FormFotocamera\Fotocamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FormFotocamera\Fotocamera.Designer.cs">
+      <DependentUpon>Fotocamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\FormResiOrdine\ResiOrdineController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\FormResiOrdine\ResiOrdineModel.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\FormResiOrdine\ResiOrdineView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\FormResiOrdine\ResiOrdineView.Designer.cs">
+      <DependentUpon>ResiOrdineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\ResiController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\ResiModel.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\ResiView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormResi\ResiView.Designer.cs">
+      <DependentUpon>ResiView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormRiparazioni\RiparazioniController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormRiparazioni\RiparazioniModel.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormRiparazioni\RiparazioniView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormAccettazioni\FormRiparazioni\RiparazioniView.Designer.cs">
+      <DependentUpon>RiparazioniView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormMainMenu.Designer.cs">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\FormStockingMagazzino\StockingMagazzinoController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\FormStockingMagazzino\StockingMagazzinoModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\FormStockingMagazzino\StockingMagazzinoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\FormStockingMagazzino\StockingMagazzinoView.Designer.cs">
+      <DependentUpon>StockingMagazzinoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\StockingDettagliController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\StockingDettagliModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\StockingDettagliView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormImmagazinamento\StockingDettagliView.Designer.cs">
+      <DependentUpon>StockingDettagliView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\FormTrasferimentiMagazzino\TrasferimentiMagazzinoController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\FormTrasferimentiMagazzino\TrasferimentiMagazzinoModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\FormTrasferimentiMagazzino\TrasferimentiMagazzinoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\FormTrasferimentiMagazzino\TrasferimentiMagazzinoView.Designer.cs">
+      <DependentUpon>TrasferimentiMagazzinoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\OggettiScaffaleController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\OggettiScaffaleModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\OggettiScaffaleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\OggettiScaffaleView.Designer.cs">
+      <DependentUpon>OggettiScaffaleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\ScanController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\ScanModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\ScanView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\ScanView.Designer.cs">
+      <DependentUpon>ScanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\AnalisiMagazzinoController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\AnalisiMagazzinoModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\AnalisiMagazzinoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\AnalisiMagazzinoView.Designer.cs">
+      <DependentUpon>AnalisiMagazzinoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\FormVisualizzaMagazzino\VisualizzaMagazzinoController.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\FormVisualizzaMagazzino\VisualizzaMagazzinoModel.cs" />
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\FormVisualizzaMagazzino\VisualizzaMagazzinoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\FormVisualizzaMagazzino\VisualizzaMagazzinoView.Designer.cs">
+      <DependentUpon>VisualizzaMagazzinoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu\PickingMenu\FormPicking\PickingController.cs" />
+    <Compile Include="FormMainMenu\PickingMenu\FormPicking\PickingModel.cs" />
+    <Compile Include="FormMainMenu\PickingMenu\FormPicking\PickingView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu\PickingMenu\FormPicking\PickingView.Designer.cs">
+      <DependentUpon>PickingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Shelf.cs" />
+    <Compile Include="TabControlWithoutHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriView.resx">
+      <DependentUpon>FornitoriView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineView.resx">
+      <DependentUpon>FornitoreOrdineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FormFotocamera\Fotocamera.resx">
+      <DependentUpon>Fotocamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormResi\FormResiOrdine\ResiOrdineView.resx">
+      <DependentUpon>ResiOrdineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormResi\ResiView.resx">
+      <DependentUpon>ResiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormAccettazioni\FormRiparazioni\RiparazioniView.resx">
+      <DependentUpon>RiparazioniView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormMainMenu.resx">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormImmagazinamento\FormStockingMagazzino\StockingMagazzinoView.resx">
+      <DependentUpon>StockingMagazzinoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormImmagazinamento\StockingDettagliView.resx">
+      <DependentUpon>StockingDettagliView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\FormTrasferimentiMagazzino\TrasferimentiMagazzinoView.resx">
+      <DependentUpon>TrasferimentiMagazzinoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\FormTrasferimentiScaffale\OggettiScaffaleView.resx">
+      <DependentUpon>OggettiScaffaleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormTrasferimenti\FromScan\ScanView.resx">
+      <DependentUpon>ScanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\AnalisiMagazzinoView.resx">
+      <DependentUpon>AnalisiMagazzinoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\FormStocking\FormVisualizzaMagazzino\FormAnalisiMagazzino\FormVisualizzaMagazzino\VisualizzaMagazzinoView.resx">
+      <DependentUpon>VisualizzaMagazzinoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu\PickingMenu\FormPicking\PickingView.resx">
+      <DependentUpon>PickingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="WMS Fec Italia .Net Framework_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forklift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logistics-delivery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product-life-extension.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
