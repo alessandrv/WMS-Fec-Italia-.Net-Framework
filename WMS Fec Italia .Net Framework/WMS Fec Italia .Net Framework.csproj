@@ -12,7 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <PublishUrl>C:\Users\acolle\Desktop\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Fuser7\Desktop\WMS\exeNuovo\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,9 +23,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -62,7 +62,16 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>unnamed %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
@@ -98,7 +107,7 @@
     </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="DatabaseSettings.cs" />
-    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoriOrdineController.cs" />
+    <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineController.cs" />
     <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineModel.cs" />
     <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FormFornitoriOrdine\FornitoreOrdineView.cs">
       <SubType>Form</SubType>
@@ -273,6 +282,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -329,6 +339,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\warehouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unnamed %281%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -201,7 +201,7 @@ namespace WMS_Fec_Italia_MVC
             modelNuovoForm.ofcTipo = oftTipo;
 
             var nuovoForm = new FornitoreOrdineView();
-            FornitoriOrdineController nuovoFormController = new FornitoriOrdineController(modelNuovoForm, nuovoForm);
+            FornitoreOrdineController nuovoFormController = new FornitoreOrdineController(modelNuovoForm, nuovoForm);
             nuovoForm.AttachController(nuovoFormController);
 
             nuovoForm.ShowDialog();

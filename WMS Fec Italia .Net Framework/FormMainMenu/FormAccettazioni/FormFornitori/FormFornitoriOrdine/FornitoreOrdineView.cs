@@ -24,7 +24,7 @@ namespace WMS_Fec_Italia_MVC
         private string orderType;
         private bool hasIssues;
         private int totalItems;
-        private FornitoriOrdineController controller;
+        private FornitoreOrdineController controller;
         public event EventHandler onLoad;
         public event EventHandler button1Clicked;
         public event EventHandler segnalaProblemaClicked;
@@ -43,7 +43,7 @@ namespace WMS_Fec_Italia_MVC
         {
             MessageBox.Show(message, "Errore");
         }
-        public void AttachController(FornitoriOrdineController controller)
+        public void AttachController(FornitoreOrdineController controller)
         {
             this.controller = controller;
         }
@@ -53,20 +53,22 @@ namespace WMS_Fec_Italia_MVC
         /// </summary>
         private void DataGridViewFormat()
         {
-            
+            dataGridViewOggettiScaffale.Columns.Remove("ofc_tipo");
+            dataGridViewOggettiScaffale.Columns.Remove("ofc_code");
+            dataGridViewOggettiScaffale.Columns.Remove("ofc_dtco");
             dataGridViewOggettiScaffale.Columns.Remove("ofc_desc");
             dataGridViewOggettiScaffale.Columns.Remove("ofc_des2");
 
             dataGridViewOggettiScaffale.Columns["ofc_qord"].Visible = false;
             dataGridViewOggettiScaffale.Columns["ofc_arti"].HeaderText = "Codice Articolo";
             dataGridViewOggettiScaffale.Columns["ofc_desc1"].HeaderText = "Descrizione";
-            //dataGridViewOggettiScaffale.Columns["ofc_stato"].HeaderText = "Stato";
-            ///dataGridViewOggettiScaffale.Columns["ofc_qtarrivata"].HeaderText = "Q.ta arrivata";
+            dataGridViewOggettiScaffale.Columns["ofc_stato"].HeaderText = "Stato";
+            dataGridViewOggettiScaffale.Columns["ofc_qtarrivata"].HeaderText = "Q.ta arrivata";
             dataGridViewOggettiScaffale.Columns["ofc_desc1"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;  // La descrizione occuperà tutto il resto della row
-            //dataGridViewOggettiScaffale.Columns["ofc_stato"].ReadOnly = true;
+            dataGridViewOggettiScaffale.Columns["ofc_stato"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_arti"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_qord"].ReadOnly = true;
-            //dataGridViewOggettiScaffale.Columns.Remove("ofc_inarrivo");
+            dataGridViewOggettiScaffale.Columns.Remove("ofc_inarrivo");
             dataGridViewOggettiScaffale.ClearSelection();
         }
 
@@ -199,45 +201,7 @@ namespace WMS_Fec_Italia_MVC
             }
         }
 
-        /// <summary>
-        /// Gestisce l'evento CellContextMenuStripNeeded della DataGridView, creando un menu a tendina per la cella selezionata.
-        /// </summary>
-        /// <param name="sender">Oggetto che ha generato l'evento.</param>
-        /// <param name="e">Argomenti dell'evento.</param>
-        private void dataGridViewOggettiOrdine_CellContextMenuStripNeeded(object sender, DataGridViewCellContextMenuStripNeededEventArgs e)
-        {
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-            {
-                // Assicurati che la cella sia valida
-                DataGridViewCell cell = dataGridViewOggettiScaffale.Rows[e.RowIndex].Cells[e.ColumnIndex];
-                // Seleziona la riga corrente
-                dataGridViewOggettiScaffale.ClearSelection();
-                dataGridViewOggettiScaffale.Rows[e.RowIndex].Selected = true;
-                // Crea il menu a tendina
-                ContextMenuStrip contextMenu = new ContextMenuStrip();
-                // Aggiungi voci al menu a tendina
-                ToolStripMenuItem menuItem1 = new ToolStripMenuItem("Segna 'In arrivo'");
-                ToolStripMenuItem menuItem2 = new ToolStripMenuItem("Segna 'Non in arrivo'");
-                // Aggiungi gestori di eventi alle voci del menu a tendina
-                menuItem1.Click += (sender1, args) =>
-                {
-                    // Azione da eseguire quando viene selezionato "Azione 1"
-                    SegnalaStatoInArrivoLocale(GetSelectedRowColumn("inArrivoColumn"), true);
-                };
-
-                menuItem2.Click += (sender1, args) =>
-                {
-                    // Azione da eseguire quando viene selezionato "Azione 2"
-                    SegnalaStatoInArrivoLocale(GetSelectedRowColumn("inArrivoColumn"), false);
-                };
-                // Aggiungi voci al menu
-                contextMenu.Items.Add(menuItem1);
-                contextMenu.Items.Add(menuItem2);
-                // Assegna il menu a tendina alla cella
-                e.ContextMenuStrip = contextMenu;
-            }
-        }
-
+     
         /// <summary>
         /// Restituisce la cella selezionata in base al nome della colonna.
         /// </summary>
@@ -285,11 +249,11 @@ namespace WMS_Fec_Italia_MVC
 
             foreach (DataGridViewRow row in dataGridView.Rows)
             {
-                //string inArrivo = row.Cells["ofc_inarrivo"].Value.ToString();
+                string inArrivo = row.Cells["ofc_inarrivo"].Value.ToString();
 
-               // if (inArrivo == "S")
+                if (inArrivo == "S")
                 {
-                //    row.Cells["inArrivoColumn"].Value = true;
+                    row.Cells["inArrivoColumn"].Value = true;
 
                 }
 
@@ -319,6 +283,8 @@ namespace WMS_Fec_Italia_MVC
             segnalaProblemaClicked?.Invoke(this, EventArgs.Empty);
         }
     }
+
+
 
 
 

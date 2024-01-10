@@ -3,7 +3,7 @@ using System.Data;
 
 namespace WMS_Fec_Italia_MVC
 {
-    public class FornitoriOrdineController
+    public class FornitoreOrdineController
     {
         private FornitoreOrdineModel model;
         private FornitoreOrdineView view;
@@ -15,7 +15,7 @@ namespace WMS_Fec_Italia_MVC
         /// </summary>
         /// <param name="model">Il modello associato al controller.</param>
         /// <param name="view">La vista associata al controller.</param>
-        public FornitoriOrdineController(FornitoreOrdineModel model, FornitoreOrdineView view)
+        public FornitoreOrdineController(FornitoreOrdineModel model, FornitoreOrdineView view)
         {
             this.model = model;
             this.view = view;

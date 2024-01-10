@@ -20,7 +20,7 @@ namespace WMS_Fec_Italia_MVC
 
                 // Utilizza un alias per semplificare la sintassi della query
                 string query =
-                    $@"SELECT o.oft_tipo, o.oft_code, o.oft_stat, o.oft_data, o.oft_cofo, a.des_clifor
+                    $@"SELECT o.oft_tipo, o.oft_code, o.oft_stat, o.oft_data, o.oft_cofo, a.des_clifor, o.oft_inarrivo
                     FROM ofordit o
                     LEFT JOIN agclifor a ON o.oft_cofo = a.cod_clifor 
                     WHERE o.oft_cofo = a.cod_clifor AND o.oft_stat = 'A'";
