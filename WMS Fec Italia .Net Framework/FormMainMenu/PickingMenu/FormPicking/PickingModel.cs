@@ -193,12 +193,14 @@ WHERE occ_code = {occ_code} AND occ_tipo = '{occ_tipo}'
                 string codiciArticoloInClause = string.Join("', '", codiciArticoloDistinct);
                 // Eseguire una singola query per ottenere tutte le informazioni sulle locazioni
                 string queryGetLocatAndQta = $@"
-                 SELECT 
+                SELECT 
+ id_art,
     locat,
     id_mov,
     SUM(qta) AS qta_perlocazione
 FROM (
     SELECT 
+wms_items.id_art,
         wms_items.area || '-' || wms_items.scaffale || '-' || wms_items.colonna || '-' || wms_items.piano AS locat,
         wms_items.id_mov,
         wms_items.qta
@@ -208,7 +210,7 @@ FROM (
                 wms_items.id_art IN ('{codiciArticoloInClause}')
 ) AS Subquery
 GROUP BY 
-    locat, id_mov
+    id_art, locat, id_mov
 ORDER BY 
     id_mov;
             ";
@@ -243,23 +245,28 @@ ORDER BY
 
                         // Filtrare le righe corrispondenti al codice articolo corrente
                         var locazioniCorrispondenti = dtLocazioni.AsEnumerable()
-                            .Where(locRow => locRow.Field<string>("id_art") == codiceArt);
+    .Where(locRow =>
+        locRow.Field<string>("id_art") != null &&
+        locRow.Field<string>("id_art").Trim() == codiceArt.Trim()
+    );
 
                         foreach (var locRow in locazioniCorrispondenti)
                         {
                             string locat = locRow.Field<string>("locat");
                             string mov = locRow.Field<string>("id_mov");
-                            int qtaPerLocazione = Convert.ToInt32(locRow["qta_perlocazione"]);
+                            int qtaPerLocazione = locRow.Field<int>("qta_perlocazione");
 
                             if (qtaPerLocazione >= quantitaRichiesta)
                             {
                                 newTable.Rows.Add(codiceArt, descrizione, mov, locat, quantitaRichiesta);
                                 quantitaRichiesta = 0;
+                                MessageBox.Show("TEST");
                                 break;
                             }
 
                             newTable.Rows.Add(codiceArt, descrizione, mov, locat, qtaPerLocazione);
                             quantitaRichiesta -= qtaPerLocazione;
+                            
                         }
 
                         if (quantitaRichiesta > 0)

@@ -294,7 +294,7 @@ namespace WMS_Fec_Italia_MVC
             }
             catch (Exception ex)
             {
-                view.DisplayErrorBox(ex.Message);
+               view.DisplayErrorBox(ex.Message);
             }
             finally
             {
