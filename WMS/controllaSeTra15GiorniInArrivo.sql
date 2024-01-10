@@ -1,0 +1,7 @@
+CREATE EVENT daily_update_event
+ON SCHEDULE EVERY 1 DAY
+STARTS CURRENT_DATE
+DO
+  UPDATE ofordit
+  SET oft_inarrivo = 'S'
+  WHERE date BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 15 DAY) AND oft_stat="A";
