@@ -130,7 +130,7 @@ namespace WMS_Fec_Italia_MVC
             // quantitaPerPaccoTextBox
             // 
             this.quantitaPerPaccoTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.quantitaPerPaccoTextBox.Location = new System.Drawing.Point(193, 51);
+            this.quantitaPerPaccoTextBox.Location = new System.Drawing.Point(209, 51);
             this.quantitaPerPaccoTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.quantitaPerPaccoTextBox.MaxLength = 5;
             this.quantitaPerPaccoTextBox.Name = "quantitaPerPaccoTextBox";
@@ -305,10 +305,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.button2.Location = new System.Drawing.Point(955, 96);
+            this.button2.Location = new System.Drawing.Point(955, 10);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 62);
+            this.button2.Size = new System.Drawing.Size(172, 148);
             this.button2.TabIndex = 54;
             this.button2.Text = "Ricerca spazio disponibile.";
             this.button2.UseVisualStyleBackColor = true;
@@ -317,7 +317,7 @@ namespace WMS_Fec_Italia_MVC
             // movimentoTextBox
             // 
             this.movimentoTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.movimentoTextBox.Location = new System.Drawing.Point(127, 10);
+            this.movimentoTextBox.Location = new System.Drawing.Point(144, 10);
             this.movimentoTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.movimentoTextBox.MaxLength = 6;
             this.movimentoTextBox.Name = "movimentoTextBox";

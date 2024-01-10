@@ -53,9 +53,7 @@ namespace WMS_Fec_Italia_MVC
         /// </summary>
         private void DataGridViewFormat()
         {
-            dataGridViewOggettiScaffale.Columns.Remove("ofc_tipo");
-            dataGridViewOggettiScaffale.Columns.Remove("ofc_code");
-            dataGridViewOggettiScaffale.Columns.Remove("ofc_dtco");
+            
             dataGridViewOggettiScaffale.Columns.Remove("ofc_desc");
             dataGridViewOggettiScaffale.Columns.Remove("ofc_des2");
 
@@ -68,6 +66,10 @@ namespace WMS_Fec_Italia_MVC
             dataGridViewOggettiScaffale.Columns["ofc_stato"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_arti"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_qord"].ReadOnly = true;
+
+            dataGridViewOggettiScaffale.Columns["ofc_dtco"].ReadOnly = true;
+            dataGridViewOggettiScaffale.Columns["ofc_dtco"].HeaderText = "Data prevista";
+
             dataGridViewOggettiScaffale.Columns.Remove("ofc_inarrivo");
             dataGridViewOggettiScaffale.ClearSelection();
         }

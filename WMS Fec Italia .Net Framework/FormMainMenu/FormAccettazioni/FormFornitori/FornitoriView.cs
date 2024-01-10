@@ -70,8 +70,9 @@ namespace WMS_Fec_Italia_MVC
         }
         public void PopolaDataGridView()
         {
-            
+
             dataGridViewOrdiniDaConfermare.Columns["oft_tipo"].HeaderText = "Tipo";
+            dataGridViewOrdiniDaConfermare.Columns["oft_inarrivo"].HeaderText = "In arrivo?";
             dataGridViewOrdiniDaConfermare.Columns["oft_code"].HeaderText = "Codice ordine";
             dataGridViewOrdiniDaConfermare.Columns["oft_stat"].HeaderText = "Stato";
             dataGridViewOrdiniDaConfermare.Columns["oft_data"].HeaderText = "Data";
@@ -118,7 +119,29 @@ namespace WMS_Fec_Italia_MVC
 
         }
 
+        private void dataGridViewOrdiniDaConfermare_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
+        {
+            // Assicurati che l'indice della riga sia valido
+            if (e.RowIndex >= 0 && e.RowIndex < dataGridViewOrdiniDaConfermare.Rows.Count)
+            {
+                DataGridViewRow row = dataGridViewOrdiniDaConfermare.Rows[e.RowIndex];
 
+                // Nome della colonna da controllare (sostituisci con il nome effettivo della tua colonna)
+                string columnName = "oft_inarrivo";
+
+                // Verifica se il valore nella colonna specificata è 'S'
+                if (row.Cells[columnName].Value != null && row.Cells[columnName].Value.ToString() == "S")
+                {
+                    // Applica uno stile specifico alla riga
+                    row.DefaultCellStyle.BackColor = Color.Yellow; // Puoi sostituire con il colore desiderato
+                }
+                else
+                {
+                    // Ripristina lo stile predefinito
+                    row.DefaultCellStyle.BackColor = dataGridViewOrdiniDaConfermare.DefaultCellStyle.BackColor;
+                }
+            }
+        }
         private void dataGridViewOrdiniDaConfermare_SelectionChanged(object sender, EventArgs e)
         {
             // Assicurati che sia selezionata almeno una riga
@@ -136,29 +159,7 @@ namespace WMS_Fec_Italia_MVC
         {
             openForm?.Invoke(this, EventArgs.Empty);
         }
-        private void dataGridViewOrdiniDaConfermare_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
-        {
-            // Assicurati che l'indice della riga sia valido
-            if (e.RowIndex >= 0 && e.RowIndex < dataGridViewOrdiniDaConfermare.Rows.Count)
-            {
-                DataGridViewRow row = dataGridViewOrdiniDaConfermare.Rows[e.RowIndex];
-
-                // Nome della colonna da controllare (sostituisci con il nome effettivo della tua colonna)
-                string columnName = "oft_inarrivo";
-
-                // Verifica se il valore nella colonna specificata è 'S'
-               // if (row.Cells[columnName].Value != null && row.Cells[columnName].Value.ToString() == "S")
-                {
-                    // Applica uno stile specifico alla riga
-                //    row.DefaultCellStyle.BackColor = Color.Yellow; // Puoi sostituire con il colore desiderato
-                }
-               // else
-                {
-                    // Ripristina lo stile predefinito
-                //    row.DefaultCellStyle.BackColor = dataGridViewOrdiniDaConfermare.DefaultCellStyle.BackColor;
-                }
-            }
-        }
+      
 
 
 

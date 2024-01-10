@@ -31,9 +31,9 @@ namespace WMS_Fec_Italia_MVC
              
                 // Utilizza un alias per semplificare la sintassi della query
                 string query =
-                    $@"SELECT ofc_arti, ofc_desc, ofc_des2, ofc_qord, ofc_dtco, ofc_qtarrivata ofc_inarrivo
+                    $@"SELECT ofc_arti, ofc_desc, ofc_des2, ofc_qord, ofc_dtco, ofc_stato, ofc_qtarrivata, ofc_inarrivo
 FROM ofordic
-WHERE ofc_tipo = {ofcTipo} AND ofc_code = {ofcCode} AND ofc_arti IS NOT NULL AND ofc_arti != ''";
+WHERE ofc_tipo = '{ofcTipo}' AND ofc_code = {ofcCode} AND ofc_arti IS NOT NULL AND ofc_arti != ''";
 
 
 

@@ -53,11 +53,9 @@ namespace WMS_Fec_Italia_MVC
         /// </summary>
         private void DataGridViewFormat()
         {
-            dataGridViewOggettiScaffale.Columns.Remove("occ_tipo");
-            dataGridViewOggettiScaffale.Columns.Remove("occ_code");
+          
              dataGridViewOggettiScaffale.Columns.Remove("occ_desc");
             dataGridViewOggettiScaffale.Columns.Remove("occ_des2");
-            dataGridViewOggettiScaffale.Columns.Remove("occ_riga");
             dataGridViewOggettiScaffale.Columns["occ_arti"].HeaderText = "Codice Articolo";
             dataGridViewOggettiScaffale.Columns["occ_desc1"].HeaderText = "Descrizione";
             dataGridViewOggettiScaffale.Columns["occ_qmov"].HeaderText = "Qta";

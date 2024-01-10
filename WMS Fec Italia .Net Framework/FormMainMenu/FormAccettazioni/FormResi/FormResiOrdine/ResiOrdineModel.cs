@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms.VisualStyles;
 using WMS_Fec_Italia_MVC;
 using System.Windows.Forms;
+using System.Reflection.Emit;
 
 namespace WMS_Fec_Italia_MVC
 {
@@ -26,16 +27,47 @@ namespace WMS_Fec_Italia_MVC
         public void LoadData()
         {
 
-            string tableName = "ocordic";
-            string condition = $"occ_code = '{octCode}' AND occ_tipo='{octTipo}' AND occ_arti IS NOT NULL AND occ_arti <> ''";
-            Database database = new Database();
-            //carica datatable con una condizione
-            DatabaseData = database.LoadData(tableName, condition);
-            DatabaseData.Columns.Add("occ_desc1", typeof(string), "occ_desc + ' ' + occ_des2");
-            DatabaseData.Columns["occ_desc1"].SetOrdinal(2);
-            DatabaseData.Columns["occ_arti"].SetOrdinal(1);
-            totalItems = DatabaseData.Rows.Count;
+            using (var database = new Database())
+            {
+                database.Connect();
 
+                // Utilizza un alias per semplificare la sintassi della query
+                string query =
+                    $@"SELECT occ_arti, occ_desc, occ_des2, occ_qmov
+FROM ocordic
+WHERE occ_tipo = '{octTipo}' AND occ_code = {octCode} AND occ_arti IS NOT NULL AND occ_arti != ''";
+
+
+
+
+                OdbcCommand odbcCommand = new OdbcCommand(query);
+                odbcCommand.Connection = database.OdbcConnection;
+                OdbcDataAdapter adapter = new OdbcDataAdapter();
+                adapter.SelectCommand = odbcCommand;
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+
+                DatabaseData = dt;
+
+                DatabaseData.Columns.Add("occ_desc1", typeof(string));
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (!row.IsNull("occ_des2"))
+                    {
+                        row["occ_desc1"] = row["occ_desc"] + " " + row["occ_des2"];
+                    }
+                    else
+                    {
+                        row["occ_desc1"] = row["occ_desc"];
+                    }
+                }
+
+                // Aggiungi la colonna risultante a DatabaseData
+
+                DatabaseData.Columns["occ_desc1"].SetOrdinal(2);
+                DatabaseData.Columns["occ_arti"].SetOrdinal(1);
+                totalItems = DatabaseData.Rows.Count;
+            }
         }
 
         /// <summary>

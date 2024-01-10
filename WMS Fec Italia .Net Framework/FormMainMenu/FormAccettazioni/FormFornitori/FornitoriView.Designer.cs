@@ -65,7 +65,7 @@ namespace WMS_Fec_Italia_MVC
             this.arrivato.Location = new System.Drawing.Point(826, 94);
             this.arrivato.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.arrivato.Name = "arrivato";
-            this.arrivato.Size = new System.Drawing.Size(66, 28);
+            this.arrivato.Size = new System.Drawing.Size(82, 35);
             this.arrivato.TabIndex = 7;
             this.arrivato.Text = "Aperti";
             // 
@@ -78,7 +78,7 @@ namespace WMS_Fec_Italia_MVC
             this.aperti_checkbox.Location = new System.Drawing.Point(896, 102);
             this.aperti_checkbox.Margin = new System.Windows.Forms.Padding(2);
             this.aperti_checkbox.Name = "aperti_checkbox";
-            this.aperti_checkbox.Size = new System.Drawing.Size(15, 14);
+            this.aperti_checkbox.Size = new System.Drawing.Size(18, 17);
             this.aperti_checkbox.TabIndex = 8;
             this.aperti_checkbox.UseVisualStyleBackColor = true;
             this.aperti_checkbox.CheckedChanged += new System.EventHandler(this.FiltroChanged);
@@ -104,7 +104,7 @@ namespace WMS_Fec_Italia_MVC
             this.fornitoreComboBox.Location = new System.Drawing.Point(1006, 0);
             this.fornitoreComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.fornitoreComboBox.Name = "fornitoreComboBox";
-            this.fornitoreComboBox.Size = new System.Drawing.Size(158, 36);
+            this.fornitoreComboBox.Size = new System.Drawing.Size(158, 43);
             this.fornitoreComboBox.Sorted = true;
             this.fornitoreComboBox.TabIndex = 11;
             this.fornitoreComboBox.SelectedIndexChanged += new System.EventHandler(this.FiltroChanged);
@@ -116,7 +116,7 @@ namespace WMS_Fec_Italia_MVC
             this.label1.Location = new System.Drawing.Point(826, 2);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 28);
+            this.label1.Size = new System.Drawing.Size(222, 35);
             this.label1.TabIndex = 12;
             this.label1.Text = "Filtra per fornitore:";
             // 
@@ -127,7 +127,7 @@ namespace WMS_Fec_Italia_MVC
             this.chiusi_checkbox.Location = new System.Drawing.Point(896, 152);
             this.chiusi_checkbox.Margin = new System.Windows.Forms.Padding(2);
             this.chiusi_checkbox.Name = "chiusi_checkbox";
-            this.chiusi_checkbox.Size = new System.Drawing.Size(15, 14);
+            this.chiusi_checkbox.Size = new System.Drawing.Size(18, 17);
             this.chiusi_checkbox.TabIndex = 15;
             this.chiusi_checkbox.UseVisualStyleBackColor = true;
             this.chiusi_checkbox.CheckedChanged += new System.EventHandler(this.FiltroChanged);
@@ -139,7 +139,7 @@ namespace WMS_Fec_Italia_MVC
             this.label2.Location = new System.Drawing.Point(828, 144);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 28);
+            this.label2.Size = new System.Drawing.Size(81, 35);
             this.label2.TabIndex = 14;
             this.label2.Text = "Chiusi";
             // 
@@ -150,7 +150,7 @@ namespace WMS_Fec_Italia_MVC
             this.label4.Location = new System.Drawing.Point(826, 47);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 28);
+            this.label4.Size = new System.Drawing.Size(175, 35);
             this.label4.TabIndex = 16;
             this.label4.Text = "Codice ordine:";
             // 
@@ -160,7 +160,7 @@ namespace WMS_Fec_Italia_MVC
             this.codiceOrdineTextBox.Location = new System.Drawing.Point(968, 47);
             this.codiceOrdineTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.codiceOrdineTextBox.Name = "codiceOrdineTextBox";
-            this.codiceOrdineTextBox.Size = new System.Drawing.Size(73, 34);
+            this.codiceOrdineTextBox.Size = new System.Drawing.Size(73, 41);
             this.codiceOrdineTextBox.TabIndex = 17;
             this.codiceOrdineTextBox.TextChanged += new System.EventHandler(this.FiltroChanged);
             // 
@@ -171,7 +171,7 @@ namespace WMS_Fec_Italia_MVC
             this.inArrivo_checkbox.Location = new System.Drawing.Point(959, 202);
             this.inArrivo_checkbox.Margin = new System.Windows.Forms.Padding(2);
             this.inArrivo_checkbox.Name = "inArrivo_checkbox";
-            this.inArrivo_checkbox.Size = new System.Drawing.Size(15, 14);
+            this.inArrivo_checkbox.Size = new System.Drawing.Size(18, 17);
             this.inArrivo_checkbox.TabIndex = 19;
             this.inArrivo_checkbox.UseVisualStyleBackColor = true;
             this.inArrivo_checkbox.CheckedChanged += new System.EventHandler(this.FiltroChanged);
@@ -183,7 +183,7 @@ namespace WMS_Fec_Italia_MVC
             this.label3.Location = new System.Drawing.Point(826, 194);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 28);
+            this.label3.Size = new System.Drawing.Size(162, 35);
             this.label3.TabIndex = 18;
             this.label3.Text = "Solo in arrivo";
             // 
@@ -229,11 +229,13 @@ namespace WMS_Fec_Italia_MVC
             this.dataGridViewOrdiniDaConfermare.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewOrdiniDaConfermare.Size = new System.Drawing.Size(821, 845);
             this.dataGridViewOrdiniDaConfermare.TabIndex = 0;
+            this.dataGridViewOrdiniDaConfermare.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dataGridViewOrdiniDaConfermare_RowPrePaint);
             this.dataGridViewOrdiniDaConfermare.SelectionChanged += new System.EventHandler(this.dataGridViewOrdiniDaConfermare_SelectionChanged);
             // 
             // toolStrip1
             // 
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripSeparator1,
@@ -249,7 +251,7 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(52, 36);
+            this.toolStripButton1.Size = new System.Drawing.Size(65, 36);
             this.toolStripButton1.Text = "Indietro";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -263,7 +265,7 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(60, 36);
+            this.toolStripButton2.Size = new System.Drawing.Size(75, 36);
             this.toolStripButton2.Text = "Aggiorna";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click_1);
             // 
