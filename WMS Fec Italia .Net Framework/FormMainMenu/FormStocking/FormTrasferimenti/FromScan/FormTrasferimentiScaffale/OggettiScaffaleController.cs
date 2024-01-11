@@ -100,13 +100,13 @@ public class OggettiScaffaleController
                 switch (valore)
                 {
                     case "Piccolo":
-                        spostamentoDiVolume += Settings.Default.dimensionePaccoGrande;
+                        spostamentoDiVolume += Dimensioni.piccolo;
                         break;
                     case "Medio":
-                        spostamentoDiVolume += Settings.Default.dimensionePaccoMedio;
+                        spostamentoDiVolume += Dimensioni.medio;
                         break;
                     case "Grande":
-                        spostamentoDiVolume += Settings.Default.dimensionePaccoPiccolo; ;
+                        spostamentoDiVolume += Dimensioni.grande;
                         break;
                 }
             }

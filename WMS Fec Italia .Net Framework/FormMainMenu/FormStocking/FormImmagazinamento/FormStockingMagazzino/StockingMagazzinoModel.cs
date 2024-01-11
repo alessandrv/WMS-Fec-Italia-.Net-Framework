@@ -4,6 +4,7 @@ using System.Data.Odbc;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WMS_Fec_Italia_MVC
 {
@@ -43,8 +44,25 @@ namespace WMS_Fec_Italia_MVC
 
                         // Inizia la transazione
                         transaction = connection.BeginTransaction();
-
+                        int valoreDimensione;
                         string insertQuery = "";
+                        string updateQuery = "";
+                        switch (dimensioni)
+                        {
+                            case "Piccolo":
+                                valoreDimensione = Dimensioni.piccolo;
+                                break;
+                            case "Medio":
+                                valoreDimensione = Dimensioni.medio;
+                                break;
+                            case "Grande":
+                                valoreDimensione = Dimensioni.grande;
+                                break;
+                            default:
+                                valoreDimensione = 0;
+                                break;
+
+                        }
 
                         // Supponiamo che numPacchi sia il numero di iterazioni desiderate
                         for (int i = 0; i < numeroPacchi; i++)
@@ -53,13 +71,16 @@ namespace WMS_Fec_Italia_MVC
 INSERT INTO wms_items (id_art, id_mov, fornitore, area, scaffale, colonna, piano, qta,  dimensione) 
 VALUES ('{codiceArticolo}', '{codiceMovimento}' , '{codiceFornitore}','{area}', '{scaffale}','{colonna}', '{piano}', {quantita}, '{dimensioni}');
 ";
-                        }
+                            insertQuery += $@"UPDATE wms_scaffali SET volume_libero = volume_libero - {valoreDimensione} WHERE area = '{area}' AND scaffale = '{scaffale}' AND colonna = '{colonna}' AND piano = '{piano}';";
 
+                        }
+                        
                         // Esegui l'aggiornamento nel database all'interno della transazione
                         if (database.AggiornaDatabase(insertQuery, connection, transaction))
                         {
                             // Conferma la transazione
                             transaction.Commit();
+                            
                             return true;
                         }
 

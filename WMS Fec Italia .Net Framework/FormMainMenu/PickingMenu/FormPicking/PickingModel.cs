@@ -427,7 +427,7 @@ ORDER BY
 
 
                     // Esegui una query per ottenere le informazioni sui pacchi disponibili nella posizione specificata
-                    string querySelect = $@"SELECT id_pacco, qta 
+                    string querySelect = $@"SELECT id_pacco, qta, dimensione
                     FROM wms_items 
                     WHERE id_art = '{codiceArticolo}' AND id_mov = {codiceMovimento} AND area = '{area}' AND scaffale ='{scaffale}' 
                           AND colonna = '{colonna}' AND piano = '{piano}'
@@ -435,49 +435,67 @@ ORDER BY
 
                     OdbcCommand odbcCommand = new OdbcCommand(querySelect);
                     odbcCommand.Connection = database.OdbcConnection;
-
+                    string queryUpdate;
                     using (var reader = odbcCommand.ExecuteReader())
                     {
                         while (reader.Read())
                         {
+                            if(qtaDaPrelevare == 0)
+                            {
+                                break;
+                            }
                             int idPacco = Convert.ToInt32(reader["id_pacco"]);
-                            
+
                             int quantitaPacco = Convert.ToInt32(reader["qta"]);
 
-                            if (quantitaPacco >= qtaDaPrelevare)
+                            string dimensione = reader["dimensione"].ToString();
+
+                            int valoreDimensione;
+                            if (quantitaPacco > qtaDaPrelevare)
                             {
                                 // La quantità richiesta può essere soddisfatta da questo pacco
                                 // Esegui l'aggiornamento della quantità nel database
-                                string queryUpdate;
-                                if (qtaDaPrelevare - quantitaPacco == 0)
-                                {
-                                    queryUpdate = $"DELETE FROM wms_items WHERE id_pacco={idPacco};";
-
-                                }
-                                else
-                                {
-                                    queryUpdate =
-                                        $"UPDATE wms_items SET qta = qta - {qtaDaPrelevare} WHERE id_pacco = {idPacco}";
-
-                                }
-
+                                queryUpdate =
+                                    $"UPDATE wms_items SET qta = qta - {qtaDaPrelevare} WHERE id_pacco = {idPacco}";
                                 database.AggiornaDatabase(queryUpdate);
 
 
                                 // Esci dal ciclo poiché hai soddisfatto la richiesta
-                                break;
+
                             }
                             else
                             {
+
                                 // La quantità richiesta supera la quantità di questo pacco
                                 // Esegui l'aggiornamento della quantità nel database    DELETE FROM wms_items WHERE id_pacco={idPacco};
-                                string queryUpdate = $"DELETE FROM wms_items WHERE id_pacco={idPacco};";
+                                switch (dimensione)
+                                {
+                                    case "Piccolo":
+                                        valoreDimensione = Dimensioni.piccolo;
+                                        break;
+                                    case "Medio":
+                                        valoreDimensione = Dimensioni.medio;
+                                        break;
+                                    case "Grande":
+                                        valoreDimensione = Dimensioni.grande;
+                                        break;
+                                    default:
+                                        valoreDimensione = 0;
+                                        break;
+                                }
+
+                                queryUpdate = $@"
+        
+        UPDATE wms_scaffali SET volume_libero = volume_libero + {valoreDimensione} WHERE area = '{area}' AND scaffale = '{scaffale}' AND colonna = '{colonna}' AND piano = '{piano}';
+DELETE FROM wms_items WHERE id_pacco={idPacco};";
+
+
                                 database.AggiornaDatabase(queryUpdate);
 
-
+                            }
                                 // Aggiorna la quantità da prelevare
                                 qtaDaPrelevare -= quantitaPacco;
-                            }
+                            
                         }
                     }
                 }

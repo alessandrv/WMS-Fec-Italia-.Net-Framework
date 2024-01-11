@@ -58,6 +58,8 @@ namespace WMS_Fec_Italia_MVC
             dataGridViewOggettiScaffale.Columns.Remove("ofc_des2");
 
             dataGridViewOggettiScaffale.Columns["ofc_qord"].Visible = false;
+
+            dataGridViewOggettiScaffale.Columns["ofc_riga"].Visible = false;
             dataGridViewOggettiScaffale.Columns["ofc_arti"].HeaderText = "Codice Articolo";
             dataGridViewOggettiScaffale.Columns["ofc_desc1"].HeaderText = "Descrizione";
             dataGridViewOggettiScaffale.Columns["ofc_stato"].HeaderText = "Stato";

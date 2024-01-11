@@ -76,6 +76,8 @@ namespace WMS_Fec_Italia_MVC
             }
         }
 
+        
+
         public bool ControllaCoerenzaMovimento(string codiceMovimento, string codiceArticolo)
         {
             using (var database = new Database())

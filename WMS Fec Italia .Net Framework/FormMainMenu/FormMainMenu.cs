@@ -3,12 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Odbc;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMS_Fec_Italia.Net_Framework;
+using WMS_Fec_Italia.Net_Framework.Properties;
 using WMS_Fec_Italia_MVC;
 
 
@@ -19,7 +22,6 @@ namespace WMS_Fec_Italia_MVC
         public FormMainMenu()
         {
             InitializeComponent();
-
         }
 
 
@@ -120,10 +122,10 @@ namespace WMS_Fec_Italia_MVC
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-          //  Form1 form1 = new Form1();
-          //  form1.ShowDialog();
-        }
+        
+        
+
+
+
     }
 }

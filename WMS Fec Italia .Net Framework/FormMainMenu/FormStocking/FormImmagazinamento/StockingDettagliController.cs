@@ -105,14 +105,14 @@ namespace WMS_Fec_Italia_MVC
             {
 
                 case 1://grande da rimuovere
-                    volume = Settings.Default.dimensionePaccoGrande;
+                    volume = Dimensioni.grande;
                     break;
                 case 2: //medio
-                    volume = Settings.Default.dimensionePaccoMedio; ;
+                    volume = Dimensioni.medio;
 
                     break;
                 case 3://piccolo
-                    volume = Settings.Default.dimensionePaccoPiccolo; ;
+                    volume = Dimensioni.piccolo;
 
                     break;
                 

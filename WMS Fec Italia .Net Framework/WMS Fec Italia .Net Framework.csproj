@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Box.cs" />
+    <Compile Include="Dimensioni.cs" />
     <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriController.cs" />
     <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriModel.cs" />
     <Compile Include="FormMainMenu\FormAccettazioni\FormFornitori\FornitoriView.cs">

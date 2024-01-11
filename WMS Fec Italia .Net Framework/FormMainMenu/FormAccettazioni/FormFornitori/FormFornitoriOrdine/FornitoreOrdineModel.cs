@@ -31,7 +31,7 @@ namespace WMS_Fec_Italia_MVC
              
                 // Utilizza un alias per semplificare la sintassi della query
                 string query =
-                    $@"SELECT ofc_arti, ofc_desc, ofc_des2, ofc_qord, ofc_dtco, ofc_stato, ofc_qtarrivata, ofc_inarrivo
+                    $@"SELECT ofc_arti, ofc_riga, ofc_desc, ofc_des2, ofc_qord, ofc_dtco, ofc_stato, ofc_qtarrivata, ofc_inarrivo
 FROM ofordic
 WHERE ofc_tipo = '{ofcTipo}' AND ofc_code = {ofcCode} AND ofc_arti IS NOT NULL AND ofc_arti != ''
 ORDER BY ofc_inarrivo desc";
@@ -86,13 +86,15 @@ ORDER BY ofc_inarrivo desc";
                         bool isModified = Convert.ToBoolean(row.Cells["checkColumn"].Value);
                         bool inArrivo = Convert.ToBoolean(row.Cells["inArrivoColumn"].Value);
                         string oggettoID = row.Cells["ofc_arti"].Value.ToString();
+                        string oggettoRiga = row.Cells["ofc_riga"].Value.ToString();
+
 
                         if (isModified)
                         {
                             int nuovaQtArrivata = Convert.ToInt32(row.Cells["ofc_qtarrivata"].Value);
                             string nuovoStato = row.Cells["ofc_stato"].Value.ToString();
 
-                            string updateQuery = $"UPDATE ofordic SET ofc_qtarrivata = {nuovaQtArrivata}, ofc_stato = '{nuovoStato}' WHERE ofc_arti = '{oggettoID}' AND ofc_code = '{ofcCode}' AND ofc_tipo = '{ofcTipo}'";
+                            string updateQuery = $"UPDATE ofordic SET ofc_qtarrivata = {nuovaQtArrivata}, ofc_stato = '{nuovoStato}' WHERE ofc_arti = '{oggettoID}' AND ofc_code = '{ofcCode}' AND ofc_tipo = '{ofcTipo}' AND ofc_riga = '{oggettoRiga}'";
                             database.AggiornaDatabase(updateQuery);
                         }
 
@@ -170,7 +172,7 @@ ORDER BY ofc_inarrivo desc";
                 try
                 {
                     database.Connect();
-                    string updateQuery = $"UPDATE ofordit SET oft_stat = '{stato}', oft_actz = CURDATE() WHERE oft_tipo = '{ofcTipo}' AND oft_code = '{ofcCode}'";
+                    string updateQuery = $"UPDATE ofordit SET oft_stat = '{stato}', oft_actz = TODAY WHERE oft_tipo = '{ofcTipo}' AND oft_code = '{ofcCode}'";
                     OdbcCommand updateCommand = new OdbcCommand(updateQuery, database.OdbcConnection);
                     updateCommand.ExecuteNonQuery();
                 }
