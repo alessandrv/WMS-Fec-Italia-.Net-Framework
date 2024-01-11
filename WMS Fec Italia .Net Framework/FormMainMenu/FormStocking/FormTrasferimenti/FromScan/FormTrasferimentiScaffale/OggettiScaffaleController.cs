@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMS_Fec_Italia.Net_Framework.Properties;
 using WMS_Fec_Italia_MVC;
 
 
@@ -84,6 +86,8 @@ public class OggettiScaffaleController
 
                 }
             }
+           
+
 
             if (volumiDaSpostare.Count == 0)
             {
@@ -96,13 +100,13 @@ public class OggettiScaffaleController
                 switch (valore)
                 {
                     case "Piccolo":
-                        spostamentoDiVolume += 400000;
+                        spostamentoDiVolume += Settings.Default.dimensionePaccoGrande;
                         break;
                     case "Medio":
-                        spostamentoDiVolume += 800000;
+                        spostamentoDiVolume += Settings.Default.dimensionePaccoMedio;
                         break;
                     case "Grande":
-                        spostamentoDiVolume += 1000000;
+                        spostamentoDiVolume += Settings.Default.dimensionePaccoPiccolo; ;
                         break;
                 }
             }

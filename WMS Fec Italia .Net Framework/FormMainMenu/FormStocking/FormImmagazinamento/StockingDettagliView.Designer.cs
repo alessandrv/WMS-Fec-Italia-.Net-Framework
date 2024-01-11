@@ -58,10 +58,13 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -74,35 +77,36 @@ namespace WMS_Fec_Italia_MVC
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.fornitoreCode);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.ragioneSocialTextBox);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(2, 196);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(3, 241);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1135, 164);
+            this.panel2.Size = new System.Drawing.Size(1513, 203);
             this.panel2.TabIndex = 1;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label7.Location = new System.Drawing.Point(15, 53);
-            this.label7.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label7.Location = new System.Drawing.Point(20, 65);
+            this.label7.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(152, 28);
+            this.label7.Size = new System.Drawing.Size(194, 35);
             this.label7.TabIndex = 46;
             this.label7.Text = "Ragione sociale:";
             // 
             // fornitoreCode
             // 
             this.fornitoreCode.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.fornitoreCode.Location = new System.Drawing.Point(172, 10);
-            this.fornitoreCode.Margin = new System.Windows.Forms.Padding(2);
+            this.fornitoreCode.Location = new System.Drawing.Point(229, 12);
+            this.fornitoreCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fornitoreCode.Name = "fornitoreCode";
-            this.fornitoreCode.Size = new System.Drawing.Size(161, 34);
+            this.fornitoreCode.Size = new System.Drawing.Size(213, 41);
             this.fornitoreCode.TabIndex = 45;
             this.fornitoreCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fornitoreCode_KeyDown);
             // 
@@ -110,87 +114,88 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label2.Location = new System.Drawing.Point(15, 10);
-            this.label2.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label2.Location = new System.Drawing.Point(20, 12);
+            this.label2.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 28);
+            this.label2.Size = new System.Drawing.Size(200, 35);
             this.label2.TabIndex = 44;
             this.label2.Text = "Codice fornitore:";
             // 
             // ragioneSocialTextBox
             // 
             this.ragioneSocialTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.ragioneSocialTextBox.Location = new System.Drawing.Point(167, 53);
-            this.ragioneSocialTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ragioneSocialTextBox.Location = new System.Drawing.Point(223, 65);
+            this.ragioneSocialTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ragioneSocialTextBox.MaxLength = 5;
             this.ragioneSocialTextBox.Name = "ragioneSocialTextBox";
-            this.ragioneSocialTextBox.Size = new System.Drawing.Size(350, 34);
+            this.ragioneSocialTextBox.Size = new System.Drawing.Size(465, 41);
             this.ragioneSocialTextBox.TabIndex = 51;
             // 
             // quantitaPerPaccoTextBox
             // 
             this.quantitaPerPaccoTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.quantitaPerPaccoTextBox.Location = new System.Drawing.Point(209, 51);
-            this.quantitaPerPaccoTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.quantitaPerPaccoTextBox.Location = new System.Drawing.Point(279, 63);
+            this.quantitaPerPaccoTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quantitaPerPaccoTextBox.MaxLength = 5;
             this.quantitaPerPaccoTextBox.Name = "quantitaPerPaccoTextBox";
             this.quantitaPerPaccoTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.quantitaPerPaccoTextBox.Size = new System.Drawing.Size(91, 34);
+            this.quantitaPerPaccoTextBox.Size = new System.Drawing.Size(120, 41);
             this.quantitaPerPaccoTextBox.TabIndex = 47;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.descrizioneTextBox);
             this.panel1.Controls.Add(this.codicearticolo_label);
             this.panel1.Controls.Add(this.articoloCodeTextBox);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(2, 28);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(3, 34);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1135, 164);
+            this.panel1.Size = new System.Drawing.Size(1513, 203);
             this.panel1.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label4.Location = new System.Drawing.Point(12, 55);
-            this.label4.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label4.Location = new System.Drawing.Point(16, 68);
+            this.label4.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(188, 28);
+            this.label4.Size = new System.Drawing.Size(239, 35);
             this.label4.TabIndex = 56;
             this.label4.Text = "Descrizione articolo:";
             // 
             // descrizioneTextBox
             // 
             this.descrizioneTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.descrizioneTextBox.Location = new System.Drawing.Point(197, 55);
-            this.descrizioneTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.descrizioneTextBox.Location = new System.Drawing.Point(263, 68);
+            this.descrizioneTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.descrizioneTextBox.Multiline = true;
             this.descrizioneTextBox.Name = "descrizioneTextBox";
-            this.descrizioneTextBox.Size = new System.Drawing.Size(321, 50);
+            this.descrizioneTextBox.Size = new System.Drawing.Size(427, 61);
             this.descrizioneTextBox.TabIndex = 58;
             // 
             // codicearticolo_label
             // 
             this.codicearticolo_label.AutoSize = true;
             this.codicearticolo_label.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.codicearticolo_label.Location = new System.Drawing.Point(12, 12);
-            this.codicearticolo_label.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.codicearticolo_label.Location = new System.Drawing.Point(16, 15);
+            this.codicearticolo_label.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.codicearticolo_label.Name = "codicearticolo_label";
-            this.codicearticolo_label.Size = new System.Drawing.Size(148, 28);
+            this.codicearticolo_label.Size = new System.Drawing.Size(187, 35);
             this.codicearticolo_label.TabIndex = 55;
             this.codicearticolo_label.Text = "Codice articolo:";
             // 
             // articoloCodeTextBox
             // 
             this.articoloCodeTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.articoloCodeTextBox.Location = new System.Drawing.Point(160, 11);
-            this.articoloCodeTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.articoloCodeTextBox.Location = new System.Drawing.Point(213, 14);
+            this.articoloCodeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.articoloCodeTextBox.Name = "articoloCodeTextBox";
-            this.articoloCodeTextBox.Size = new System.Drawing.Size(178, 34);
+            this.articoloCodeTextBox.Size = new System.Drawing.Size(236, 41);
             this.articoloCodeTextBox.TabIndex = 57;
             this.articoloCodeTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.aritcoloCodeTextBox_KeyDown);
             // 
@@ -204,10 +209,10 @@ namespace WMS_Fec_Italia_MVC
             "Grande",
             "Medio",
             "Piccolo"});
-            this.dimensioneComboBox.Location = new System.Drawing.Point(690, 49);
-            this.dimensioneComboBox.Margin = new System.Windows.Forms.Padding(2);
+            this.dimensioneComboBox.Location = new System.Drawing.Point(920, 60);
+            this.dimensioneComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dimensioneComboBox.Name = "dimensioneComboBox";
-            this.dimensioneComboBox.Size = new System.Drawing.Size(111, 36);
+            this.dimensioneComboBox.Size = new System.Drawing.Size(147, 43);
             this.dimensioneComboBox.Sorted = true;
             this.dimensioneComboBox.TabIndex = 61;
             // 
@@ -215,16 +220,17 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label5.Location = new System.Drawing.Point(574, 54);
-            this.label5.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label5.Location = new System.Drawing.Point(765, 66);
+            this.label5.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 28);
+            this.label5.Size = new System.Drawing.Size(152, 35);
             this.label5.TabIndex = 59;
             this.label5.Text = "Dimensione:";
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.numeroPacchiNumBox);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label9);
@@ -237,17 +243,17 @@ namespace WMS_Fec_Italia_MVC
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(2, 364);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(3, 448);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1135, 166);
+            this.panel3.Size = new System.Drawing.Size(1513, 205);
             this.panel3.TabIndex = 2;
             // 
             // numeroPacchiNumBox
             // 
             this.numeroPacchiNumBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.numeroPacchiNumBox.Location = new System.Drawing.Point(459, 53);
-            this.numeroPacchiNumBox.Margin = new System.Windows.Forms.Padding(2);
+            this.numeroPacchiNumBox.Location = new System.Drawing.Point(612, 65);
+            this.numeroPacchiNumBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numeroPacchiNumBox.Maximum = new decimal(new int[] {
             999,
             0,
@@ -260,7 +266,7 @@ namespace WMS_Fec_Italia_MVC
             0});
             this.numeroPacchiNumBox.Name = "numeroPacchiNumBox";
             this.numeroPacchiNumBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numeroPacchiNumBox.Size = new System.Drawing.Size(69, 34);
+            this.numeroPacchiNumBox.Size = new System.Drawing.Size(92, 41);
             this.numeroPacchiNumBox.TabIndex = 65;
             this.numeroPacchiNumBox.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             this.numeroPacchiNumBox.Value = new decimal(new int[] {
@@ -273,10 +279,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label10.Location = new System.Drawing.Point(339, 54);
-            this.label10.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
+            this.label10.Location = new System.Drawing.Point(452, 66);
+            this.label10.Margin = new System.Windows.Forms.Padding(16, 0, 16, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(125, 28);
+            this.label10.Size = new System.Drawing.Size(160, 35);
             this.label10.TabIndex = 64;
             this.label10.Text = "Totale pacchi";
             // 
@@ -284,10 +290,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label9.Location = new System.Drawing.Point(542, 53);
-            this.label9.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
+            this.label9.Location = new System.Drawing.Point(723, 65);
+            this.label9.Margin = new System.Windows.Forms.Padding(16, 0, 16, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(24, 28);
+            this.label9.Size = new System.Drawing.Size(30, 35);
             this.label9.TabIndex = 62;
             this.label9.Text = "X";
             // 
@@ -295,20 +301,19 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.quantitaMossa.AutoSize = true;
             this.quantitaMossa.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.quantitaMossa.Location = new System.Drawing.Point(624, 10);
-            this.quantitaMossa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.quantitaMossa.Location = new System.Drawing.Point(832, 12);
             this.quantitaMossa.Name = "quantitaMossa";
-            this.quantitaMossa.Size = new System.Drawing.Size(0, 28);
+            this.quantitaMossa.Size = new System.Drawing.Size(0, 35);
             this.quantitaMossa.TabIndex = 55;
             // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.button2.Location = new System.Drawing.Point(955, 10);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(1274, 14);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 148);
+            this.button2.Size = new System.Drawing.Size(229, 182);
             this.button2.TabIndex = 54;
             this.button2.Text = "Ricerca spazio disponibile.";
             this.button2.UseVisualStyleBackColor = true;
@@ -317,11 +322,11 @@ namespace WMS_Fec_Italia_MVC
             // movimentoTextBox
             // 
             this.movimentoTextBox.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.movimentoTextBox.Location = new System.Drawing.Point(144, 10);
-            this.movimentoTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.movimentoTextBox.Location = new System.Drawing.Point(192, 12);
+            this.movimentoTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.movimentoTextBox.MaxLength = 6;
             this.movimentoTextBox.Name = "movimentoTextBox";
-            this.movimentoTextBox.Size = new System.Drawing.Size(65, 34);
+            this.movimentoTextBox.Size = new System.Drawing.Size(134, 41);
             this.movimentoTextBox.TabIndex = 53;
             this.movimentoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.movimentoTextBox_KeyDown);
             // 
@@ -329,10 +334,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label3.Location = new System.Drawing.Point(12, 10);
-            this.label3.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label3.Location = new System.Drawing.Point(16, 12);
+            this.label3.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 28);
+            this.label3.Size = new System.Drawing.Size(147, 35);
             this.label3.TabIndex = 49;
             this.label3.Text = "Movimento:";
             // 
@@ -340,10 +345,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label1.Location = new System.Drawing.Point(12, 53);
-            this.label1.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.label1.Location = new System.Drawing.Point(16, 65);
+            this.label1.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 28);
+            this.label1.Size = new System.Drawing.Size(233, 35);
             this.label1.TabIndex = 48;
             this.label1.Text = "Quantità per pacco:";
             // 
@@ -357,29 +362,30 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.007077F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.66114F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.66114F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.67064F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1139, 532);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1519, 655);
             this.tableLayoutPanel1.TabIndex = 59;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.toolStrip1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(2, 2);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Location = new System.Drawing.Point(3, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1135, 22);
+            this.panel4.Size = new System.Drawing.Size(1513, 28);
             this.panel4.TabIndex = 3;
             // 
             // toolStrip1
             // 
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripSeparator1,
@@ -387,22 +393,9 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1135, 22);
+            this.toolStrip1.Size = new System.Drawing.Size(1513, 28);
             this.toolStrip1.TabIndex = 23;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 22);
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(184, 19);
-            this.toolStripLabel1.Text = "Immagazzinamento";
             // 
             // toolStripButton1
             // 
@@ -410,9 +403,14 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(52, 19);
+            this.toolStripButton1.Size = new System.Drawing.Size(65, 25);
             this.toolStripButton1.Text = "Indietro";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 28);
             // 
             // toolStripButton2
             // 
@@ -420,18 +418,56 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(81, 19);
+            this.toolStripButton2.Size = new System.Drawing.Size(99, 25);
             this.toolStripButton2.Text = "Pulisci campi";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(234, 25);
+            this.toolStripLabel1.Text = "Immagazzinamento";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(456, 14);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 41);
+            this.button1.TabIndex = 59;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(448, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(37, 41);
+            this.button3.TabIndex = 60;
+            this.button3.Text = "X";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(332, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(37, 41);
+            this.button4.TabIndex = 66;
+            this.button4.Text = "X";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // StockingDettagliView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 532);
+            this.ClientSize = new System.Drawing.Size(1519, 655);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "StockingDettagliView";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Aggiungi merce al magazzino";
@@ -483,5 +519,8 @@ namespace WMS_Fec_Italia_MVC
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripButton toolStripButton2;
         private ToolStripLabel toolStripLabel1;
+        private Button button1;
+        private Button button3;
+        private Button button4;
     }
 }

@@ -85,7 +85,7 @@ WHERE occ_tipo = '{octTipo}' AND occ_code = {octCode} AND occ_arti IS NOT NULL A
                    
                        
 
-                            string updateQuery = $"UPDATE ocordit SET oct_actz = CURDATE() where oct_code = '{octCode}' and oct_tipo = '{octTipo}'";
+                            string updateQuery = $"UPDATE ocordit SET oct_actz = CURRENT where oct_code = '{octCode}' and oct_tipo = '{octTipo}'";
                             database.AggiornaDatabase(updateQuery);
                             
 

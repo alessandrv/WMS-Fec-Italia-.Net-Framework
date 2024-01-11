@@ -49,8 +49,9 @@ namespace WMS_Fec_Italia_MVC
             this.panel1.Controls.Add(this.scaffaleTextBox);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1139, 532);
+            this.panel1.Size = new System.Drawing.Size(1519, 655);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -58,8 +59,9 @@ namespace WMS_Fec_Italia_MVC
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1139, 532);
+            this.panel2.Size = new System.Drawing.Size(1519, 655);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -68,50 +70,52 @@ namespace WMS_Fec_Italia_MVC
             this.panel3.Controls.Add(this.label1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1139, 532);
+            this.panel3.Size = new System.Drawing.Size(1519, 655);
             this.panel3.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(215, 417);
+            this.button1.Location = new System.Drawing.Point(287, 513);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(676, 105);
+            this.button1.Size = new System.Drawing.Size(901, 129);
             this.button1.TabIndex = 1;
             this.button1.Text = "Annulla";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 55F);
             this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1139, 532);
+            this.label1.Size = new System.Drawing.Size(1519, 655);
             this.label1.TabIndex = 0;
             this.label1.Text = "Scannerizza scaffale...";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // scaffaleTextBox
             // 
-            this.scaffaleTextBox.Location = new System.Drawing.Point(215, 278);
-            this.scaffaleTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.scaffaleTextBox.Location = new System.Drawing.Point(287, 342);
+            this.scaffaleTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scaffaleTextBox.Name = "scaffaleTextBox";
-            this.scaffaleTextBox.Size = new System.Drawing.Size(91, 20);
+            this.scaffaleTextBox.Size = new System.Drawing.Size(120, 22);
             this.scaffaleTextBox.TabIndex = 0;
             this.scaffaleTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.scaffaleTextBox_KeyDown);
             this.scaffaleTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.scaffaleTextBox_KeyPress);
             // 
             // ScanView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 532);
+            this.ClientSize = new System.Drawing.Size(1519, 655);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ScanView";
             this.Text = "Trasferimenti";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

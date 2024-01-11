@@ -191,11 +191,13 @@ namespace WMS_Fec_Italia_MVC
             bool successo = false;
             foreach (DataGridViewRow row in dataGridViewTotale.Rows)
             {
+            
                 // Controlla le condizioni specificate
-                if (row.Cells["codice_art"].Value.ToString() == codiceArticolo &&
-                    row.Cells["movimento"].Value.ToString() == codiceMovimento &&
-                    row.Cells["locat"].Value.ToString() == locazione)
+                if (row.Cells["codice_art"].Value.ToString().Trim() == codiceArticolo &&
+                    row.Cells["movimento"].Value.ToString().Trim() == codiceMovimento &&
+                    row.Cells["locat"].Value.ToString().Trim() == locazione)
                 {
+
                     row.DefaultCellStyle.BackColor = Color.LawnGreen;
 
                     onArticoloScannerizzato?.Invoke(this, EventArgs.Empty);

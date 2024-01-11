@@ -49,7 +49,11 @@ namespace WMS_Fec_Italia_MVC
                 try
                 {
 
-                    if (MessageBox.Show($"Confermi la collocazione della merce in posizione {scaffaleSelezionatoTextBox.Text}?", "Conferma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    string area = scaffaleSelezionatoTextBox.Text.Substring(0, 1);
+                    string scaffale = scaffaleSelezionatoTextBox.Text.Substring(1, 1);
+                    string colonna = scaffaleSelezionatoTextBox.Text.Substring(2, 2);
+                    string piano = scaffaleSelezionatoTextBox.Text.Substring(4, 1);
+                    if (MessageBox.Show($"Confermi la collocazione della merce in posizione {area}-{scaffale}-{colonna}-{piano}?", "Conferma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         onButtonClick?.Invoke(this, EventArgs.Empty);
 

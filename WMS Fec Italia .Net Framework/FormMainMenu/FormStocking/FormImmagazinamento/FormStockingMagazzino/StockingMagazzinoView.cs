@@ -134,8 +134,8 @@ namespace WMS_Fec_Italia_MVC
 
         private void BackButton(object sender, EventArgs e)
         {
-            tabControlWithoutHeader1.SelectedIndex = tabControlWithoutHeader1.SelectedIndex + 1;
-            tabControlWithoutHeader1.TabIndex = tabControlWithoutHeader1.TabIndex + 1;
+            tabControlWithoutHeader1.SelectedIndex = tabControlWithoutHeader1.SelectedIndex - 1;
+            tabControlWithoutHeader1.TabIndex = tabControlWithoutHeader1.TabIndex - 1;
 
             scaffaleSelezionatoTextBox.Focus();
 
@@ -151,8 +151,8 @@ namespace WMS_Fec_Italia_MVC
 
         private void ForwardButton(object sender, EventArgs e)
         {
-            tabControlWithoutHeader1.SelectedIndex = tabControlWithoutHeader1.SelectedIndex - 1;
-            tabControlWithoutHeader1.TabIndex = tabControlWithoutHeader1.TabIndex - 1;
+            tabControlWithoutHeader1.SelectedIndex = tabControlWithoutHeader1.SelectedIndex + 1;
+            tabControlWithoutHeader1.TabIndex = tabControlWithoutHeader1.TabIndex + 1;
             scaffaleSelezionatoTextBox.Focus();
 
         }

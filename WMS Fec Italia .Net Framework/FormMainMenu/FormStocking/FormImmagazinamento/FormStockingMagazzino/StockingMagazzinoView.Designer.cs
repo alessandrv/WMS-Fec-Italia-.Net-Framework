@@ -433,10 +433,10 @@ namespace WMS_Fec_Italia_MVC
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.tableLayoutPanel15);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(2, 2);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(3, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1123, 21);
+            this.panel3.Size = new System.Drawing.Size(1499, 27);
             this.panel3.TabIndex = 8;
             // 
             // tableLayoutPanel15
@@ -447,25 +447,25 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel15.Controls.Add(this.button3, 0, 0);
             this.tableLayoutPanel15.Controls.Add(this.label1, 4, 0);
             this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel15.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
             this.tableLayoutPanel15.RowCount = 1;
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(1119, 17);
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(1495, 23);
             this.tableLayoutPanel15.TabIndex = 7;
             // 
             // button3
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(2, 2);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(3, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 13);
+            this.button3.Size = new System.Drawing.Size(143, 19);
             this.button3.TabIndex = 0;
             this.button3.Text = "Indietro";
             this.button3.UseVisualStyleBackColor = true;
@@ -476,11 +476,10 @@ namespace WMS_Fec_Italia_MVC
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label1.Location = new System.Drawing.Point(558, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(749, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(559, 17);
+            this.label1.Size = new System.Drawing.Size(743, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "AREA A";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -488,9 +487,9 @@ namespace WMS_Fec_Italia_MVC
             // scaffaleSelezionatoTextBox
             // 
             this.scaffaleSelezionatoTextBox.Location = new System.Drawing.Point(0, 0);
-            this.scaffaleSelezionatoTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.scaffaleSelezionatoTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scaffaleSelezionatoTextBox.Name = "scaffaleSelezionatoTextBox";
-            this.scaffaleSelezionatoTextBox.Size = new System.Drawing.Size(91, 20);
+            this.scaffaleSelezionatoTextBox.Size = new System.Drawing.Size(120, 22);
             this.scaffaleSelezionatoTextBox.TabIndex = 1;
             this.scaffaleSelezionatoTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             this.scaffaleSelezionatoTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.scaffaleSelezionatoTextBox_KeyPress);
@@ -508,12 +507,12 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel11.Controls.Add(this.button1, 2, 0);
             this.tableLayoutPanel11.Controls.Add(this.button2, 1, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(2, 388);
-            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 481);
+            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(1123, 112);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(1499, 139);
             this.tableLayoutPanel11.TabIndex = 4;
             // 
             // tableLayoutPanel13
@@ -570,8 +569,8 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel13.Controls.Add(this.AD061, 5, 5);
             this.tableLayoutPanel13.Controls.Add(this.AD071, 6, 5);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(338, 2);
-            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(450, 2);
+            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 6;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.35945F));
@@ -580,7 +579,7 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.35945F));
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.97235F));
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.58986F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(647, 108);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(863, 135);
             this.tableLayoutPanel13.TabIndex = 0;
             // 
             // AD016
@@ -590,10 +589,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD016.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD016.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD016.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD016.Location = new System.Drawing.Point(4, 2);
-            this.AD016.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD016.Location = new System.Drawing.Point(5, 2);
             this.AD016.Name = "AD016";
-            this.AD016.Size = new System.Drawing.Size(86, 15);
+            this.AD016.Size = new System.Drawing.Size(114, 19);
             this.AD016.TabIndex = 0;
             this.AD016.Text = "D-01-6";
             this.AD016.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -605,10 +603,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD026.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD026.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD026.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD026.Location = new System.Drawing.Point(96, 2);
-            this.AD026.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD026.Location = new System.Drawing.Point(127, 2);
             this.AD026.Name = "AD026";
-            this.AD026.Size = new System.Drawing.Size(86, 15);
+            this.AD026.Size = new System.Drawing.Size(115, 19);
             this.AD026.TabIndex = 1;
             this.AD026.Text = "D-02-6";
             this.AD026.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -620,10 +617,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD036.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD036.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD036.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD036.Location = new System.Drawing.Point(188, 2);
-            this.AD036.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD036.Location = new System.Drawing.Point(250, 2);
             this.AD036.Name = "AD036";
-            this.AD036.Size = new System.Drawing.Size(86, 15);
+            this.AD036.Size = new System.Drawing.Size(115, 19);
             this.AD036.TabIndex = 2;
             this.AD036.Text = "D-03-6";
             this.AD036.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -635,10 +631,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD046.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD046.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD046.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD046.Location = new System.Drawing.Point(280, 2);
-            this.AD046.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD046.Location = new System.Drawing.Point(373, 2);
             this.AD046.Name = "AD046";
-            this.AD046.Size = new System.Drawing.Size(86, 15);
+            this.AD046.Size = new System.Drawing.Size(115, 19);
             this.AD046.TabIndex = 3;
             this.AD046.Text = "D-04-6";
             this.AD046.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -650,10 +645,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD056.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD056.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD056.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD056.Location = new System.Drawing.Point(372, 2);
-            this.AD056.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD056.Location = new System.Drawing.Point(496, 2);
             this.AD056.Name = "AD056";
-            this.AD056.Size = new System.Drawing.Size(86, 15);
+            this.AD056.Size = new System.Drawing.Size(115, 19);
             this.AD056.TabIndex = 4;
             this.AD056.Text = "D-05-6";
             this.AD056.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -665,10 +659,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD066.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD066.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD066.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD066.Location = new System.Drawing.Point(464, 2);
-            this.AD066.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD066.Location = new System.Drawing.Point(619, 2);
             this.AD066.Name = "AD066";
-            this.AD066.Size = new System.Drawing.Size(86, 15);
+            this.AD066.Size = new System.Drawing.Size(115, 19);
             this.AD066.TabIndex = 5;
             this.AD066.Text = "D-06-6";
             this.AD066.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -680,10 +673,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD076.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD076.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD076.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD076.Location = new System.Drawing.Point(556, 2);
-            this.AD076.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD076.Location = new System.Drawing.Point(742, 2);
             this.AD076.Name = "AD076";
-            this.AD076.Size = new System.Drawing.Size(87, 15);
+            this.AD076.Size = new System.Drawing.Size(116, 19);
             this.AD076.TabIndex = 6;
             this.AD076.Text = "D-07-6";
             this.AD076.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -695,10 +687,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD015.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD015.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD015.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD015.Location = new System.Drawing.Point(4, 19);
-            this.AD015.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD015.Location = new System.Drawing.Point(5, 23);
             this.AD015.Name = "AD015";
-            this.AD015.Size = new System.Drawing.Size(86, 15);
+            this.AD015.Size = new System.Drawing.Size(114, 19);
             this.AD015.TabIndex = 7;
             this.AD015.Text = "D-01-5";
             this.AD015.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -710,10 +701,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD025.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD025.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD025.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD025.Location = new System.Drawing.Point(96, 19);
-            this.AD025.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD025.Location = new System.Drawing.Point(127, 23);
             this.AD025.Name = "AD025";
-            this.AD025.Size = new System.Drawing.Size(86, 15);
+            this.AD025.Size = new System.Drawing.Size(115, 19);
             this.AD025.TabIndex = 8;
             this.AD025.Text = "D-02-5";
             this.AD025.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -725,10 +715,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD035.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD035.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD035.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD035.Location = new System.Drawing.Point(188, 19);
-            this.AD035.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD035.Location = new System.Drawing.Point(250, 23);
             this.AD035.Name = "AD035";
-            this.AD035.Size = new System.Drawing.Size(86, 15);
+            this.AD035.Size = new System.Drawing.Size(115, 19);
             this.AD035.TabIndex = 9;
             this.AD035.Text = "D-03-5";
             this.AD035.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -740,10 +729,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD045.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD045.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD045.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD045.Location = new System.Drawing.Point(280, 19);
-            this.AD045.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD045.Location = new System.Drawing.Point(373, 23);
             this.AD045.Name = "AD045";
-            this.AD045.Size = new System.Drawing.Size(86, 15);
+            this.AD045.Size = new System.Drawing.Size(115, 19);
             this.AD045.TabIndex = 10;
             this.AD045.Text = "D-04-5";
             this.AD045.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -755,10 +743,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD055.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD055.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD055.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD055.Location = new System.Drawing.Point(372, 19);
-            this.AD055.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD055.Location = new System.Drawing.Point(496, 23);
             this.AD055.Name = "AD055";
-            this.AD055.Size = new System.Drawing.Size(86, 15);
+            this.AD055.Size = new System.Drawing.Size(115, 19);
             this.AD055.TabIndex = 11;
             this.AD055.Text = "D-05-5";
             this.AD055.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -770,10 +757,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD065.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD065.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD065.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD065.Location = new System.Drawing.Point(464, 19);
-            this.AD065.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD065.Location = new System.Drawing.Point(619, 23);
             this.AD065.Name = "AD065";
-            this.AD065.Size = new System.Drawing.Size(86, 15);
+            this.AD065.Size = new System.Drawing.Size(115, 19);
             this.AD065.TabIndex = 12;
             this.AD065.Text = "D-06-5";
             this.AD065.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -785,10 +771,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD075.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD075.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD075.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD075.Location = new System.Drawing.Point(556, 19);
-            this.AD075.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD075.Location = new System.Drawing.Point(742, 23);
             this.AD075.Name = "AD075";
-            this.AD075.Size = new System.Drawing.Size(87, 15);
+            this.AD075.Size = new System.Drawing.Size(116, 19);
             this.AD075.TabIndex = 13;
             this.AD075.Text = "D-07-5";
             this.AD075.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -800,10 +785,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD014.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD014.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD014.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD014.Location = new System.Drawing.Point(4, 36);
-            this.AD014.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD014.Location = new System.Drawing.Point(5, 44);
             this.AD014.Name = "AD014";
-            this.AD014.Size = new System.Drawing.Size(86, 15);
+            this.AD014.Size = new System.Drawing.Size(114, 19);
             this.AD014.TabIndex = 14;
             this.AD014.Text = "D-01-4";
             this.AD014.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -815,10 +799,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD024.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD024.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD024.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD024.Location = new System.Drawing.Point(96, 36);
-            this.AD024.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD024.Location = new System.Drawing.Point(127, 44);
             this.AD024.Name = "AD024";
-            this.AD024.Size = new System.Drawing.Size(86, 15);
+            this.AD024.Size = new System.Drawing.Size(115, 19);
             this.AD024.TabIndex = 15;
             this.AD024.Text = "D-02-4";
             this.AD024.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -830,10 +813,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD034.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD034.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD034.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD034.Location = new System.Drawing.Point(188, 36);
-            this.AD034.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD034.Location = new System.Drawing.Point(250, 44);
             this.AD034.Name = "AD034";
-            this.AD034.Size = new System.Drawing.Size(86, 15);
+            this.AD034.Size = new System.Drawing.Size(115, 19);
             this.AD034.TabIndex = 16;
             this.AD034.Text = "D-03-4";
             this.AD034.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -845,10 +827,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD044.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD044.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD044.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD044.Location = new System.Drawing.Point(280, 36);
-            this.AD044.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD044.Location = new System.Drawing.Point(373, 44);
             this.AD044.Name = "AD044";
-            this.AD044.Size = new System.Drawing.Size(86, 15);
+            this.AD044.Size = new System.Drawing.Size(115, 19);
             this.AD044.TabIndex = 17;
             this.AD044.Text = "D-04-4";
             this.AD044.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -860,10 +841,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD054.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD054.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD054.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD054.Location = new System.Drawing.Point(372, 36);
-            this.AD054.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD054.Location = new System.Drawing.Point(496, 44);
             this.AD054.Name = "AD054";
-            this.AD054.Size = new System.Drawing.Size(86, 15);
+            this.AD054.Size = new System.Drawing.Size(115, 19);
             this.AD054.TabIndex = 18;
             this.AD054.Text = "D-05-4";
             this.AD054.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -875,10 +855,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD064.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD064.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD064.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD064.Location = new System.Drawing.Point(464, 36);
-            this.AD064.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD064.Location = new System.Drawing.Point(619, 44);
             this.AD064.Name = "AD064";
-            this.AD064.Size = new System.Drawing.Size(86, 15);
+            this.AD064.Size = new System.Drawing.Size(115, 19);
             this.AD064.TabIndex = 19;
             this.AD064.Text = "D-06-4";
             this.AD064.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -890,10 +869,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD074.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD074.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD074.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD074.Location = new System.Drawing.Point(556, 36);
-            this.AD074.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD074.Location = new System.Drawing.Point(742, 44);
             this.AD074.Name = "AD074";
-            this.AD074.Size = new System.Drawing.Size(87, 15);
+            this.AD074.Size = new System.Drawing.Size(116, 19);
             this.AD074.TabIndex = 20;
             this.AD074.Text = "D-07-4";
             this.AD074.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -905,10 +883,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD013.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD013.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD013.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD013.Location = new System.Drawing.Point(4, 53);
-            this.AD013.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD013.Location = new System.Drawing.Point(5, 65);
             this.AD013.Name = "AD013";
-            this.AD013.Size = new System.Drawing.Size(86, 15);
+            this.AD013.Size = new System.Drawing.Size(114, 19);
             this.AD013.TabIndex = 21;
             this.AD013.Text = "D-01-3";
             this.AD013.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -920,10 +897,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD023.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD023.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD023.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD023.Location = new System.Drawing.Point(96, 53);
-            this.AD023.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD023.Location = new System.Drawing.Point(127, 65);
             this.AD023.Name = "AD023";
-            this.AD023.Size = new System.Drawing.Size(86, 15);
+            this.AD023.Size = new System.Drawing.Size(115, 19);
             this.AD023.TabIndex = 22;
             this.AD023.Text = "D-02-3";
             this.AD023.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -935,10 +911,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD033.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD033.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD033.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD033.Location = new System.Drawing.Point(188, 53);
-            this.AD033.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD033.Location = new System.Drawing.Point(250, 65);
             this.AD033.Name = "AD033";
-            this.AD033.Size = new System.Drawing.Size(86, 15);
+            this.AD033.Size = new System.Drawing.Size(115, 19);
             this.AD033.TabIndex = 23;
             this.AD033.Text = "D-03-3";
             this.AD033.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -950,10 +925,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD043.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD043.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD043.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD043.Location = new System.Drawing.Point(280, 53);
-            this.AD043.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD043.Location = new System.Drawing.Point(373, 65);
             this.AD043.Name = "AD043";
-            this.AD043.Size = new System.Drawing.Size(86, 15);
+            this.AD043.Size = new System.Drawing.Size(115, 19);
             this.AD043.TabIndex = 24;
             this.AD043.Text = "D-04-3";
             this.AD043.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -965,10 +939,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD053.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD053.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD053.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD053.Location = new System.Drawing.Point(372, 53);
-            this.AD053.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD053.Location = new System.Drawing.Point(496, 65);
             this.AD053.Name = "AD053";
-            this.AD053.Size = new System.Drawing.Size(86, 15);
+            this.AD053.Size = new System.Drawing.Size(115, 19);
             this.AD053.TabIndex = 25;
             this.AD053.Text = "D-05-3";
             this.AD053.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -980,10 +953,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD063.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD063.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD063.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD063.Location = new System.Drawing.Point(464, 53);
-            this.AD063.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD063.Location = new System.Drawing.Point(619, 65);
             this.AD063.Name = "AD063";
-            this.AD063.Size = new System.Drawing.Size(86, 15);
+            this.AD063.Size = new System.Drawing.Size(115, 19);
             this.AD063.TabIndex = 26;
             this.AD063.Text = "D-06-3";
             this.AD063.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -995,10 +967,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD073.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD073.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD073.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD073.Location = new System.Drawing.Point(556, 53);
-            this.AD073.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD073.Location = new System.Drawing.Point(742, 65);
             this.AD073.Name = "AD073";
-            this.AD073.Size = new System.Drawing.Size(87, 15);
+            this.AD073.Size = new System.Drawing.Size(116, 19);
             this.AD073.TabIndex = 27;
             this.AD073.Text = "D-07-3";
             this.AD073.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1010,10 +981,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD012.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD012.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD012.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD012.Location = new System.Drawing.Point(4, 70);
-            this.AD012.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD012.Location = new System.Drawing.Point(5, 86);
             this.AD012.Name = "AD012";
-            this.AD012.Size = new System.Drawing.Size(86, 16);
+            this.AD012.Size = new System.Drawing.Size(114, 21);
             this.AD012.TabIndex = 28;
             this.AD012.Text = "D-01-2";
             this.AD012.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1025,10 +995,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD022.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD022.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD022.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD022.Location = new System.Drawing.Point(96, 70);
-            this.AD022.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD022.Location = new System.Drawing.Point(127, 86);
             this.AD022.Name = "AD022";
-            this.AD022.Size = new System.Drawing.Size(86, 16);
+            this.AD022.Size = new System.Drawing.Size(115, 21);
             this.AD022.TabIndex = 29;
             this.AD022.Text = "D-02-2";
             this.AD022.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1040,10 +1009,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD032.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD032.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD032.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD032.Location = new System.Drawing.Point(188, 70);
-            this.AD032.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD032.Location = new System.Drawing.Point(250, 86);
             this.AD032.Name = "AD032";
-            this.AD032.Size = new System.Drawing.Size(86, 16);
+            this.AD032.Size = new System.Drawing.Size(115, 21);
             this.AD032.TabIndex = 30;
             this.AD032.Text = "D-03-2";
             this.AD032.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1055,10 +1023,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD042.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD042.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD042.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD042.Location = new System.Drawing.Point(280, 70);
-            this.AD042.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD042.Location = new System.Drawing.Point(373, 86);
             this.AD042.Name = "AD042";
-            this.AD042.Size = new System.Drawing.Size(86, 16);
+            this.AD042.Size = new System.Drawing.Size(115, 21);
             this.AD042.TabIndex = 31;
             this.AD042.Text = "D-04-2";
             this.AD042.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1070,10 +1037,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD052.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD052.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD052.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD052.Location = new System.Drawing.Point(372, 70);
-            this.AD052.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD052.Location = new System.Drawing.Point(496, 86);
             this.AD052.Name = "AD052";
-            this.AD052.Size = new System.Drawing.Size(86, 16);
+            this.AD052.Size = new System.Drawing.Size(115, 21);
             this.AD052.TabIndex = 32;
             this.AD052.Text = "D-05-2";
             this.AD052.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1085,10 +1051,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD062.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD062.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD062.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD062.Location = new System.Drawing.Point(464, 70);
-            this.AD062.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD062.Location = new System.Drawing.Point(619, 86);
             this.AD062.Name = "AD062";
-            this.AD062.Size = new System.Drawing.Size(86, 16);
+            this.AD062.Size = new System.Drawing.Size(115, 21);
             this.AD062.TabIndex = 33;
             this.AD062.Text = "D-06-2";
             this.AD062.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1100,10 +1065,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD072.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD072.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD072.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD072.Location = new System.Drawing.Point(556, 70);
-            this.AD072.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD072.Location = new System.Drawing.Point(742, 86);
             this.AD072.Name = "AD072";
-            this.AD072.Size = new System.Drawing.Size(87, 16);
+            this.AD072.Size = new System.Drawing.Size(116, 21);
             this.AD072.TabIndex = 34;
             this.AD072.Text = "D-07-2";
             this.AD072.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1115,10 +1079,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD011.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD011.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD011.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD011.Location = new System.Drawing.Point(4, 88);
-            this.AD011.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD011.Location = new System.Drawing.Point(5, 109);
             this.AD011.Name = "AD011";
-            this.AD011.Size = new System.Drawing.Size(86, 18);
+            this.AD011.Size = new System.Drawing.Size(114, 24);
             this.AD011.TabIndex = 35;
             this.AD011.Text = "D-01-1";
             this.AD011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1130,10 +1093,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD021.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD021.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD021.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD021.Location = new System.Drawing.Point(96, 88);
-            this.AD021.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD021.Location = new System.Drawing.Point(127, 109);
             this.AD021.Name = "AD021";
-            this.AD021.Size = new System.Drawing.Size(86, 18);
+            this.AD021.Size = new System.Drawing.Size(115, 24);
             this.AD021.TabIndex = 36;
             this.AD021.Text = "D-02-1";
             this.AD021.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1145,10 +1107,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD031.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD031.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD031.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD031.Location = new System.Drawing.Point(188, 88);
-            this.AD031.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD031.Location = new System.Drawing.Point(250, 109);
             this.AD031.Name = "AD031";
-            this.AD031.Size = new System.Drawing.Size(86, 18);
+            this.AD031.Size = new System.Drawing.Size(115, 24);
             this.AD031.TabIndex = 37;
             this.AD031.Text = "D-03-1";
             this.AD031.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1160,10 +1121,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD041.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD041.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD041.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD041.Location = new System.Drawing.Point(280, 88);
-            this.AD041.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD041.Location = new System.Drawing.Point(373, 109);
             this.AD041.Name = "AD041";
-            this.AD041.Size = new System.Drawing.Size(86, 18);
+            this.AD041.Size = new System.Drawing.Size(115, 24);
             this.AD041.TabIndex = 38;
             this.AD041.Text = "D-04-1";
             this.AD041.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1175,10 +1135,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD051.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD051.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD051.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD051.Location = new System.Drawing.Point(372, 88);
-            this.AD051.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD051.Location = new System.Drawing.Point(496, 109);
             this.AD051.Name = "AD051";
-            this.AD051.Size = new System.Drawing.Size(86, 18);
+            this.AD051.Size = new System.Drawing.Size(115, 24);
             this.AD051.TabIndex = 39;
             this.AD051.Text = "D-05-1";
             this.AD051.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1190,10 +1149,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD061.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD061.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD061.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD061.Location = new System.Drawing.Point(464, 88);
-            this.AD061.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD061.Location = new System.Drawing.Point(619, 109);
             this.AD061.Name = "AD061";
-            this.AD061.Size = new System.Drawing.Size(86, 18);
+            this.AD061.Size = new System.Drawing.Size(115, 24);
             this.AD061.TabIndex = 40;
             this.AD061.Text = "D-06-1";
             this.AD061.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1205,10 +1163,9 @@ namespace WMS_Fec_Italia_MVC
             this.AD071.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AD071.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.AD071.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AD071.Location = new System.Drawing.Point(556, 88);
-            this.AD071.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AD071.Location = new System.Drawing.Point(742, 109);
             this.AD071.Name = "AD071";
-            this.AD071.Size = new System.Drawing.Size(87, 18);
+            this.AD071.Size = new System.Drawing.Size(116, 24);
             this.AD071.TabIndex = 0;
             this.AD071.Text = "D-07-1";
             this.AD071.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1216,10 +1173,10 @@ namespace WMS_Fec_Italia_MVC
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(236, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button1.Location = new System.Drawing.Point(314, 12);
+            this.button1.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 92);
+            this.button1.Size = new System.Drawing.Size(117, 115);
             this.button1.TabIndex = 3;
             this.button1.Text = "Zona successiva";
             this.button1.UseVisualStyleBackColor = true;
@@ -1228,14 +1185,13 @@ namespace WMS_Fec_Italia_MVC
             // button2
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(124, 10);
-            this.button2.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button2.Location = new System.Drawing.Point(165, 12);
+            this.button2.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 92);
+            this.button2.Size = new System.Drawing.Size(117, 115);
             this.button2.TabIndex = 2;
             this.button2.Text = "Zona precedente";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.BackButton);
             // 
             // tableLayoutPanel3
             // 
@@ -1244,12 +1200,12 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.57F));
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel10, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 220);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 273);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1123, 90);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1499, 112);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
             // tableLayoutPanel10
@@ -1299,8 +1255,8 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel10.Controls.Add(this.AC061, 5, 4);
             this.tableLayoutPanel10.Controls.Add(this.AC071, 6, 4);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(2, 2);
-            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 2);
+            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 5;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -1308,7 +1264,7 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(798, 86);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(1064, 108);
             this.tableLayoutPanel10.TabIndex = 2;
             // 
             // AC015
@@ -1317,10 +1273,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC015.BackColor = System.Drawing.Color.Red;
             this.AC015.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC015.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC015.Location = new System.Drawing.Point(3, 1);
-            this.AC015.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC015.Location = new System.Drawing.Point(4, 1);
             this.AC015.Name = "AC015";
-            this.AC015.Size = new System.Drawing.Size(108, 16);
+            this.AC015.Size = new System.Drawing.Size(144, 20);
             this.AC015.TabIndex = 0;
             this.AC015.Text = "C-01-5";
             this.AC015.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1331,10 +1286,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC014.BackColor = System.Drawing.Color.Red;
             this.AC014.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC014.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC014.Location = new System.Drawing.Point(3, 18);
-            this.AC014.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC014.Location = new System.Drawing.Point(4, 22);
             this.AC014.Name = "AC014";
-            this.AC014.Size = new System.Drawing.Size(108, 16);
+            this.AC014.Size = new System.Drawing.Size(144, 20);
             this.AC014.TabIndex = 1;
             this.AC014.Text = "C-01-4";
             this.AC014.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1345,10 +1299,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC013.BackColor = System.Drawing.Color.Red;
             this.AC013.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC013.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC013.Location = new System.Drawing.Point(3, 35);
-            this.AC013.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC013.Location = new System.Drawing.Point(4, 43);
             this.AC013.Name = "AC013";
-            this.AC013.Size = new System.Drawing.Size(108, 16);
+            this.AC013.Size = new System.Drawing.Size(144, 20);
             this.AC013.TabIndex = 2;
             this.AC013.Text = "C-01-3";
             this.AC013.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1359,10 +1312,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC012.BackColor = System.Drawing.Color.Red;
             this.AC012.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC012.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC012.Location = new System.Drawing.Point(3, 52);
-            this.AC012.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC012.Location = new System.Drawing.Point(4, 64);
             this.AC012.Name = "AC012";
-            this.AC012.Size = new System.Drawing.Size(108, 16);
+            this.AC012.Size = new System.Drawing.Size(144, 20);
             this.AC012.TabIndex = 3;
             this.AC012.Text = "C-01-2";
             this.AC012.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1373,10 +1325,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC011.BackColor = System.Drawing.Color.Red;
             this.AC011.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC011.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC011.Location = new System.Drawing.Point(3, 69);
-            this.AC011.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC011.Location = new System.Drawing.Point(4, 85);
             this.AC011.Name = "AC011";
-            this.AC011.Size = new System.Drawing.Size(108, 16);
+            this.AC011.Size = new System.Drawing.Size(144, 22);
             this.AC011.TabIndex = 4;
             this.AC011.Text = "C-01-1";
             this.AC011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1387,10 +1338,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC054.BackColor = System.Drawing.Color.Red;
             this.AC054.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC054.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC054.Location = new System.Drawing.Point(455, 18);
-            this.AC054.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC054.Location = new System.Drawing.Point(608, 22);
             this.AC054.Name = "AC054";
-            this.AC054.Size = new System.Drawing.Size(108, 16);
+            this.AC054.Size = new System.Drawing.Size(144, 20);
             this.AC054.TabIndex = 5;
             this.AC054.Text = "C-05-4";
             this.AC054.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1401,10 +1351,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC024.BackColor = System.Drawing.Color.Red;
             this.AC024.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC024.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC024.Location = new System.Drawing.Point(116, 18);
-            this.AC024.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC024.Location = new System.Drawing.Point(155, 22);
             this.AC024.Name = "AC024";
-            this.AC024.Size = new System.Drawing.Size(108, 16);
+            this.AC024.Size = new System.Drawing.Size(144, 20);
             this.AC024.TabIndex = 6;
             this.AC024.Text = "C-02-4";
             this.AC024.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1415,10 +1364,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC023.BackColor = System.Drawing.Color.Red;
             this.AC023.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC023.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC023.Location = new System.Drawing.Point(116, 35);
-            this.AC023.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC023.Location = new System.Drawing.Point(155, 43);
             this.AC023.Name = "AC023";
-            this.AC023.Size = new System.Drawing.Size(108, 16);
+            this.AC023.Size = new System.Drawing.Size(144, 20);
             this.AC023.TabIndex = 7;
             this.AC023.Text = "C-02-3";
             this.AC023.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1429,10 +1377,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC025.BackColor = System.Drawing.Color.Red;
             this.AC025.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC025.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC025.Location = new System.Drawing.Point(116, 1);
-            this.AC025.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC025.Location = new System.Drawing.Point(155, 1);
             this.AC025.Name = "AC025";
-            this.AC025.Size = new System.Drawing.Size(108, 16);
+            this.AC025.Size = new System.Drawing.Size(144, 20);
             this.AC025.TabIndex = 8;
             this.AC025.Text = "C-02-5";
             this.AC025.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1443,10 +1390,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC021.BackColor = System.Drawing.Color.Red;
             this.AC021.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC021.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC021.Location = new System.Drawing.Point(116, 69);
-            this.AC021.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC021.Location = new System.Drawing.Point(155, 85);
             this.AC021.Name = "AC021";
-            this.AC021.Size = new System.Drawing.Size(108, 16);
+            this.AC021.Size = new System.Drawing.Size(144, 22);
             this.AC021.TabIndex = 9;
             this.AC021.Text = "C-02-1";
             this.AC021.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1457,10 +1403,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC022.BackColor = System.Drawing.Color.Red;
             this.AC022.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC022.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC022.Location = new System.Drawing.Point(116, 52);
-            this.AC022.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC022.Location = new System.Drawing.Point(155, 64);
             this.AC022.Name = "AC022";
-            this.AC022.Size = new System.Drawing.Size(108, 16);
+            this.AC022.Size = new System.Drawing.Size(144, 20);
             this.AC022.TabIndex = 10;
             this.AC022.Text = "C-02-2";
             this.AC022.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1471,10 +1416,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC035.BackColor = System.Drawing.Color.Red;
             this.AC035.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC035.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC035.Location = new System.Drawing.Point(229, 1);
-            this.AC035.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC035.Location = new System.Drawing.Point(306, 1);
             this.AC035.Name = "AC035";
-            this.AC035.Size = new System.Drawing.Size(108, 16);
+            this.AC035.Size = new System.Drawing.Size(144, 20);
             this.AC035.TabIndex = 11;
             this.AC035.Text = "C-03-5";
             this.AC035.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1485,10 +1429,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC034.BackColor = System.Drawing.Color.Red;
             this.AC034.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC034.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC034.Location = new System.Drawing.Point(229, 18);
-            this.AC034.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC034.Location = new System.Drawing.Point(306, 22);
             this.AC034.Name = "AC034";
-            this.AC034.Size = new System.Drawing.Size(108, 16);
+            this.AC034.Size = new System.Drawing.Size(144, 20);
             this.AC034.TabIndex = 12;
             this.AC034.Text = "C-03-4";
             this.AC034.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1499,10 +1442,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC033.BackColor = System.Drawing.Color.Red;
             this.AC033.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC033.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC033.Location = new System.Drawing.Point(229, 35);
-            this.AC033.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC033.Location = new System.Drawing.Point(306, 43);
             this.AC033.Name = "AC033";
-            this.AC033.Size = new System.Drawing.Size(108, 16);
+            this.AC033.Size = new System.Drawing.Size(144, 20);
             this.AC033.TabIndex = 13;
             this.AC033.Text = "C-03-3";
             this.AC033.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1513,10 +1455,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC032.BackColor = System.Drawing.Color.Red;
             this.AC032.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC032.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC032.Location = new System.Drawing.Point(229, 52);
-            this.AC032.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC032.Location = new System.Drawing.Point(306, 64);
             this.AC032.Name = "AC032";
-            this.AC032.Size = new System.Drawing.Size(108, 16);
+            this.AC032.Size = new System.Drawing.Size(144, 20);
             this.AC032.TabIndex = 14;
             this.AC032.Text = "C-03-2";
             this.AC032.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1527,10 +1468,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC031.BackColor = System.Drawing.Color.Red;
             this.AC031.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC031.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC031.Location = new System.Drawing.Point(229, 69);
-            this.AC031.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC031.Location = new System.Drawing.Point(306, 85);
             this.AC031.Name = "AC031";
-            this.AC031.Size = new System.Drawing.Size(108, 16);
+            this.AC031.Size = new System.Drawing.Size(144, 22);
             this.AC031.TabIndex = 15;
             this.AC031.Text = "C-03-1";
             this.AC031.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1541,10 +1481,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC045.BackColor = System.Drawing.Color.Red;
             this.AC045.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC045.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC045.Location = new System.Drawing.Point(342, 1);
-            this.AC045.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC045.Location = new System.Drawing.Point(457, 1);
             this.AC045.Name = "AC045";
-            this.AC045.Size = new System.Drawing.Size(108, 16);
+            this.AC045.Size = new System.Drawing.Size(144, 20);
             this.AC045.TabIndex = 16;
             this.AC045.Text = "C-04-5";
             this.AC045.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1555,10 +1494,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC044.BackColor = System.Drawing.Color.Red;
             this.AC044.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC044.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC044.Location = new System.Drawing.Point(342, 18);
-            this.AC044.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC044.Location = new System.Drawing.Point(457, 22);
             this.AC044.Name = "AC044";
-            this.AC044.Size = new System.Drawing.Size(108, 16);
+            this.AC044.Size = new System.Drawing.Size(144, 20);
             this.AC044.TabIndex = 17;
             this.AC044.Text = "C-04-4";
             this.AC044.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1569,10 +1507,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC055.BackColor = System.Drawing.Color.Red;
             this.AC055.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC055.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC055.Location = new System.Drawing.Point(455, 1);
-            this.AC055.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC055.Location = new System.Drawing.Point(608, 1);
             this.AC055.Name = "AC055";
-            this.AC055.Size = new System.Drawing.Size(108, 16);
+            this.AC055.Size = new System.Drawing.Size(144, 20);
             this.AC055.TabIndex = 18;
             this.AC055.Text = "C-05-5";
             this.AC055.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1583,10 +1520,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC065.BackColor = System.Drawing.Color.Red;
             this.AC065.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC065.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC065.Location = new System.Drawing.Point(568, 1);
-            this.AC065.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC065.Location = new System.Drawing.Point(759, 1);
             this.AC065.Name = "AC065";
-            this.AC065.Size = new System.Drawing.Size(108, 16);
+            this.AC065.Size = new System.Drawing.Size(144, 20);
             this.AC065.TabIndex = 19;
             this.AC065.Text = "C-06-5";
             this.AC065.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1597,10 +1533,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC075.BackColor = System.Drawing.Color.Red;
             this.AC075.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC075.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC075.Location = new System.Drawing.Point(681, 1);
-            this.AC075.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC075.Location = new System.Drawing.Point(910, 1);
             this.AC075.Name = "AC075";
-            this.AC075.Size = new System.Drawing.Size(114, 16);
+            this.AC075.Size = new System.Drawing.Size(150, 20);
             this.AC075.TabIndex = 20;
             this.AC075.Text = "C-07-5";
             this.AC075.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1611,10 +1546,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC064.BackColor = System.Drawing.Color.Red;
             this.AC064.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC064.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC064.Location = new System.Drawing.Point(568, 18);
-            this.AC064.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC064.Location = new System.Drawing.Point(759, 22);
             this.AC064.Name = "AC064";
-            this.AC064.Size = new System.Drawing.Size(108, 16);
+            this.AC064.Size = new System.Drawing.Size(144, 20);
             this.AC064.TabIndex = 21;
             this.AC064.Text = "C-06-4";
             this.AC064.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1625,10 +1559,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC074.BackColor = System.Drawing.Color.Red;
             this.AC074.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC074.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC074.Location = new System.Drawing.Point(681, 18);
-            this.AC074.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC074.Location = new System.Drawing.Point(910, 22);
             this.AC074.Name = "AC074";
-            this.AC074.Size = new System.Drawing.Size(114, 16);
+            this.AC074.Size = new System.Drawing.Size(150, 20);
             this.AC074.TabIndex = 22;
             this.AC074.Text = "C-07-4";
             this.AC074.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1639,10 +1572,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC043.BackColor = System.Drawing.Color.Red;
             this.AC043.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC043.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC043.Location = new System.Drawing.Point(342, 35);
-            this.AC043.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC043.Location = new System.Drawing.Point(457, 43);
             this.AC043.Name = "AC043";
-            this.AC043.Size = new System.Drawing.Size(108, 16);
+            this.AC043.Size = new System.Drawing.Size(144, 20);
             this.AC043.TabIndex = 23;
             this.AC043.Text = "C-04-3";
             this.AC043.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1653,10 +1585,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC053.BackColor = System.Drawing.Color.Red;
             this.AC053.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC053.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC053.Location = new System.Drawing.Point(455, 35);
-            this.AC053.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC053.Location = new System.Drawing.Point(608, 43);
             this.AC053.Name = "AC053";
-            this.AC053.Size = new System.Drawing.Size(108, 16);
+            this.AC053.Size = new System.Drawing.Size(144, 20);
             this.AC053.TabIndex = 24;
             this.AC053.Text = "C-05-3";
             this.AC053.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1667,10 +1598,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC063.BackColor = System.Drawing.Color.Red;
             this.AC063.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC063.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC063.Location = new System.Drawing.Point(568, 35);
-            this.AC063.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC063.Location = new System.Drawing.Point(759, 43);
             this.AC063.Name = "AC063";
-            this.AC063.Size = new System.Drawing.Size(108, 16);
+            this.AC063.Size = new System.Drawing.Size(144, 20);
             this.AC063.TabIndex = 25;
             this.AC063.Text = "C-06-3";
             this.AC063.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1681,10 +1611,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC073.BackColor = System.Drawing.Color.Red;
             this.AC073.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC073.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC073.Location = new System.Drawing.Point(681, 35);
-            this.AC073.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC073.Location = new System.Drawing.Point(910, 43);
             this.AC073.Name = "AC073";
-            this.AC073.Size = new System.Drawing.Size(114, 16);
+            this.AC073.Size = new System.Drawing.Size(150, 20);
             this.AC073.TabIndex = 26;
             this.AC073.Text = "C-07-3";
             this.AC073.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1695,10 +1624,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC042.BackColor = System.Drawing.Color.Red;
             this.AC042.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC042.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC042.Location = new System.Drawing.Point(342, 52);
-            this.AC042.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC042.Location = new System.Drawing.Point(457, 64);
             this.AC042.Name = "AC042";
-            this.AC042.Size = new System.Drawing.Size(108, 16);
+            this.AC042.Size = new System.Drawing.Size(144, 20);
             this.AC042.TabIndex = 27;
             this.AC042.Text = "C-04-2";
             this.AC042.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1709,10 +1637,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC052.BackColor = System.Drawing.Color.Red;
             this.AC052.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC052.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC052.Location = new System.Drawing.Point(455, 52);
-            this.AC052.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC052.Location = new System.Drawing.Point(608, 64);
             this.AC052.Name = "AC052";
-            this.AC052.Size = new System.Drawing.Size(108, 16);
+            this.AC052.Size = new System.Drawing.Size(144, 20);
             this.AC052.TabIndex = 28;
             this.AC052.Text = "C-05-2";
             this.AC052.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1723,10 +1650,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC062.BackColor = System.Drawing.Color.Red;
             this.AC062.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC062.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC062.Location = new System.Drawing.Point(568, 52);
-            this.AC062.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC062.Location = new System.Drawing.Point(759, 64);
             this.AC062.Name = "AC062";
-            this.AC062.Size = new System.Drawing.Size(108, 16);
+            this.AC062.Size = new System.Drawing.Size(144, 20);
             this.AC062.TabIndex = 29;
             this.AC062.Text = "C-06-2";
             this.AC062.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1737,10 +1663,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC072.BackColor = System.Drawing.Color.Red;
             this.AC072.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC072.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC072.Location = new System.Drawing.Point(681, 52);
-            this.AC072.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC072.Location = new System.Drawing.Point(910, 64);
             this.AC072.Name = "AC072";
-            this.AC072.Size = new System.Drawing.Size(114, 16);
+            this.AC072.Size = new System.Drawing.Size(150, 20);
             this.AC072.TabIndex = 30;
             this.AC072.Text = "C-07-2";
             this.AC072.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1751,10 +1676,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC041.BackColor = System.Drawing.Color.Red;
             this.AC041.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC041.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC041.Location = new System.Drawing.Point(342, 69);
-            this.AC041.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC041.Location = new System.Drawing.Point(457, 85);
             this.AC041.Name = "AC041";
-            this.AC041.Size = new System.Drawing.Size(108, 16);
+            this.AC041.Size = new System.Drawing.Size(144, 22);
             this.AC041.TabIndex = 31;
             this.AC041.Text = "C-04-1";
             this.AC041.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1765,10 +1689,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC051.BackColor = System.Drawing.Color.Red;
             this.AC051.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC051.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC051.Location = new System.Drawing.Point(455, 69);
-            this.AC051.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC051.Location = new System.Drawing.Point(608, 85);
             this.AC051.Name = "AC051";
-            this.AC051.Size = new System.Drawing.Size(108, 16);
+            this.AC051.Size = new System.Drawing.Size(144, 22);
             this.AC051.TabIndex = 32;
             this.AC051.Text = "C-05-1";
             this.AC051.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1779,10 +1702,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC061.BackColor = System.Drawing.Color.Red;
             this.AC061.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC061.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC061.Location = new System.Drawing.Point(568, 69);
-            this.AC061.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC061.Location = new System.Drawing.Point(759, 85);
             this.AC061.Name = "AC061";
-            this.AC061.Size = new System.Drawing.Size(108, 16);
+            this.AC061.Size = new System.Drawing.Size(144, 22);
             this.AC061.TabIndex = 33;
             this.AC061.Text = "C-06-1";
             this.AC061.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1793,10 +1715,9 @@ namespace WMS_Fec_Italia_MVC
             this.AC071.BackColor = System.Drawing.Color.Red;
             this.AC071.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AC071.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AC071.Location = new System.Drawing.Point(681, 69);
-            this.AC071.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AC071.Location = new System.Drawing.Point(910, 85);
             this.AC071.Name = "AC071";
-            this.AC071.Size = new System.Drawing.Size(114, 16);
+            this.AC071.Size = new System.Drawing.Size(150, 22);
             this.AC071.TabIndex = 34;
             this.AC071.Text = "C-07-1";
             this.AC071.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1808,12 +1729,12 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.57143F));
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel4, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 145);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 180);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1123, 71);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1499, 89);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
             // tableLayoutPanel4
@@ -1856,15 +1777,15 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel4.Controls.Add(this.AB072, 6, 2);
             this.tableLayoutPanel4.Controls.Add(this.AB071, 6, 3);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 2);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 2);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 4;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(798, 67);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1064, 85);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // AB014
@@ -1873,10 +1794,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB014.BackColor = System.Drawing.Color.Red;
             this.AB014.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB014.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB014.Location = new System.Drawing.Point(5, 3);
-            this.AB014.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB014.Location = new System.Drawing.Point(6, 3);
             this.AB014.Name = "AB014";
-            this.AB014.Size = new System.Drawing.Size(106, 13);
+            this.AB014.Size = new System.Drawing.Size(142, 17);
             this.AB014.TabIndex = 0;
             this.AB014.Text = "B-01-4";
             this.AB014.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1887,10 +1807,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB013.BackColor = System.Drawing.Color.Red;
             this.AB013.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB013.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB013.Location = new System.Drawing.Point(5, 19);
-            this.AB013.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB013.Location = new System.Drawing.Point(6, 23);
             this.AB013.Name = "AB013";
-            this.AB013.Size = new System.Drawing.Size(106, 13);
+            this.AB013.Size = new System.Drawing.Size(142, 17);
             this.AB013.TabIndex = 1;
             this.AB013.Text = "B-01-3";
             this.AB013.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1901,10 +1820,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB012.BackColor = System.Drawing.Color.Red;
             this.AB012.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB012.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB012.Location = new System.Drawing.Point(5, 35);
-            this.AB012.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB012.Location = new System.Drawing.Point(6, 43);
             this.AB012.Name = "AB012";
-            this.AB012.Size = new System.Drawing.Size(106, 13);
+            this.AB012.Size = new System.Drawing.Size(142, 17);
             this.AB012.TabIndex = 2;
             this.AB012.Text = "B-01-2";
             this.AB012.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1915,10 +1833,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB011.BackColor = System.Drawing.Color.Red;
             this.AB011.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB011.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB011.Location = new System.Drawing.Point(5, 51);
-            this.AB011.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB011.Location = new System.Drawing.Point(6, 63);
             this.AB011.Name = "AB011";
-            this.AB011.Size = new System.Drawing.Size(106, 13);
+            this.AB011.Size = new System.Drawing.Size(142, 19);
             this.AB011.TabIndex = 3;
             this.AB011.Text = "B-01-1";
             this.AB011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1929,10 +1846,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB024.BackColor = System.Drawing.Color.Red;
             this.AB024.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB024.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB024.Location = new System.Drawing.Point(118, 3);
-            this.AB024.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB024.Location = new System.Drawing.Point(157, 3);
             this.AB024.Name = "AB024";
-            this.AB024.Size = new System.Drawing.Size(106, 13);
+            this.AB024.Size = new System.Drawing.Size(142, 17);
             this.AB024.TabIndex = 4;
             this.AB024.Text = "B-02-4";
             this.AB024.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1943,10 +1859,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB023.BackColor = System.Drawing.Color.Red;
             this.AB023.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB023.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB023.Location = new System.Drawing.Point(118, 19);
-            this.AB023.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB023.Location = new System.Drawing.Point(157, 23);
             this.AB023.Name = "AB023";
-            this.AB023.Size = new System.Drawing.Size(106, 13);
+            this.AB023.Size = new System.Drawing.Size(142, 17);
             this.AB023.TabIndex = 5;
             this.AB023.Text = "B-02-3";
             this.AB023.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1957,10 +1872,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB022.BackColor = System.Drawing.Color.Red;
             this.AB022.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB022.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB022.Location = new System.Drawing.Point(118, 35);
-            this.AB022.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB022.Location = new System.Drawing.Point(157, 43);
             this.AB022.Name = "AB022";
-            this.AB022.Size = new System.Drawing.Size(106, 13);
+            this.AB022.Size = new System.Drawing.Size(142, 17);
             this.AB022.TabIndex = 6;
             this.AB022.Text = "B-02-2";
             this.AB022.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1971,10 +1885,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB021.BackColor = System.Drawing.Color.Red;
             this.AB021.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB021.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB021.Location = new System.Drawing.Point(118, 51);
-            this.AB021.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB021.Location = new System.Drawing.Point(157, 63);
             this.AB021.Name = "AB021";
-            this.AB021.Size = new System.Drawing.Size(106, 13);
+            this.AB021.Size = new System.Drawing.Size(142, 19);
             this.AB021.TabIndex = 7;
             this.AB021.Text = "B-02-1";
             this.AB021.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1985,10 +1898,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB034.BackColor = System.Drawing.Color.Red;
             this.AB034.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB034.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB034.Location = new System.Drawing.Point(231, 3);
-            this.AB034.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB034.Location = new System.Drawing.Point(308, 3);
             this.AB034.Name = "AB034";
-            this.AB034.Size = new System.Drawing.Size(106, 13);
+            this.AB034.Size = new System.Drawing.Size(142, 17);
             this.AB034.TabIndex = 8;
             this.AB034.Text = "B-03-4";
             this.AB034.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1999,10 +1911,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB033.BackColor = System.Drawing.Color.Red;
             this.AB033.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB033.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB033.Location = new System.Drawing.Point(231, 19);
-            this.AB033.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB033.Location = new System.Drawing.Point(308, 23);
             this.AB033.Name = "AB033";
-            this.AB033.Size = new System.Drawing.Size(106, 13);
+            this.AB033.Size = new System.Drawing.Size(142, 17);
             this.AB033.TabIndex = 9;
             this.AB033.Text = "B-03-3";
             this.AB033.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2013,10 +1924,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB032.BackColor = System.Drawing.Color.Red;
             this.AB032.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB032.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB032.Location = new System.Drawing.Point(231, 35);
-            this.AB032.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB032.Location = new System.Drawing.Point(308, 43);
             this.AB032.Name = "AB032";
-            this.AB032.Size = new System.Drawing.Size(106, 13);
+            this.AB032.Size = new System.Drawing.Size(142, 17);
             this.AB032.TabIndex = 10;
             this.AB032.Text = "B-03-2";
             this.AB032.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2027,10 +1937,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB031.BackColor = System.Drawing.Color.Red;
             this.AB031.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB031.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB031.Location = new System.Drawing.Point(231, 51);
-            this.AB031.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB031.Location = new System.Drawing.Point(308, 63);
             this.AB031.Name = "AB031";
-            this.AB031.Size = new System.Drawing.Size(106, 13);
+            this.AB031.Size = new System.Drawing.Size(142, 19);
             this.AB031.TabIndex = 11;
             this.AB031.Text = "B-03-1";
             this.AB031.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2041,10 +1950,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB044.BackColor = System.Drawing.Color.Red;
             this.AB044.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB044.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB044.Location = new System.Drawing.Point(344, 3);
-            this.AB044.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB044.Location = new System.Drawing.Point(459, 3);
             this.AB044.Name = "AB044";
-            this.AB044.Size = new System.Drawing.Size(106, 13);
+            this.AB044.Size = new System.Drawing.Size(142, 17);
             this.AB044.TabIndex = 12;
             this.AB044.Text = "B-04-4";
             this.AB044.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2055,10 +1963,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB043.BackColor = System.Drawing.Color.Red;
             this.AB043.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB043.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB043.Location = new System.Drawing.Point(344, 19);
-            this.AB043.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB043.Location = new System.Drawing.Point(459, 23);
             this.AB043.Name = "AB043";
-            this.AB043.Size = new System.Drawing.Size(106, 13);
+            this.AB043.Size = new System.Drawing.Size(142, 17);
             this.AB043.TabIndex = 13;
             this.AB043.Text = "B-04-3";
             this.AB043.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2069,10 +1976,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB042.BackColor = System.Drawing.Color.Red;
             this.AB042.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB042.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB042.Location = new System.Drawing.Point(344, 35);
-            this.AB042.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB042.Location = new System.Drawing.Point(459, 43);
             this.AB042.Name = "AB042";
-            this.AB042.Size = new System.Drawing.Size(106, 13);
+            this.AB042.Size = new System.Drawing.Size(142, 17);
             this.AB042.TabIndex = 14;
             this.AB042.Text = "B-04-2";
             this.AB042.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2083,10 +1989,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB041.BackColor = System.Drawing.Color.Red;
             this.AB041.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB041.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB041.Location = new System.Drawing.Point(344, 51);
-            this.AB041.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB041.Location = new System.Drawing.Point(459, 63);
             this.AB041.Name = "AB041";
-            this.AB041.Size = new System.Drawing.Size(106, 13);
+            this.AB041.Size = new System.Drawing.Size(142, 19);
             this.AB041.TabIndex = 15;
             this.AB041.Text = "B-04-1";
             this.AB041.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2097,10 +2002,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB054.BackColor = System.Drawing.Color.Red;
             this.AB054.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB054.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB054.Location = new System.Drawing.Point(457, 3);
-            this.AB054.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB054.Location = new System.Drawing.Point(610, 3);
             this.AB054.Name = "AB054";
-            this.AB054.Size = new System.Drawing.Size(106, 13);
+            this.AB054.Size = new System.Drawing.Size(142, 17);
             this.AB054.TabIndex = 16;
             this.AB054.Text = "B-05-4";
             this.AB054.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2111,10 +2015,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB053.BackColor = System.Drawing.Color.Red;
             this.AB053.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB053.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB053.Location = new System.Drawing.Point(457, 19);
-            this.AB053.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB053.Location = new System.Drawing.Point(610, 23);
             this.AB053.Name = "AB053";
-            this.AB053.Size = new System.Drawing.Size(106, 13);
+            this.AB053.Size = new System.Drawing.Size(142, 17);
             this.AB053.TabIndex = 17;
             this.AB053.Text = "B-05-3";
             this.AB053.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2125,10 +2028,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB052.BackColor = System.Drawing.Color.Red;
             this.AB052.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB052.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB052.Location = new System.Drawing.Point(457, 35);
-            this.AB052.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB052.Location = new System.Drawing.Point(610, 43);
             this.AB052.Name = "AB052";
-            this.AB052.Size = new System.Drawing.Size(106, 13);
+            this.AB052.Size = new System.Drawing.Size(142, 17);
             this.AB052.TabIndex = 18;
             this.AB052.Text = "B-05-2";
             this.AB052.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2139,10 +2041,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB051.BackColor = System.Drawing.Color.Red;
             this.AB051.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB051.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB051.Location = new System.Drawing.Point(457, 51);
-            this.AB051.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB051.Location = new System.Drawing.Point(610, 63);
             this.AB051.Name = "AB051";
-            this.AB051.Size = new System.Drawing.Size(106, 13);
+            this.AB051.Size = new System.Drawing.Size(142, 19);
             this.AB051.TabIndex = 19;
             this.AB051.Text = "B-05-1";
             this.AB051.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2153,10 +2054,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB064.BackColor = System.Drawing.Color.Red;
             this.AB064.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB064.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB064.Location = new System.Drawing.Point(570, 3);
-            this.AB064.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB064.Location = new System.Drawing.Point(761, 3);
             this.AB064.Name = "AB064";
-            this.AB064.Size = new System.Drawing.Size(106, 13);
+            this.AB064.Size = new System.Drawing.Size(142, 17);
             this.AB064.TabIndex = 20;
             this.AB064.Text = "B-06-4";
             this.AB064.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2167,10 +2067,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB063.BackColor = System.Drawing.Color.Red;
             this.AB063.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB063.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB063.Location = new System.Drawing.Point(570, 19);
-            this.AB063.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB063.Location = new System.Drawing.Point(761, 23);
             this.AB063.Name = "AB063";
-            this.AB063.Size = new System.Drawing.Size(106, 13);
+            this.AB063.Size = new System.Drawing.Size(142, 17);
             this.AB063.TabIndex = 21;
             this.AB063.Text = "B-06-3";
             this.AB063.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2181,10 +2080,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB062.BackColor = System.Drawing.Color.Red;
             this.AB062.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB062.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB062.Location = new System.Drawing.Point(570, 35);
-            this.AB062.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB062.Location = new System.Drawing.Point(761, 43);
             this.AB062.Name = "AB062";
-            this.AB062.Size = new System.Drawing.Size(106, 13);
+            this.AB062.Size = new System.Drawing.Size(142, 17);
             this.AB062.TabIndex = 22;
             this.AB062.Text = "B-06-2";
             this.AB062.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2195,10 +2093,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB061.BackColor = System.Drawing.Color.Red;
             this.AB061.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB061.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB061.Location = new System.Drawing.Point(570, 51);
-            this.AB061.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB061.Location = new System.Drawing.Point(761, 63);
             this.AB061.Name = "AB061";
-            this.AB061.Size = new System.Drawing.Size(106, 13);
+            this.AB061.Size = new System.Drawing.Size(142, 19);
             this.AB061.TabIndex = 23;
             this.AB061.Text = "B-06-1";
             this.AB061.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2209,10 +2106,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB074.BackColor = System.Drawing.Color.Red;
             this.AB074.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB074.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB074.Location = new System.Drawing.Point(683, 3);
-            this.AB074.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB074.Location = new System.Drawing.Point(912, 3);
             this.AB074.Name = "AB074";
-            this.AB074.Size = new System.Drawing.Size(110, 13);
+            this.AB074.Size = new System.Drawing.Size(146, 17);
             this.AB074.TabIndex = 24;
             this.AB074.Text = "B-07-4";
             this.AB074.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2223,10 +2119,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB073.BackColor = System.Drawing.Color.Red;
             this.AB073.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB073.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB073.Location = new System.Drawing.Point(683, 19);
-            this.AB073.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB073.Location = new System.Drawing.Point(912, 23);
             this.AB073.Name = "AB073";
-            this.AB073.Size = new System.Drawing.Size(110, 13);
+            this.AB073.Size = new System.Drawing.Size(146, 17);
             this.AB073.TabIndex = 25;
             this.AB073.Text = "B-07-3";
             this.AB073.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2237,10 +2132,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB072.BackColor = System.Drawing.Color.Red;
             this.AB072.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB072.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB072.Location = new System.Drawing.Point(683, 35);
-            this.AB072.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB072.Location = new System.Drawing.Point(912, 43);
             this.AB072.Name = "AB072";
-            this.AB072.Size = new System.Drawing.Size(110, 13);
+            this.AB072.Size = new System.Drawing.Size(146, 17);
             this.AB072.TabIndex = 26;
             this.AB072.Text = "B-07-2";
             this.AB072.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2251,10 +2145,9 @@ namespace WMS_Fec_Italia_MVC
             this.AB071.BackColor = System.Drawing.Color.Red;
             this.AB071.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AB071.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AB071.Location = new System.Drawing.Point(683, 51);
-            this.AB071.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AB071.Location = new System.Drawing.Point(912, 63);
             this.AB071.Name = "AB071";
-            this.AB071.Size = new System.Drawing.Size(110, 13);
+            this.AB071.Size = new System.Drawing.Size(146, 19);
             this.AB071.TabIndex = 27;
             this.AB071.Text = "B-07-1";
             this.AB071.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2304,16 +2197,16 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel2.Controls.Add(this.AA082, 7, 2);
             this.tableLayoutPanel2.Controls.Add(this.AA081, 7, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 34);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 42);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1123, 71);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1499, 89);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // AA012
@@ -2322,10 +2215,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA012.BackColor = System.Drawing.Color.Red;
             this.AA012.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA012.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA012.Location = new System.Drawing.Point(4, 36);
-            this.AA012.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA012.Location = new System.Drawing.Point(5, 44);
             this.AA012.Name = "AA012";
-            this.AA012.Size = new System.Drawing.Size(134, 15);
+            this.AA012.Size = new System.Drawing.Size(179, 19);
             this.AA012.TabIndex = 6;
             this.AA012.Text = "A-01-2";
             this.AA012.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2336,10 +2228,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA011.BackColor = System.Drawing.Color.Red;
             this.AA011.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA011.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA011.Location = new System.Drawing.Point(4, 53);
-            this.AA011.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA011.Location = new System.Drawing.Point(5, 65);
             this.AA011.Name = "AA011";
-            this.AA011.Size = new System.Drawing.Size(134, 16);
+            this.AA011.Size = new System.Drawing.Size(179, 22);
             this.AA011.TabIndex = 5;
             this.AA011.Text = "A-01-1";
             this.AA011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2350,10 +2241,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA022.BackColor = System.Drawing.Color.Red;
             this.AA022.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA022.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA022.Location = new System.Drawing.Point(144, 36);
-            this.AA022.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA022.Location = new System.Drawing.Point(192, 44);
             this.AA022.Name = "AA022";
-            this.AA022.Size = new System.Drawing.Size(134, 15);
+            this.AA022.Size = new System.Drawing.Size(179, 19);
             this.AA022.TabIndex = 8;
             this.AA022.Text = "A-02-2";
             this.AA022.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2364,10 +2254,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA013.BackColor = System.Drawing.Color.Red;
             this.AA013.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA013.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA013.Location = new System.Drawing.Point(4, 19);
-            this.AA013.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA013.Location = new System.Drawing.Point(5, 23);
             this.AA013.Name = "AA013";
-            this.AA013.Size = new System.Drawing.Size(134, 15);
+            this.AA013.Size = new System.Drawing.Size(179, 19);
             this.AA013.TabIndex = 14;
             this.AA013.Text = "A-01-3";
             this.AA013.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2378,10 +2267,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA014.BackColor = System.Drawing.Color.Red;
             this.AA014.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA014.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA014.Location = new System.Drawing.Point(4, 2);
-            this.AA014.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA014.Location = new System.Drawing.Point(5, 2);
             this.AA014.Name = "AA014";
-            this.AA014.Size = new System.Drawing.Size(134, 15);
+            this.AA014.Size = new System.Drawing.Size(179, 19);
             this.AA014.TabIndex = 13;
             this.AA014.Text = "A-01-4";
             this.AA014.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2392,10 +2280,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA023.BackColor = System.Drawing.Color.Red;
             this.AA023.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA023.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA023.Location = new System.Drawing.Point(144, 19);
-            this.AA023.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA023.Location = new System.Drawing.Point(192, 23);
             this.AA023.Name = "AA023";
-            this.AA023.Size = new System.Drawing.Size(134, 15);
+            this.AA023.Size = new System.Drawing.Size(179, 19);
             this.AA023.TabIndex = 12;
             this.AA023.Text = "A-02-3";
             this.AA023.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2406,10 +2293,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA024.BackColor = System.Drawing.Color.Red;
             this.AA024.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA024.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA024.Location = new System.Drawing.Point(144, 2);
-            this.AA024.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA024.Location = new System.Drawing.Point(192, 2);
             this.AA024.Name = "AA024";
-            this.AA024.Size = new System.Drawing.Size(134, 15);
+            this.AA024.Size = new System.Drawing.Size(179, 19);
             this.AA024.TabIndex = 10;
             this.AA024.Text = "A-02-4";
             this.AA024.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2420,10 +2306,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA034.BackColor = System.Drawing.Color.Red;
             this.AA034.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA034.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA034.Location = new System.Drawing.Point(284, 2);
-            this.AA034.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA034.Location = new System.Drawing.Point(379, 2);
             this.AA034.Name = "AA034";
-            this.AA034.Size = new System.Drawing.Size(134, 15);
+            this.AA034.Size = new System.Drawing.Size(179, 19);
             this.AA034.TabIndex = 9;
             this.AA034.Text = "A-03-4";
             this.AA034.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2434,10 +2319,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA021.BackColor = System.Drawing.Color.Red;
             this.AA021.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA021.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA021.Location = new System.Drawing.Point(144, 53);
-            this.AA021.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA021.Location = new System.Drawing.Point(192, 65);
             this.AA021.Name = "AA021";
-            this.AA021.Size = new System.Drawing.Size(134, 16);
+            this.AA021.Size = new System.Drawing.Size(179, 22);
             this.AA021.TabIndex = 7;
             this.AA021.Text = "A-02-1";
             this.AA021.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2448,10 +2332,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA033.BackColor = System.Drawing.Color.Red;
             this.AA033.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA033.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA033.Location = new System.Drawing.Point(284, 19);
-            this.AA033.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA033.Location = new System.Drawing.Point(379, 23);
             this.AA033.Name = "AA033";
-            this.AA033.Size = new System.Drawing.Size(134, 15);
+            this.AA033.Size = new System.Drawing.Size(179, 19);
             this.AA033.TabIndex = 15;
             this.AA033.Text = "A-03-3";
             this.AA033.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2462,10 +2345,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA032.BackColor = System.Drawing.Color.Red;
             this.AA032.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA032.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA032.Location = new System.Drawing.Point(284, 36);
-            this.AA032.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA032.Location = new System.Drawing.Point(379, 44);
             this.AA032.Name = "AA032";
-            this.AA032.Size = new System.Drawing.Size(134, 15);
+            this.AA032.Size = new System.Drawing.Size(179, 19);
             this.AA032.TabIndex = 16;
             this.AA032.Text = "A-03-2";
             this.AA032.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2476,10 +2358,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA031.BackColor = System.Drawing.Color.Red;
             this.AA031.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA031.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA031.Location = new System.Drawing.Point(284, 53);
-            this.AA031.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA031.Location = new System.Drawing.Point(379, 65);
             this.AA031.Name = "AA031";
-            this.AA031.Size = new System.Drawing.Size(134, 16);
+            this.AA031.Size = new System.Drawing.Size(179, 22);
             this.AA031.TabIndex = 17;
             this.AA031.Text = "A-03-1";
             this.AA031.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2490,10 +2371,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA044.BackColor = System.Drawing.Color.Red;
             this.AA044.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA044.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA044.Location = new System.Drawing.Point(424, 2);
-            this.AA044.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA044.Location = new System.Drawing.Point(566, 2);
             this.AA044.Name = "AA044";
-            this.AA044.Size = new System.Drawing.Size(134, 15);
+            this.AA044.Size = new System.Drawing.Size(179, 19);
             this.AA044.TabIndex = 18;
             this.AA044.Text = "A-04-4";
             this.AA044.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2504,10 +2384,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA043.BackColor = System.Drawing.Color.Red;
             this.AA043.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA043.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA043.Location = new System.Drawing.Point(424, 19);
-            this.AA043.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA043.Location = new System.Drawing.Point(566, 23);
             this.AA043.Name = "AA043";
-            this.AA043.Size = new System.Drawing.Size(134, 15);
+            this.AA043.Size = new System.Drawing.Size(179, 19);
             this.AA043.TabIndex = 19;
             this.AA043.Text = "A-04-3";
             this.AA043.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2518,10 +2397,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA042.BackColor = System.Drawing.Color.Red;
             this.AA042.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA042.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA042.Location = new System.Drawing.Point(424, 36);
-            this.AA042.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA042.Location = new System.Drawing.Point(566, 44);
             this.AA042.Name = "AA042";
-            this.AA042.Size = new System.Drawing.Size(134, 15);
+            this.AA042.Size = new System.Drawing.Size(179, 19);
             this.AA042.TabIndex = 20;
             this.AA042.Text = "A-04-2";
             this.AA042.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2532,10 +2410,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA041.BackColor = System.Drawing.Color.Red;
             this.AA041.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA041.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA041.Location = new System.Drawing.Point(424, 53);
-            this.AA041.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA041.Location = new System.Drawing.Point(566, 65);
             this.AA041.Name = "AA041";
-            this.AA041.Size = new System.Drawing.Size(134, 16);
+            this.AA041.Size = new System.Drawing.Size(179, 22);
             this.AA041.TabIndex = 21;
             this.AA041.Text = "A-04-1";
             this.AA041.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2546,10 +2423,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA054.BackColor = System.Drawing.Color.Red;
             this.AA054.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA054.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA054.Location = new System.Drawing.Point(564, 2);
-            this.AA054.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA054.Location = new System.Drawing.Point(753, 2);
             this.AA054.Name = "AA054";
-            this.AA054.Size = new System.Drawing.Size(134, 15);
+            this.AA054.Size = new System.Drawing.Size(179, 19);
             this.AA054.TabIndex = 22;
             this.AA054.Text = "A-05-4";
             this.AA054.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2560,10 +2436,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA053.BackColor = System.Drawing.Color.Red;
             this.AA053.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA053.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA053.Location = new System.Drawing.Point(564, 19);
-            this.AA053.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA053.Location = new System.Drawing.Point(753, 23);
             this.AA053.Name = "AA053";
-            this.AA053.Size = new System.Drawing.Size(134, 15);
+            this.AA053.Size = new System.Drawing.Size(179, 19);
             this.AA053.TabIndex = 23;
             this.AA053.Text = "A-05-3";
             this.AA053.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2574,10 +2449,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA052.BackColor = System.Drawing.Color.Red;
             this.AA052.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA052.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA052.Location = new System.Drawing.Point(564, 36);
-            this.AA052.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA052.Location = new System.Drawing.Point(753, 44);
             this.AA052.Name = "AA052";
-            this.AA052.Size = new System.Drawing.Size(134, 15);
+            this.AA052.Size = new System.Drawing.Size(179, 19);
             this.AA052.TabIndex = 24;
             this.AA052.Text = "A-05-2";
             this.AA052.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2588,10 +2462,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA051.BackColor = System.Drawing.Color.Red;
             this.AA051.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA051.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA051.Location = new System.Drawing.Point(564, 53);
-            this.AA051.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA051.Location = new System.Drawing.Point(753, 65);
             this.AA051.Name = "AA051";
-            this.AA051.Size = new System.Drawing.Size(134, 16);
+            this.AA051.Size = new System.Drawing.Size(179, 22);
             this.AA051.TabIndex = 25;
             this.AA051.Text = "A-05-1";
             this.AA051.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2602,10 +2475,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA064.BackColor = System.Drawing.Color.Red;
             this.AA064.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA064.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA064.Location = new System.Drawing.Point(704, 2);
-            this.AA064.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA064.Location = new System.Drawing.Point(940, 2);
             this.AA064.Name = "AA064";
-            this.AA064.Size = new System.Drawing.Size(134, 15);
+            this.AA064.Size = new System.Drawing.Size(179, 19);
             this.AA064.TabIndex = 26;
             this.AA064.Text = "A-06-4";
             this.AA064.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2616,10 +2488,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA063.BackColor = System.Drawing.Color.Red;
             this.AA063.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA063.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA063.Location = new System.Drawing.Point(704, 19);
-            this.AA063.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA063.Location = new System.Drawing.Point(940, 23);
             this.AA063.Name = "AA063";
-            this.AA063.Size = new System.Drawing.Size(134, 15);
+            this.AA063.Size = new System.Drawing.Size(179, 19);
             this.AA063.TabIndex = 27;
             this.AA063.Text = "A-06-3";
             this.AA063.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2630,10 +2501,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA062.BackColor = System.Drawing.Color.Red;
             this.AA062.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA062.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA062.Location = new System.Drawing.Point(704, 36);
-            this.AA062.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA062.Location = new System.Drawing.Point(940, 44);
             this.AA062.Name = "AA062";
-            this.AA062.Size = new System.Drawing.Size(134, 15);
+            this.AA062.Size = new System.Drawing.Size(179, 19);
             this.AA062.TabIndex = 28;
             this.AA062.Text = "A-06-2";
             this.AA062.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2644,10 +2514,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA061.BackColor = System.Drawing.Color.Red;
             this.AA061.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA061.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA061.Location = new System.Drawing.Point(704, 53);
-            this.AA061.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA061.Location = new System.Drawing.Point(940, 65);
             this.AA061.Name = "AA061";
-            this.AA061.Size = new System.Drawing.Size(134, 16);
+            this.AA061.Size = new System.Drawing.Size(179, 22);
             this.AA061.TabIndex = 29;
             this.AA061.Text = "A-06-1";
             this.AA061.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2658,10 +2527,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA074.BackColor = System.Drawing.Color.Red;
             this.AA074.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA074.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA074.Location = new System.Drawing.Point(844, 2);
-            this.AA074.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA074.Location = new System.Drawing.Point(1127, 2);
             this.AA074.Name = "AA074";
-            this.AA074.Size = new System.Drawing.Size(134, 15);
+            this.AA074.Size = new System.Drawing.Size(179, 19);
             this.AA074.TabIndex = 30;
             this.AA074.Text = "A-07-4";
             this.AA074.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2672,10 +2540,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA073.BackColor = System.Drawing.Color.Red;
             this.AA073.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA073.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA073.Location = new System.Drawing.Point(844, 19);
-            this.AA073.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA073.Location = new System.Drawing.Point(1127, 23);
             this.AA073.Name = "AA073";
-            this.AA073.Size = new System.Drawing.Size(134, 15);
+            this.AA073.Size = new System.Drawing.Size(179, 19);
             this.AA073.TabIndex = 31;
             this.AA073.Text = "A-07-3";
             this.AA073.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2686,10 +2553,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA072.BackColor = System.Drawing.Color.Red;
             this.AA072.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA072.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA072.Location = new System.Drawing.Point(844, 36);
-            this.AA072.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA072.Location = new System.Drawing.Point(1127, 44);
             this.AA072.Name = "AA072";
-            this.AA072.Size = new System.Drawing.Size(134, 15);
+            this.AA072.Size = new System.Drawing.Size(179, 19);
             this.AA072.TabIndex = 32;
             this.AA072.Text = "A-07-2";
             this.AA072.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2700,10 +2566,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA071.BackColor = System.Drawing.Color.Red;
             this.AA071.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA071.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA071.Location = new System.Drawing.Point(844, 53);
-            this.AA071.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA071.Location = new System.Drawing.Point(1127, 65);
             this.AA071.Name = "AA071";
-            this.AA071.Size = new System.Drawing.Size(134, 16);
+            this.AA071.Size = new System.Drawing.Size(179, 22);
             this.AA071.TabIndex = 33;
             this.AA071.Text = "A-07-1";
             this.AA071.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2714,10 +2579,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA084.BackColor = System.Drawing.Color.Red;
             this.AA084.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA084.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA084.Location = new System.Drawing.Point(984, 2);
-            this.AA084.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA084.Location = new System.Drawing.Point(1314, 2);
             this.AA084.Name = "AA084";
-            this.AA084.Size = new System.Drawing.Size(135, 15);
+            this.AA084.Size = new System.Drawing.Size(180, 19);
             this.AA084.TabIndex = 34;
             this.AA084.Text = "A-08-4";
             this.AA084.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2728,10 +2592,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA083.BackColor = System.Drawing.Color.Red;
             this.AA083.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA083.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA083.Location = new System.Drawing.Point(984, 19);
-            this.AA083.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA083.Location = new System.Drawing.Point(1314, 23);
             this.AA083.Name = "AA083";
-            this.AA083.Size = new System.Drawing.Size(135, 15);
+            this.AA083.Size = new System.Drawing.Size(180, 19);
             this.AA083.TabIndex = 35;
             this.AA083.Text = "A-08-3";
             this.AA083.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2742,10 +2605,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA082.BackColor = System.Drawing.Color.Red;
             this.AA082.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA082.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA082.Location = new System.Drawing.Point(984, 36);
-            this.AA082.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA082.Location = new System.Drawing.Point(1314, 44);
             this.AA082.Name = "AA082";
-            this.AA082.Size = new System.Drawing.Size(135, 15);
+            this.AA082.Size = new System.Drawing.Size(180, 19);
             this.AA082.TabIndex = 36;
             this.AA082.Text = "A-08-2";
             this.AA082.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2756,10 +2618,9 @@ namespace WMS_Fec_Italia_MVC
             this.AA081.BackColor = System.Drawing.Color.Red;
             this.AA081.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AA081.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.AA081.Location = new System.Drawing.Point(984, 53);
-            this.AA081.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AA081.Location = new System.Drawing.Point(1314, 65);
             this.AA081.Name = "AA081";
-            this.AA081.Size = new System.Drawing.Size(135, 16);
+            this.AA081.Size = new System.Drawing.Size(180, 22);
             this.AA081.TabIndex = 37;
             this.AA081.Text = "A-08-1";
             this.AA081.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2777,8 +2638,8 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel17, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.panel6, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 2);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
@@ -2790,8 +2651,8 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1127, 502);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1505, 622);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel16
@@ -2802,11 +2663,12 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12F));
             this.tableLayoutPanel16.Controls.Add(this.AX011, 1, 0);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 315);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(4, 391);
+            this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
             this.tableLayoutPanel16.RowCount = 1;
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(1121, 31);
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(1497, 38);
             this.tableLayoutPanel16.TabIndex = 9;
             // 
             // AX011
@@ -2814,9 +2676,10 @@ namespace WMS_Fec_Italia_MVC
             this.AX011.AutoSize = true;
             this.AX011.BackColor = System.Drawing.Color.Red;
             this.AX011.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AX011.Location = new System.Drawing.Point(137, 0);
+            this.AX011.Location = new System.Drawing.Point(183, 0);
+            this.AX011.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AX011.Name = "AX011";
-            this.AX011.Size = new System.Drawing.Size(845, 31);
+            this.AX011.Size = new System.Drawing.Size(1129, 38);
             this.AX011.TabIndex = 0;
             this.AX011.Text = "X-01-1";
             this.AX011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2829,11 +2692,12 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12F));
             this.tableLayoutPanel17.Controls.Add(this.AY011, 1, 0);
             this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 352);
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(4, 437);
+            this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel17.Name = "tableLayoutPanel17";
             this.tableLayoutPanel17.RowCount = 1;
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(1121, 31);
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(1497, 38);
             this.tableLayoutPanel17.TabIndex = 10;
             // 
             // AY011
@@ -2841,9 +2705,10 @@ namespace WMS_Fec_Italia_MVC
             this.AY011.AutoSize = true;
             this.AY011.BackColor = System.Drawing.Color.Red;
             this.AY011.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AY011.Location = new System.Drawing.Point(563, 0);
+            this.AY011.Location = new System.Drawing.Point(752, 0);
+            this.AY011.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AY011.Name = "AY011";
-            this.AY011.Size = new System.Drawing.Size(419, 31);
+            this.AY011.Size = new System.Drawing.Size(560, 38);
             this.AY011.TabIndex = 0;
             this.AY011.Text = "Y-01-1";
             this.AY011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2852,9 +2717,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(3, 28);
+            this.panel6.Location = new System.Drawing.Point(4, 35);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1121, 1);
+            this.panel6.Size = new System.Drawing.Size(1497, 1);
             this.panel6.TabIndex = 11;
             // 
             // tabControlWithoutHeader1
@@ -2864,20 +2730,20 @@ namespace WMS_Fec_Italia_MVC
             this.tabControlWithoutHeader1.Controls.Add(this.tabPage3);
             this.tabControlWithoutHeader1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlWithoutHeader1.Location = new System.Drawing.Point(0, 0);
-            this.tabControlWithoutHeader1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabControlWithoutHeader1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControlWithoutHeader1.Name = "tabControlWithoutHeader1";
             this.tabControlWithoutHeader1.SelectedIndex = 0;
-            this.tabControlWithoutHeader1.Size = new System.Drawing.Size(1139, 532);
+            this.tabControlWithoutHeader1.Size = new System.Drawing.Size(1519, 655);
             this.tabControlWithoutHeader1.TabIndex = 1;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.tableLayoutPanel1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(1131, 506);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(1511, 626);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Terra";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -2885,11 +2751,11 @@ namespace WMS_Fec_Italia_MVC
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.tableLayoutPanel18);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(1131, 506);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1511, 626);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Riparazioni";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2902,14 +2768,15 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel18.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel18.Controls.Add(this.panel5, 0, 2);
             this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel18.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 2);
+            this.tableLayoutPanel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel18.Name = "tableLayoutPanel18";
             this.tableLayoutPanel18.RowCount = 4;
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.25F));
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.25F));
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.5F));
-            this.tableLayoutPanel18.Size = new System.Drawing.Size(1127, 502);
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(1505, 622);
             this.tableLayoutPanel18.TabIndex = 0;
             // 
             // tableLayoutPanel21
@@ -2922,20 +2789,21 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel21.Controls.Add(this.button5, 2, 0);
             this.tableLayoutPanel21.Controls.Add(this.button6, 1, 0);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 390);
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(4, 485);
+            this.tableLayoutPanel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
             this.tableLayoutPanel21.RowCount = 1;
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(1121, 109);
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(1497, 133);
             this.tableLayoutPanel21.TabIndex = 0;
             // 
             // button5
             // 
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Location = new System.Drawing.Point(236, 10);
-            this.button5.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button5.Location = new System.Drawing.Point(314, 12);
+            this.button5.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 89);
+            this.button5.Size = new System.Drawing.Size(117, 109);
             this.button5.TabIndex = 0;
             this.button5.Text = "Zona successiva";
             this.button5.UseVisualStyleBackColor = true;
@@ -2944,10 +2812,10 @@ namespace WMS_Fec_Italia_MVC
             // button6
             // 
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Location = new System.Drawing.Point(124, 10);
-            this.button6.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button6.Location = new System.Drawing.Point(165, 12);
+            this.button6.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(88, 89);
+            this.button6.Size = new System.Drawing.Size(117, 109);
             this.button6.TabIndex = 1;
             this.button6.Text = "Zona precedente";
             this.button6.UseVisualStyleBackColor = true;
@@ -2957,9 +2825,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.panel2.Controls.Add(this.panel8);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1121, 19);
+            this.panel2.Size = new System.Drawing.Size(1497, 23);
             this.panel2.TabIndex = 1;
             // 
             // panel8
@@ -2968,8 +2837,9 @@ namespace WMS_Fec_Italia_MVC
             this.panel8.Controls.Add(this.tableLayoutPanel22);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1121, 19);
+            this.panel8.Size = new System.Drawing.Size(1497, 23);
             this.panel8.TabIndex = 3;
             // 
             // tableLayoutPanel22
@@ -2980,25 +2850,25 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel22.Controls.Add(this.button7, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.label44, 4, 0);
             this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel22.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel22.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel22.Name = "tableLayoutPanel22";
             this.tableLayoutPanel22.RowCount = 1;
             this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel22.Size = new System.Drawing.Size(1117, 15);
+            this.tableLayoutPanel22.Size = new System.Drawing.Size(1493, 19);
             this.tableLayoutPanel22.TabIndex = 8;
             // 
             // button7
             // 
             this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(2, 2);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Location = new System.Drawing.Point(3, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(107, 11);
+            this.button7.Size = new System.Drawing.Size(143, 15);
             this.button7.TabIndex = 0;
             this.button7.Text = "Indietro";
             this.button7.UseVisualStyleBackColor = true;
@@ -3009,11 +2879,10 @@ namespace WMS_Fec_Italia_MVC
             this.label44.AutoSize = true;
             this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label44.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label44.Location = new System.Drawing.Point(558, 0);
-            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label44.Location = new System.Drawing.Point(748, 0);
             this.label44.Name = "label44";
             this.label44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label44.Size = new System.Drawing.Size(557, 15);
+            this.label44.Size = new System.Drawing.Size(742, 19);
             this.label44.TabIndex = 1;
             this.label44.Text = "AREA B (Riparazioni)";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3022,9 +2891,10 @@ namespace WMS_Fec_Italia_MVC
             // 
             this.panel5.Controls.Add(this.tableLayoutPanel26);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 209);
+            this.panel5.Location = new System.Drawing.Point(4, 260);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1121, 175);
+            this.panel5.Size = new System.Drawing.Size(1497, 217);
             this.panel5.TabIndex = 2;
             // 
             // tableLayoutPanel26
@@ -3081,7 +2951,7 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel26.Controls.Add(this.BA081, 7, 4);
             this.tableLayoutPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel26.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel26.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel26.Name = "tableLayoutPanel26";
             this.tableLayoutPanel26.RowCount = 5;
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -3089,7 +2959,7 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel26.Size = new System.Drawing.Size(1121, 175);
+            this.tableLayoutPanel26.Size = new System.Drawing.Size(1497, 217);
             this.tableLayoutPanel26.TabIndex = 3;
             // 
             // BA015
@@ -3098,10 +2968,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA015.BackColor = System.Drawing.Color.Red;
             this.BA015.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA015.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA015.Location = new System.Drawing.Point(3, 1);
-            this.BA015.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA015.Location = new System.Drawing.Point(4, 1);
             this.BA015.Name = "BA015";
-            this.BA015.Size = new System.Drawing.Size(135, 33);
+            this.BA015.Size = new System.Drawing.Size(180, 42);
             this.BA015.TabIndex = 0;
             this.BA015.Text = "A-01-5";
             this.BA015.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3112,10 +2981,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA014.BackColor = System.Drawing.Color.Red;
             this.BA014.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA014.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA014.Location = new System.Drawing.Point(3, 35);
-            this.BA014.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA014.Location = new System.Drawing.Point(4, 44);
             this.BA014.Name = "BA014";
-            this.BA014.Size = new System.Drawing.Size(135, 33);
+            this.BA014.Size = new System.Drawing.Size(180, 42);
             this.BA014.TabIndex = 1;
             this.BA014.Text = "A-01-4";
             this.BA014.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3126,10 +2994,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA013.BackColor = System.Drawing.Color.Red;
             this.BA013.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA013.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA013.Location = new System.Drawing.Point(3, 69);
-            this.BA013.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA013.Location = new System.Drawing.Point(4, 87);
             this.BA013.Name = "BA013";
-            this.BA013.Size = new System.Drawing.Size(135, 33);
+            this.BA013.Size = new System.Drawing.Size(180, 42);
             this.BA013.TabIndex = 2;
             this.BA013.Text = "A-01-3";
             this.BA013.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3140,10 +3007,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA012.BackColor = System.Drawing.Color.Red;
             this.BA012.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA012.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA012.Location = new System.Drawing.Point(3, 103);
-            this.BA012.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA012.Location = new System.Drawing.Point(4, 130);
             this.BA012.Name = "BA012";
-            this.BA012.Size = new System.Drawing.Size(135, 33);
+            this.BA012.Size = new System.Drawing.Size(180, 42);
             this.BA012.TabIndex = 3;
             this.BA012.Text = "A-01-2";
             this.BA012.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3154,10 +3020,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA011.BackColor = System.Drawing.Color.Red;
             this.BA011.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA011.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA011.Location = new System.Drawing.Point(3, 137);
-            this.BA011.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA011.Location = new System.Drawing.Point(4, 173);
             this.BA011.Name = "BA011";
-            this.BA011.Size = new System.Drawing.Size(135, 37);
+            this.BA011.Size = new System.Drawing.Size(180, 43);
             this.BA011.TabIndex = 4;
             this.BA011.Text = "A-01-1";
             this.BA011.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3168,10 +3033,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA054.BackColor = System.Drawing.Color.Red;
             this.BA054.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA054.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA054.Location = new System.Drawing.Point(563, 35);
-            this.BA054.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA054.Location = new System.Drawing.Point(752, 44);
             this.BA054.Name = "BA054";
-            this.BA054.Size = new System.Drawing.Size(135, 33);
+            this.BA054.Size = new System.Drawing.Size(180, 42);
             this.BA054.TabIndex = 5;
             this.BA054.Text = "A-05-4";
             this.BA054.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3182,10 +3046,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA024.BackColor = System.Drawing.Color.Red;
             this.BA024.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA024.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA024.Location = new System.Drawing.Point(143, 35);
-            this.BA024.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA024.Location = new System.Drawing.Point(191, 44);
             this.BA024.Name = "BA024";
-            this.BA024.Size = new System.Drawing.Size(135, 33);
+            this.BA024.Size = new System.Drawing.Size(180, 42);
             this.BA024.TabIndex = 6;
             this.BA024.Text = "A-02-4";
             this.BA024.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3196,10 +3059,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA023.BackColor = System.Drawing.Color.Red;
             this.BA023.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA023.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA023.Location = new System.Drawing.Point(143, 69);
-            this.BA023.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA023.Location = new System.Drawing.Point(191, 87);
             this.BA023.Name = "BA023";
-            this.BA023.Size = new System.Drawing.Size(135, 33);
+            this.BA023.Size = new System.Drawing.Size(180, 42);
             this.BA023.TabIndex = 7;
             this.BA023.Text = "A-02-3";
             this.BA023.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3210,10 +3072,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA025.BackColor = System.Drawing.Color.Red;
             this.BA025.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA025.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA025.Location = new System.Drawing.Point(143, 1);
-            this.BA025.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA025.Location = new System.Drawing.Point(191, 1);
             this.BA025.Name = "BA025";
-            this.BA025.Size = new System.Drawing.Size(135, 33);
+            this.BA025.Size = new System.Drawing.Size(180, 42);
             this.BA025.TabIndex = 8;
             this.BA025.Text = "A-02-5";
             this.BA025.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3224,10 +3085,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA021.BackColor = System.Drawing.Color.Red;
             this.BA021.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA021.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA021.Location = new System.Drawing.Point(143, 137);
-            this.BA021.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA021.Location = new System.Drawing.Point(191, 173);
             this.BA021.Name = "BA021";
-            this.BA021.Size = new System.Drawing.Size(135, 37);
+            this.BA021.Size = new System.Drawing.Size(180, 43);
             this.BA021.TabIndex = 9;
             this.BA021.Text = "A-02-1";
             this.BA021.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3238,10 +3098,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA022.BackColor = System.Drawing.Color.Red;
             this.BA022.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA022.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA022.Location = new System.Drawing.Point(143, 103);
-            this.BA022.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA022.Location = new System.Drawing.Point(191, 130);
             this.BA022.Name = "BA022";
-            this.BA022.Size = new System.Drawing.Size(135, 33);
+            this.BA022.Size = new System.Drawing.Size(180, 42);
             this.BA022.TabIndex = 10;
             this.BA022.Text = "A-02-2";
             this.BA022.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3252,10 +3111,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA035.BackColor = System.Drawing.Color.Red;
             this.BA035.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA035.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA035.Location = new System.Drawing.Point(283, 1);
-            this.BA035.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA035.Location = new System.Drawing.Point(378, 1);
             this.BA035.Name = "BA035";
-            this.BA035.Size = new System.Drawing.Size(135, 33);
+            this.BA035.Size = new System.Drawing.Size(180, 42);
             this.BA035.TabIndex = 11;
             this.BA035.Text = "A-03-5";
             this.BA035.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3266,10 +3124,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA034.BackColor = System.Drawing.Color.Red;
             this.BA034.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA034.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA034.Location = new System.Drawing.Point(283, 35);
-            this.BA034.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA034.Location = new System.Drawing.Point(378, 44);
             this.BA034.Name = "BA034";
-            this.BA034.Size = new System.Drawing.Size(135, 33);
+            this.BA034.Size = new System.Drawing.Size(180, 42);
             this.BA034.TabIndex = 12;
             this.BA034.Text = "A-03-4";
             this.BA034.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3280,10 +3137,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA033.BackColor = System.Drawing.Color.Red;
             this.BA033.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA033.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA033.Location = new System.Drawing.Point(283, 69);
-            this.BA033.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA033.Location = new System.Drawing.Point(378, 87);
             this.BA033.Name = "BA033";
-            this.BA033.Size = new System.Drawing.Size(135, 33);
+            this.BA033.Size = new System.Drawing.Size(180, 42);
             this.BA033.TabIndex = 13;
             this.BA033.Text = "A-03-3";
             this.BA033.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3294,10 +3150,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA032.BackColor = System.Drawing.Color.Red;
             this.BA032.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA032.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA032.Location = new System.Drawing.Point(283, 103);
-            this.BA032.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA032.Location = new System.Drawing.Point(378, 130);
             this.BA032.Name = "BA032";
-            this.BA032.Size = new System.Drawing.Size(135, 33);
+            this.BA032.Size = new System.Drawing.Size(180, 42);
             this.BA032.TabIndex = 14;
             this.BA032.Text = "A-03-2";
             this.BA032.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3308,10 +3163,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA031.BackColor = System.Drawing.Color.Red;
             this.BA031.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA031.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA031.Location = new System.Drawing.Point(283, 137);
-            this.BA031.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA031.Location = new System.Drawing.Point(378, 173);
             this.BA031.Name = "BA031";
-            this.BA031.Size = new System.Drawing.Size(135, 37);
+            this.BA031.Size = new System.Drawing.Size(180, 43);
             this.BA031.TabIndex = 15;
             this.BA031.Text = "A-03-1";
             this.BA031.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3322,10 +3176,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA045.BackColor = System.Drawing.Color.Red;
             this.BA045.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA045.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA045.Location = new System.Drawing.Point(423, 1);
-            this.BA045.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA045.Location = new System.Drawing.Point(565, 1);
             this.BA045.Name = "BA045";
-            this.BA045.Size = new System.Drawing.Size(135, 33);
+            this.BA045.Size = new System.Drawing.Size(180, 42);
             this.BA045.TabIndex = 16;
             this.BA045.Text = "A-04-5";
             this.BA045.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3336,10 +3189,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA044.BackColor = System.Drawing.Color.Red;
             this.BA044.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA044.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA044.Location = new System.Drawing.Point(423, 35);
-            this.BA044.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA044.Location = new System.Drawing.Point(565, 44);
             this.BA044.Name = "BA044";
-            this.BA044.Size = new System.Drawing.Size(135, 33);
+            this.BA044.Size = new System.Drawing.Size(180, 42);
             this.BA044.TabIndex = 17;
             this.BA044.Text = "A-04-4";
             this.BA044.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3350,10 +3202,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA055.BackColor = System.Drawing.Color.Red;
             this.BA055.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA055.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA055.Location = new System.Drawing.Point(563, 1);
-            this.BA055.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA055.Location = new System.Drawing.Point(752, 1);
             this.BA055.Name = "BA055";
-            this.BA055.Size = new System.Drawing.Size(135, 33);
+            this.BA055.Size = new System.Drawing.Size(180, 42);
             this.BA055.TabIndex = 18;
             this.BA055.Text = "A-05-5";
             this.BA055.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3364,10 +3215,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA065.BackColor = System.Drawing.Color.Red;
             this.BA065.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA065.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA065.Location = new System.Drawing.Point(703, 1);
-            this.BA065.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA065.Location = new System.Drawing.Point(939, 1);
             this.BA065.Name = "BA065";
-            this.BA065.Size = new System.Drawing.Size(135, 33);
+            this.BA065.Size = new System.Drawing.Size(180, 42);
             this.BA065.TabIndex = 19;
             this.BA065.Text = "A-06-5";
             this.BA065.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3378,10 +3228,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA075.BackColor = System.Drawing.Color.Red;
             this.BA075.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA075.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA075.Location = new System.Drawing.Point(843, 1);
-            this.BA075.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA075.Location = new System.Drawing.Point(1126, 1);
             this.BA075.Name = "BA075";
-            this.BA075.Size = new System.Drawing.Size(135, 33);
+            this.BA075.Size = new System.Drawing.Size(180, 42);
             this.BA075.TabIndex = 20;
             this.BA075.Text = "A-07-5";
             this.BA075.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3392,10 +3241,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA064.BackColor = System.Drawing.Color.Red;
             this.BA064.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA064.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA064.Location = new System.Drawing.Point(703, 35);
-            this.BA064.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA064.Location = new System.Drawing.Point(939, 44);
             this.BA064.Name = "BA064";
-            this.BA064.Size = new System.Drawing.Size(135, 33);
+            this.BA064.Size = new System.Drawing.Size(180, 42);
             this.BA064.TabIndex = 21;
             this.BA064.Text = "A-06-4";
             this.BA064.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3406,10 +3254,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA074.BackColor = System.Drawing.Color.Red;
             this.BA074.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA074.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA074.Location = new System.Drawing.Point(843, 35);
-            this.BA074.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA074.Location = new System.Drawing.Point(1126, 44);
             this.BA074.Name = "BA074";
-            this.BA074.Size = new System.Drawing.Size(135, 33);
+            this.BA074.Size = new System.Drawing.Size(180, 42);
             this.BA074.TabIndex = 22;
             this.BA074.Text = "A-07-4";
             this.BA074.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3420,10 +3267,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA043.BackColor = System.Drawing.Color.Red;
             this.BA043.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA043.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA043.Location = new System.Drawing.Point(423, 69);
-            this.BA043.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA043.Location = new System.Drawing.Point(565, 87);
             this.BA043.Name = "BA043";
-            this.BA043.Size = new System.Drawing.Size(135, 33);
+            this.BA043.Size = new System.Drawing.Size(180, 42);
             this.BA043.TabIndex = 23;
             this.BA043.Text = "A-04-3";
             this.BA043.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3434,10 +3280,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA053.BackColor = System.Drawing.Color.Red;
             this.BA053.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA053.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA053.Location = new System.Drawing.Point(563, 69);
-            this.BA053.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA053.Location = new System.Drawing.Point(752, 87);
             this.BA053.Name = "BA053";
-            this.BA053.Size = new System.Drawing.Size(135, 33);
+            this.BA053.Size = new System.Drawing.Size(180, 42);
             this.BA053.TabIndex = 24;
             this.BA053.Text = "A-05-3";
             this.BA053.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3448,10 +3293,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA063.BackColor = System.Drawing.Color.Red;
             this.BA063.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA063.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA063.Location = new System.Drawing.Point(703, 69);
-            this.BA063.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA063.Location = new System.Drawing.Point(939, 87);
             this.BA063.Name = "BA063";
-            this.BA063.Size = new System.Drawing.Size(135, 33);
+            this.BA063.Size = new System.Drawing.Size(180, 42);
             this.BA063.TabIndex = 25;
             this.BA063.Text = "A-06-3";
             this.BA063.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3462,10 +3306,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA073.BackColor = System.Drawing.Color.Red;
             this.BA073.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA073.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA073.Location = new System.Drawing.Point(843, 69);
-            this.BA073.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA073.Location = new System.Drawing.Point(1126, 87);
             this.BA073.Name = "BA073";
-            this.BA073.Size = new System.Drawing.Size(135, 33);
+            this.BA073.Size = new System.Drawing.Size(180, 42);
             this.BA073.TabIndex = 26;
             this.BA073.Text = "A-07-3";
             this.BA073.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3476,10 +3319,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA042.BackColor = System.Drawing.Color.Red;
             this.BA042.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA042.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA042.Location = new System.Drawing.Point(423, 103);
-            this.BA042.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA042.Location = new System.Drawing.Point(565, 130);
             this.BA042.Name = "BA042";
-            this.BA042.Size = new System.Drawing.Size(135, 33);
+            this.BA042.Size = new System.Drawing.Size(180, 42);
             this.BA042.TabIndex = 27;
             this.BA042.Text = "A-04-2";
             this.BA042.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3490,10 +3332,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA052.BackColor = System.Drawing.Color.Red;
             this.BA052.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA052.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA052.Location = new System.Drawing.Point(563, 103);
-            this.BA052.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA052.Location = new System.Drawing.Point(752, 130);
             this.BA052.Name = "BA052";
-            this.BA052.Size = new System.Drawing.Size(135, 33);
+            this.BA052.Size = new System.Drawing.Size(180, 42);
             this.BA052.TabIndex = 28;
             this.BA052.Text = "A-05-2";
             this.BA052.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3504,10 +3345,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA062.BackColor = System.Drawing.Color.Red;
             this.BA062.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA062.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA062.Location = new System.Drawing.Point(703, 103);
-            this.BA062.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA062.Location = new System.Drawing.Point(939, 130);
             this.BA062.Name = "BA062";
-            this.BA062.Size = new System.Drawing.Size(135, 33);
+            this.BA062.Size = new System.Drawing.Size(180, 42);
             this.BA062.TabIndex = 29;
             this.BA062.Text = "A-06-2";
             this.BA062.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3518,10 +3358,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA072.BackColor = System.Drawing.Color.Red;
             this.BA072.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA072.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA072.Location = new System.Drawing.Point(843, 103);
-            this.BA072.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA072.Location = new System.Drawing.Point(1126, 130);
             this.BA072.Name = "BA072";
-            this.BA072.Size = new System.Drawing.Size(135, 33);
+            this.BA072.Size = new System.Drawing.Size(180, 42);
             this.BA072.TabIndex = 30;
             this.BA072.Text = "A-07-2";
             this.BA072.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3532,10 +3371,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA041.BackColor = System.Drawing.Color.Red;
             this.BA041.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA041.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA041.Location = new System.Drawing.Point(423, 137);
-            this.BA041.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA041.Location = new System.Drawing.Point(565, 173);
             this.BA041.Name = "BA041";
-            this.BA041.Size = new System.Drawing.Size(135, 37);
+            this.BA041.Size = new System.Drawing.Size(180, 43);
             this.BA041.TabIndex = 31;
             this.BA041.Text = "A-04-1";
             this.BA041.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3546,10 +3384,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA051.BackColor = System.Drawing.Color.Red;
             this.BA051.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA051.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA051.Location = new System.Drawing.Point(563, 137);
-            this.BA051.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA051.Location = new System.Drawing.Point(752, 173);
             this.BA051.Name = "BA051";
-            this.BA051.Size = new System.Drawing.Size(135, 37);
+            this.BA051.Size = new System.Drawing.Size(180, 43);
             this.BA051.TabIndex = 32;
             this.BA051.Text = "A-05-1";
             this.BA051.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3560,10 +3397,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA061.BackColor = System.Drawing.Color.Red;
             this.BA061.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA061.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA061.Location = new System.Drawing.Point(703, 137);
-            this.BA061.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA061.Location = new System.Drawing.Point(939, 173);
             this.BA061.Name = "BA061";
-            this.BA061.Size = new System.Drawing.Size(135, 37);
+            this.BA061.Size = new System.Drawing.Size(180, 43);
             this.BA061.TabIndex = 33;
             this.BA061.Text = "A-06-1";
             this.BA061.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3574,10 +3410,9 @@ namespace WMS_Fec_Italia_MVC
             this.BA071.BackColor = System.Drawing.Color.Red;
             this.BA071.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA071.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA071.Location = new System.Drawing.Point(843, 137);
-            this.BA071.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BA071.Location = new System.Drawing.Point(1126, 173);
             this.BA071.Name = "BA071";
-            this.BA071.Size = new System.Drawing.Size(135, 37);
+            this.BA071.Size = new System.Drawing.Size(180, 43);
             this.BA071.TabIndex = 34;
             this.BA071.Text = "A-07-1";
             this.BA071.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3588,9 +3423,10 @@ namespace WMS_Fec_Italia_MVC
             this.BA085.BackColor = System.Drawing.Color.Red;
             this.BA085.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA085.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA085.Location = new System.Drawing.Point(984, 1);
+            this.BA085.Location = new System.Drawing.Point(1314, 1);
+            this.BA085.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BA085.Name = "BA085";
-            this.BA085.Size = new System.Drawing.Size(133, 33);
+            this.BA085.Size = new System.Drawing.Size(178, 42);
             this.BA085.TabIndex = 35;
             this.BA085.Text = "A-08-5";
             this.BA085.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3601,9 +3437,10 @@ namespace WMS_Fec_Italia_MVC
             this.BA084.BackColor = System.Drawing.Color.Red;
             this.BA084.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA084.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA084.Location = new System.Drawing.Point(984, 35);
+            this.BA084.Location = new System.Drawing.Point(1314, 44);
+            this.BA084.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BA084.Name = "BA084";
-            this.BA084.Size = new System.Drawing.Size(133, 33);
+            this.BA084.Size = new System.Drawing.Size(178, 42);
             this.BA084.TabIndex = 36;
             this.BA084.Text = "A-08-4";
             this.BA084.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3614,9 +3451,10 @@ namespace WMS_Fec_Italia_MVC
             this.BA083.BackColor = System.Drawing.Color.Red;
             this.BA083.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA083.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA083.Location = new System.Drawing.Point(984, 69);
+            this.BA083.Location = new System.Drawing.Point(1314, 87);
+            this.BA083.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BA083.Name = "BA083";
-            this.BA083.Size = new System.Drawing.Size(133, 33);
+            this.BA083.Size = new System.Drawing.Size(178, 42);
             this.BA083.TabIndex = 37;
             this.BA083.Text = "A-08-3";
             this.BA083.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3627,9 +3465,10 @@ namespace WMS_Fec_Italia_MVC
             this.BA082.BackColor = System.Drawing.Color.Red;
             this.BA082.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA082.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA082.Location = new System.Drawing.Point(984, 103);
+            this.BA082.Location = new System.Drawing.Point(1314, 130);
+            this.BA082.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BA082.Name = "BA082";
-            this.BA082.Size = new System.Drawing.Size(133, 33);
+            this.BA082.Size = new System.Drawing.Size(178, 42);
             this.BA082.TabIndex = 38;
             this.BA082.Text = "A-08-2";
             this.BA082.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3640,9 +3479,10 @@ namespace WMS_Fec_Italia_MVC
             this.BA081.BackColor = System.Drawing.Color.Red;
             this.BA081.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BA081.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.BA081.Location = new System.Drawing.Point(984, 137);
+            this.BA081.Location = new System.Drawing.Point(1314, 173);
+            this.BA081.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BA081.Name = "BA081";
-            this.BA081.Size = new System.Drawing.Size(133, 37);
+            this.BA081.Size = new System.Drawing.Size(178, 43);
             this.BA081.TabIndex = 39;
             this.BA081.Text = "A-08-1";
             this.BA081.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3650,10 +3490,10 @@ namespace WMS_Fec_Italia_MVC
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.tableLayoutPanel23);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1131, 506);
+            this.tabPage3.Size = new System.Drawing.Size(1511, 626);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Soppalco";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -3666,13 +3506,14 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel23.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel23.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel23.Name = "tableLayoutPanel23";
             this.tableLayoutPanel23.RowCount = 4;
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.25F));
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.25F));
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.5F));
-            this.tableLayoutPanel23.Size = new System.Drawing.Size(1131, 506);
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(1511, 626);
             this.tableLayoutPanel23.TabIndex = 1;
             // 
             // tableLayoutPanel24
@@ -3685,20 +3526,21 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel24.Controls.Add(this.button8, 2, 0);
             this.tableLayoutPanel24.Controls.Add(this.button9, 1, 0);
             this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel24.Location = new System.Drawing.Point(3, 394);
+            this.tableLayoutPanel24.Location = new System.Drawing.Point(4, 487);
+            this.tableLayoutPanel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel24.Name = "tableLayoutPanel24";
             this.tableLayoutPanel24.RowCount = 1;
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel24.Size = new System.Drawing.Size(1125, 109);
+            this.tableLayoutPanel24.Size = new System.Drawing.Size(1503, 135);
             this.tableLayoutPanel24.TabIndex = 0;
             // 
             // button8
             // 
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.Location = new System.Drawing.Point(236, 10);
-            this.button8.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button8.Location = new System.Drawing.Point(316, 12);
+            this.button8.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(88, 89);
+            this.button8.Size = new System.Drawing.Size(118, 111);
             this.button8.TabIndex = 0;
             this.button8.Text = "Zona successiva";
             this.button8.UseVisualStyleBackColor = true;
@@ -3706,21 +3548,23 @@ namespace WMS_Fec_Italia_MVC
             // button9
             // 
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.Location = new System.Drawing.Point(124, 10);
-            this.button9.Margin = new System.Windows.Forms.Padding(12, 10, 12, 10);
+            this.button9.Location = new System.Drawing.Point(166, 12);
+            this.button9.Margin = new System.Windows.Forms.Padding(16, 12, 16, 12);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(88, 89);
+            this.button9.Size = new System.Drawing.Size(118, 111);
             this.button9.TabIndex = 1;
             this.button9.Text = "Zona precedente";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.BackButton);
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.panel7);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Location = new System.Drawing.Point(4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1125, 19);
+            this.panel4.Size = new System.Drawing.Size(1503, 23);
             this.panel4.TabIndex = 1;
             // 
             // panel7
@@ -3729,8 +3573,9 @@ namespace WMS_Fec_Italia_MVC
             this.panel7.Controls.Add(this.tableLayoutPanel25);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1125, 19);
+            this.panel7.Size = new System.Drawing.Size(1503, 23);
             this.panel7.TabIndex = 2;
             // 
             // tableLayoutPanel25
@@ -3741,25 +3586,25 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel25.Controls.Add(this.button10, 0, 0);
             this.tableLayoutPanel25.Controls.Add(this.label45, 4, 0);
             this.tableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel25.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel25.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel25.Name = "tableLayoutPanel25";
             this.tableLayoutPanel25.RowCount = 1;
             this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel25.Size = new System.Drawing.Size(1121, 15);
+            this.tableLayoutPanel25.Size = new System.Drawing.Size(1499, 19);
             this.tableLayoutPanel25.TabIndex = 8;
             // 
             // button10
             // 
             this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button10.Location = new System.Drawing.Point(2, 2);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
+            this.button10.Location = new System.Drawing.Point(3, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(108, 11);
+            this.button10.Size = new System.Drawing.Size(143, 15);
             this.button10.TabIndex = 0;
             this.button10.Text = "Indietro";
             this.button10.UseVisualStyleBackColor = true;
@@ -3770,11 +3615,10 @@ namespace WMS_Fec_Italia_MVC
             this.label45.AutoSize = true;
             this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label45.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label45.Location = new System.Drawing.Point(562, 0);
-            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Location = new System.Drawing.Point(749, 0);
             this.label45.Name = "label45";
             this.label45.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label45.Size = new System.Drawing.Size(557, 15);
+            this.label45.Size = new System.Drawing.Size(747, 19);
             this.label45.TabIndex = 1;
             this.label45.Text = "Magazzino: Soppalco";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4505,13 +4349,13 @@ namespace WMS_Fec_Italia_MVC
             // 
             // StockingMagazzinoView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 532);
+            this.ClientSize = new System.Drawing.Size(1519, 655);
             this.Controls.Add(this.tabControlWithoutHeader1);
             this.Controls.Add(this.scaffaleSelezionatoTextBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "StockingMagazzinoView";
             this.Text = "Visualizzazione magazzino";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -58,23 +58,24 @@ namespace WMS_Fec_Italia_MVC
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridViewOggettiScaffale.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridViewOggettiScaffale.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewOggettiScaffale.Location = new System.Drawing.Point(2, 2);
-            this.dataGridViewOggettiScaffale.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridViewOggettiScaffale.Location = new System.Drawing.Point(3, 2);
+            this.dataGridViewOggettiScaffale.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewOggettiScaffale.MultiSelect = false;
             this.dataGridViewOggettiScaffale.Name = "dataGridViewOggettiScaffale";
             this.dataGridViewOggettiScaffale.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dataGridViewOggettiScaffale.RowHeadersVisible = false;
             this.dataGridViewOggettiScaffale.RowHeadersWidth = 62;
             this.dataGridViewOggettiScaffale.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewOggettiScaffale.Size = new System.Drawing.Size(887, 501);
+            this.dataGridViewOggettiScaffale.Size = new System.Drawing.Size(1183, 617);
             this.dataGridViewOggettiScaffale.TabIndex = 1;
+            this.dataGridViewOggettiScaffale.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewOggettiOrdine_CellEndEdit);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(892, 464);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(1189, 571);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(233, 36);
+            this.button1.Size = new System.Drawing.Size(311, 44);
             this.button1.TabIndex = 2;
             this.button1.Text = "Conferma modifiche";
             this.button1.UseVisualStyleBackColor = true;
@@ -83,38 +84,42 @@ namespace WMS_Fec_Italia_MVC
             // orderID_label
             // 
             this.orderID_label.AutoSize = true;
-            this.orderID_label.Location = new System.Drawing.Point(898, 4);
+            this.orderID_label.Location = new System.Drawing.Point(1197, 5);
+            this.orderID_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.orderID_label.Name = "orderID_label";
-            this.orderID_label.Size = new System.Drawing.Size(0, 13);
+            this.orderID_label.Size = new System.Drawing.Size(0, 16);
             this.orderID_label.TabIndex = 4;
             // 
             // fornitore_label
             // 
             this.fornitore_label.AutoSize = true;
-            this.fornitore_label.Location = new System.Drawing.Point(898, 29);
+            this.fornitore_label.Location = new System.Drawing.Point(1197, 36);
+            this.fornitore_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fornitore_label.Name = "fornitore_label";
             this.fornitore_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.fornitore_label.Size = new System.Drawing.Size(0, 13);
+            this.fornitore_label.Size = new System.Drawing.Size(0, 16);
             this.fornitore_label.TabIndex = 5;
             // 
             // date_label
             // 
             this.date_label.AutoSize = true;
-            this.date_label.Location = new System.Drawing.Point(898, 53);
+            this.date_label.Location = new System.Drawing.Point(1197, 65);
+            this.date_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date_label.Name = "date_label";
             this.date_label.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.date_label.Size = new System.Drawing.Size(0, 13);
+            this.date_label.Size = new System.Drawing.Size(0, 16);
             this.date_label.TabIndex = 6;
             // 
             // toolStrip1
             // 
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripSeparator1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1139, 26);
+            this.toolStrip1.Size = new System.Drawing.Size(1519, 32);
             this.toolStrip1.TabIndex = 22;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -124,14 +129,14 @@ namespace WMS_Fec_Italia_MVC
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(52, 23);
+            this.toolStripButton1.Size = new System.Drawing.Size(65, 29);
             this.toolStripButton1.Text = "Indietro";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 26);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 32);
             // 
             // panel1
             // 
@@ -139,17 +144,18 @@ namespace WMS_Fec_Italia_MVC
             this.panel1.Controls.Add(this.dataGridViewOggettiScaffale);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 29);
+            this.panel1.Location = new System.Drawing.Point(4, 36);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1133, 500);
+            this.panel1.Size = new System.Drawing.Size(1511, 615);
             this.panel1.TabIndex = 23;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(892, 425);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(1189, 523);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(233, 36);
+            this.button4.Size = new System.Drawing.Size(311, 44);
             this.button4.TabIndex = 3;
             this.button4.Text = "Segnala problema";
             this.button4.UseVisualStyleBackColor = true;
@@ -163,24 +169,25 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1139, 532);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1519, 655);
             this.tableLayoutPanel1.TabIndex = 24;
             // 
             // FornitoreOrdineView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 532);
+            this.ClientSize = new System.Drawing.Size(1519, 655);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.date_label);
             this.Controls.Add(this.fornitore_label);
             this.Controls.Add(this.orderID_label);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FornitoreOrdineView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista ordine";

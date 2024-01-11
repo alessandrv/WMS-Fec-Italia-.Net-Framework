@@ -24,7 +24,7 @@ namespace WMS_Fec_Italia_MVC
                     FROM ofordit o
                     LEFT JOIN agclifor a ON o.oft_cofo = a.cod_clifor 
                     WHERE o.oft_cofo = a.cod_clifor AND o.oft_stat = 'A'
-ORDER BY o.oft_inarrivo desc";
+ORDER BY o.oft_inarrivo desc, o.oft_data desc";
 
 
 

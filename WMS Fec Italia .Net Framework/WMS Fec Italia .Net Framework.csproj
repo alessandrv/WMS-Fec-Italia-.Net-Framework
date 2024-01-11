@@ -7,13 +7,13 @@
     <ProjectGuid>{E90EA4BB-6D12-4E1D-AD06-A932C4A42D34}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WMS_Fec_Italia.Net_Framework</RootNamespace>
-    <AssemblyName>WMS_Fec_Italia.Net_Framework</AssemblyName>
+    <AssemblyName>WMS Fec Italia</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>D:\exe\</PublishUrl>
+    <PublishUrl>C:\Users\dfasano\OneDrive - Fec Italia\Desktop\WMS\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationRevision>10</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

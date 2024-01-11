@@ -40,7 +40,6 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
@@ -80,14 +79,14 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.638555F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.12048F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.12048F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.12048F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1139, 532);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1519, 655);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // panel3
@@ -95,10 +94,10 @@ namespace WMS_Fec_Italia_MVC
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.tableLayoutPanel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 371);
+            this.panel3.Location = new System.Drawing.Point(0, 457);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1139, 161);
+            this.panel3.Size = new System.Drawing.Size(1519, 198);
             this.panel3.TabIndex = 2;
             // 
             // tableLayoutPanel5
@@ -110,13 +109,13 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.6123F));
             this.tableLayoutPanel5.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.button7, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.button8, 2, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1137, 159);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1517, 196);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
             // label3
@@ -124,9 +123,10 @@ namespace WMS_Fec_Italia_MVC
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Location = new System.Drawing.Point(4, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 159);
+            this.label3.Size = new System.Drawing.Size(206, 196);
             this.label3.TabIndex = 2;
             this.label3.Text = "Picking";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -139,11 +139,11 @@ namespace WMS_Fec_Italia_MVC
             this.button7.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button7.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.logistics_delivery;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(187, 26);
-            this.button7.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button7.Location = new System.Drawing.Point(249, 32);
+            this.button7.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(273, 107);
+            this.button7.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(364, 132);
             this.button7.TabIndex = 10;
             this.button7.TabStop = false;
             this.button7.Text = "  Picking";
@@ -151,24 +151,15 @@ namespace WMS_Fec_Italia_MVC
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.PickingClick);
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(489, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(64, 20);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.tableLayoutPanel4);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 211);
+            this.panel4.Location = new System.Drawing.Point(0, 260);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1139, 160);
+            this.panel4.Size = new System.Drawing.Size(1519, 197);
             this.panel4.TabIndex = 3;
             // 
             // tableLayoutPanel4
@@ -184,10 +175,11 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel4.Controls.Add(this.button6, 3, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1137, 158);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1517, 195);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // label2
@@ -195,9 +187,10 @@ namespace WMS_Fec_Italia_MVC
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Location = new System.Drawing.Point(4, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 158);
+            this.label2.Size = new System.Drawing.Size(206, 195);
             this.label2.TabIndex = 1;
             this.label2.Text = "Stocking";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,11 +203,11 @@ namespace WMS_Fec_Italia_MVC
             this.button4.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button4.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.forklift;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(187, 26);
-            this.button4.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button4.Location = new System.Drawing.Point(249, 32);
+            this.button4.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(273, 106);
+            this.button4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(364, 131);
             this.button4.TabIndex = 6;
             this.button4.TabStop = false;
             this.button4.Text = "  Immagazzinamento";
@@ -230,11 +223,11 @@ namespace WMS_Fec_Italia_MVC
             this.button5.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button5.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.boxes;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(512, 26);
-            this.button5.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button5.Location = new System.Drawing.Point(683, 32);
+            this.button5.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(273, 106);
+            this.button5.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(364, 131);
             this.button5.TabIndex = 7;
             this.button5.TabStop = false;
             this.button5.Text = "  Trasferimenti";
@@ -250,11 +243,11 @@ namespace WMS_Fec_Italia_MVC
             this.button6.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button6.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.warehouse__1_;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(837, 26);
-            this.button6.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button6.Location = new System.Drawing.Point(1117, 32);
+            this.button6.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(274, 106);
+            this.button6.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(365, 131);
             this.button6.TabIndex = 8;
             this.button6.TabStop = false;
             this.button6.Text = "  Visualizza magazzino";
@@ -267,10 +260,10 @@ namespace WMS_Fec_Italia_MVC
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.tableLayoutPanel2);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 51);
+            this.panel5.Location = new System.Drawing.Point(0, 63);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1139, 160);
+            this.panel5.Size = new System.Drawing.Size(1519, 197);
             this.panel5.TabIndex = 4;
             // 
             // tableLayoutPanel2
@@ -286,10 +279,11 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel2.Controls.Add(this.button3, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1137, 158);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1517, 195);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // label1
@@ -297,9 +291,10 @@ namespace WMS_Fec_Italia_MVC
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(4, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 158);
+            this.label1.Size = new System.Drawing.Size(206, 195);
             this.label1.TabIndex = 0;
             this.label1.Text = "Accettazione";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -313,11 +308,11 @@ namespace WMS_Fec_Italia_MVC
             this.button1.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button1.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.inventory;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(187, 26);
-            this.button1.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button1.Location = new System.Drawing.Point(249, 32);
+            this.button1.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(273, 106);
+            this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(364, 131);
             this.button1.TabIndex = 3;
             this.button1.TabStop = false;
             this.button1.Text = "  Fornitori";
@@ -333,11 +328,11 @@ namespace WMS_Fec_Italia_MVC
             this.button2.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button2.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.product_life_extension;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(512, 26);
-            this.button2.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button2.Location = new System.Drawing.Point(683, 32);
+            this.button2.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(273, 106);
+            this.button2.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(364, 131);
             this.button2.TabIndex = 4;
             this.button2.TabStop = false;
             this.button2.Text = "  Resi";
@@ -353,11 +348,11 @@ namespace WMS_Fec_Italia_MVC
             this.button3.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.button3.Image = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.product;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(837, 26);
-            this.button3.Margin = new System.Windows.Forms.Padding(26, 26, 26, 26);
+            this.button3.Location = new System.Drawing.Point(1117, 32);
+            this.button3.Margin = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(274, 106);
+            this.button3.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(365, 131);
             this.button3.TabIndex = 5;
             this.button3.TabStop = false;
             this.button3.Text = "  Riparazioni";
@@ -372,7 +367,7 @@ namespace WMS_Fec_Italia_MVC
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1139, 51);
+            this.panel1.Size = new System.Drawing.Size(1519, 63);
             this.panel1.TabIndex = 5;
             // 
             // tableLayoutPanel7
@@ -386,10 +381,11 @@ namespace WMS_Fec_Italia_MVC
             this.tableLayoutPanel7.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(1139, 51);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1519, 63);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
             // label4
@@ -397,10 +393,10 @@ namespace WMS_Fec_Italia_MVC
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.label4.Location = new System.Drawing.Point(187, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(26, 0, 3, 0);
+            this.label4.Location = new System.Drawing.Point(250, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(35, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(296, 51);
+            this.label4.Size = new System.Drawing.Size(395, 63);
             this.label4.TabIndex = 10;
             this.label4.Text = "WMS Fec Italia";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -410,9 +406,10 @@ namespace WMS_Fec_Italia_MVC
             this.pictureBox1.BackgroundImage = global::WMS_Fec_Italia.Net_Framework.Properties.Resources.logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(207, 55);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -432,12 +429,12 @@ namespace WMS_Fec_Italia_MVC
             // 
             // FormMainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 532);
+            this.ClientSize = new System.Drawing.Size(1519, 655);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMainMenu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -482,6 +479,5 @@ namespace WMS_Fec_Italia_MVC
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel7;
         private PictureBox pictureBox1;
-        private Button button8;
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMS_Fec_Italia.Net_Framework.Properties;
 using WMS_Fec_Italia_MVC;
 
 namespace WMS_Fec_Italia_MVC
@@ -104,14 +105,14 @@ namespace WMS_Fec_Italia_MVC
             {
 
                 case 1://grande da rimuovere
-                    volume = 3;
+                    volume = Settings.Default.dimensionePaccoGrande;
                     break;
                 case 2: //medio
-                    volume = 2;
+                    volume = Settings.Default.dimensionePaccoMedio; ;
 
                     break;
                 case 3://piccolo
-                    volume = 1;
+                    volume = Settings.Default.dimensionePaccoPiccolo; ;
 
                     break;
                 

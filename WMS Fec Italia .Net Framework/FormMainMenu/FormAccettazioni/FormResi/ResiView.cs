@@ -50,10 +50,7 @@ namespace WMS_Fec_Italia_MVC
         {
             return aperti_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo
         }
-        public bool GetChiusiCheckBoxValue()
-        {
-            return chiusi_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo
-        }
+       
         public bool GetInArrivoCheckBoxValue()
         {
             return inArrivo_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo

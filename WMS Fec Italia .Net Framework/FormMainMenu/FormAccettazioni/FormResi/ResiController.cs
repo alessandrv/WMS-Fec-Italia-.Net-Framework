@@ -119,7 +119,6 @@ namespace WMS_Fec_Italia_MVC
             string fornitore = view.GetFornitoreComboBoxValue();
             string tipo = view.GetTipoComboBox().Text;
             bool aperti = view.GetApertiCheckBoxValue();
-            bool chiusi = view.GetChiusiCheckBoxValue();
             bool inArrivo = view.GetInArrivoCheckBoxValue();
             string codiceOrdine = view.GetCodiceOrdineValue();
             var values = new List<string>();
@@ -127,9 +126,7 @@ namespace WMS_Fec_Italia_MVC
             if (aperti)
                 values.Add("'A'");
 
-            if (chiusi)
-                values.Add("'C'");
-
+            
             if (values.Count == 0)
             {
                 //LEttera a caso per non dare nessun risultato

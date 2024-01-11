@@ -78,5 +78,12 @@ namespace WMS_Fec_Italia_MVC
         {
             buttonClick?.Invoke(this, EventArgs.Empty);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Fotocamera formFotocamera = new Fotocamera();
+            formFotocamera.ShowDialog();
+            this.Close();
+        }
     }
 }

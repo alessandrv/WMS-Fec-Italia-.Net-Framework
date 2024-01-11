@@ -51,10 +51,7 @@ namespace WMS_Fec_Italia_MVC
         {
             return aperti_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo
         }
-        public bool GetChiusiCheckBoxValue()
-        {
-            return chiusi_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo
-        }
+      
         public bool GetInArrivoCheckBoxValue()
         {
             return inArrivo_checkbox.Checked; // Sostituisci "textBox1" con il nome effettivo della tua casella di testo
@@ -75,7 +72,7 @@ namespace WMS_Fec_Italia_MVC
             dataGridViewOrdiniDaConfermare.Columns["oft_inarrivo"].HeaderText = "In arrivo?";
             dataGridViewOrdiniDaConfermare.Columns["oft_code"].HeaderText = "Codice ordine";
             dataGridViewOrdiniDaConfermare.Columns["oft_stat"].HeaderText = "Stato";
-            dataGridViewOrdiniDaConfermare.Columns["oft_data"].HeaderText = "Data";
+            dataGridViewOrdiniDaConfermare.Columns["oft_data"].HeaderText = "Data ordine";
             dataGridViewOrdiniDaConfermare.Columns["oft_cofo"].HeaderText = "Codice fornitore";
             dataGridViewOrdiniDaConfermare.Columns["des_clifor"].HeaderText = "Ragione sociale";
            // dataGridViewOrdiniDaConfermare.Columns["oft_inarrivo"].HeaderText = "In arrivo?";

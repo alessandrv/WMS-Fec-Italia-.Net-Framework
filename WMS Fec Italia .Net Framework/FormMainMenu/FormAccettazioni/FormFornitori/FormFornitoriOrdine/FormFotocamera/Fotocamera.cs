@@ -28,7 +28,6 @@ namespace WMS_Fec_Italia_MVC
 
             if (videoDevices.Count > 0)
             {
-                MessageBox.Show(videoDevices.Count.ToString());
                 videoSource = new VideoCaptureDevice(videoDevices[0].MonikerString);
                 videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame);
                 videoSource.Start();
@@ -54,7 +53,9 @@ namespace WMS_Fec_Italia_MVC
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (currentFrame != null)
+            Bitmap frameToSave = currentFrame;
+            videoSource.Stop();
+            if (frameToSave != null)
             {
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "Immagini JPEG|*.jpg|Tutti i file|*.*";
@@ -62,17 +63,18 @@ namespace WMS_Fec_Italia_MVC
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    currentFrame.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+                    frameToSave.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
                     MessageBox.Show("Immagine salvata con successo.");
 
                     // Invia l'immagine via email
-                    InviaEmail(saveFileDialog.FileName);
+                    //InviaEmail(saveFileDialog.FileName);
                 }
             }
             else
             {
                 MessageBox.Show("Nessuna immagine da salvare.");
             }
+            videoSource.Start();
         }
         private void Fotocamera_Leave(object sender, FormClosingEventArgs e)
         {

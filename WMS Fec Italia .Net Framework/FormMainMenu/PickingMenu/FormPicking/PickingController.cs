@@ -41,8 +41,7 @@ namespace WMS_Fec_Italia_MVC
                 {
                     model.EffettuaPicking(codiceArticolo, codiceMovimento, area, scaffale, colonna, piano,
                         qtaDaPrelevare);
-                    view.DisplayMessageBox("Picking effettuato", "Successo!");
-                    view.Close();
+                   
                 }
                 catch (Exception ex)
                 {
@@ -51,6 +50,8 @@ namespace WMS_Fec_Italia_MVC
 
                 //righeVerdi.Add(row);
             }
+            view.DisplayMessageBox("Picking effettuato", "Successo!");
+            view.Close();
         }
 
        
@@ -284,7 +285,7 @@ namespace WMS_Fec_Italia_MVC
                     {
                         colonna.SortMode = DataGridViewColumnSortMode.NotSortable;
                     }
-
+                    view.GetDataGridView().ClearSelection();
                 }
                 else
                 {

@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WMS_Fec_Italia_MVC
 {
@@ -178,104 +179,97 @@ WHERE occ_code = {occ_code} AND occ_tipo = '{occ_tipo}'
             }
         }
 
-
+ 
         public DataTable ControllaLocazioni(DataTable dataTable)
         {
             try
             {
-                // Creare una lista dei codici articolo distinti
-                var codiciArticoloDistinct = dataTable.AsEnumerable()
-                    .Select(row => row.Field<string>("occ_arti"))
-                    .Distinct()
-                    .ToList();
 
-                // Creare una stringa separata da virgole per i codici articolo
-                string codiciArticoloInClause = string.Join("', '", codiciArticoloDistinct);
-                // Eseguire una singola query per ottenere tutte le informazioni sulle locazioni
-                string queryGetLocatAndQta = $@"
-                SELECT 
- id_art,
-    locat,
-    id_mov,
-    SUM(qta) AS qta_perlocazione
-FROM (
-    SELECT 
-wms_items.id_art,
-        wms_items.area || '-' || wms_items.scaffale || '-' || wms_items.colonna || '-' || wms_items.piano AS locat,
-        wms_items.id_mov,
-        wms_items.qta
-    FROM 
-        wms_items
-     WHERE 
-                wms_items.id_art IN ('{codiciArticoloInClause}')
-) AS Subquery
-GROUP BY 
-    id_art, locat, id_mov
-ORDER BY 
-    id_mov;
-            ";
-                
 
+                DataTable newTable = new DataTable();
+                newTable.Columns.Add("codice_art", typeof(string));
+                newTable.Columns.Add("descrizione", typeof(string));
+                newTable.Columns.Add("movimento", typeof(string));
+
+                newTable.Columns.Add("locat", typeof(string));
+                newTable.Columns.Add("qta_perlocazione",
+                    typeof(int)); // Cambiare il tipo di dato in base alle tue esigenze
                 using (var database = new Database())
                 {
                     database.Connect();
-
-                    OdbcCommand odbcCommand = new OdbcCommand(queryGetLocatAndQta);
-                    odbcCommand.Connection = database.OdbcConnection;
-
-                    OdbcDataAdapter adapter = new OdbcDataAdapter();
-                    adapter.SelectCommand = odbcCommand;
-
-                    DataTable dtLocazioni = new DataTable();
-                    adapter.Fill(dtLocazioni);
-
-                    // Iterare sul dataTable originale e popolare un nuovo dataTable con i risultati delle locazioni
-                    DataTable newTable = new DataTable();
-                    newTable.Columns.Add("codice_art", typeof(string));
-                    newTable.Columns.Add("descrizione", typeof(string));
-                    newTable.Columns.Add("movimento", typeof(string));
-                    newTable.Columns.Add("locat", typeof(string));
-                    newTable.Columns.Add("qta_perlocazione", typeof(int));
-
                     foreach (DataRow row in dataTable.Rows)
                     {
+
+
                         string codiceArt = row["occ_arti"].ToString();
                         int quantitaRichiesta = Convert.ToInt32(row["mpl_coimp"]);
                         string descrizione = row["descrizione"].ToString();
 
-                        // Filtrare le righe corrispondenti al codice articolo corrente
-                        var locazioniCorrispondenti = dtLocazioni.AsEnumerable()
-    .Where(locRow =>
-        locRow.Field<string>("id_art") != null &&
-        locRow.Field<string>("id_art").Trim() == codiceArt.Trim()
-    );
+                        // Esegui la query per ottenere la locazione dalla tabella wms_items e ordinarlo per data corrispondente al movimento di bfbolt
+                        string queryGetLocatAndQta = $@"
+                   
 
-                        foreach (var locRow in locazioniCorrispondenti)
+    SELECT 
+wms_items.id_art,
+        wms_items.area || '-' || wms_items.scaffale || '-' || wms_items.colonna || '-' || wms_items.piano AS locat,
+        wms_items.id_mov,
+        SUM(qta) AS qta_perlocazione
+    FROM 
+        wms_items
+        WHERE wms_items.id_art = '{codiceArt}'
+        GROUP BY id_art, wms_items.area, wms_items.scaffale, wms_items.colonna, wms_items.piano, id_mov
+        order by id_mov, qta_perlocazione
+            ";
+                        OdbcCommand odbcCommand = new OdbcCommand(queryGetLocatAndQta);
+                        odbcCommand.Connection = database.OdbcConnection;
+
+                        // Creare un DataTable
+                        using (var reader = odbcCommand.ExecuteReader())
                         {
-                            string locat = locRow.Field<string>("locat");
-                            string mov = locRow.Field<string>("id_mov");
-                            int qtaPerLocazione = locRow.Field<int>("qta_perlocazione");
 
-                            if (qtaPerLocazione >= quantitaRichiesta)
+                            while (reader.Read())
                             {
-                                newTable.Rows.Add(codiceArt, descrizione, mov, locat, quantitaRichiesta);
-                                quantitaRichiesta = 0;
-                                MessageBox.Show("TEST");
-                                break;
+                                string locat = reader["locat"].ToString();
+                                string filteredLocat = RimuoviTrattini(locat);
+                                string mov = reader["id_mov"].ToString();
+                                
+                                int qtaPerLocazione = Convert.ToInt32(reader["qta_perlocazione"]);
+
+                                // Aggiungere la riga al DataTable
+                                // Aggiungi locat alla Dictionary
+                                if (locatCounts.ContainsKey(filteredLocat))
+                                {
+                                    // Se la chiave è già presente, incrementa il conteggio
+                                    locatCounts[filteredLocat]++;
+                                }
+                                else
+                                {
+                                    // Altrimenti, aggiungi la chiave con un conteggio iniziale di 1
+                                    locatCounts.Add(filteredLocat, 1);
+                                }
+
+                                if (qtaPerLocazione >= quantitaRichiesta)
+                                {
+                                    //Se nella locazione ho tutta la merce che mi serve aggiungo la riga e indico come valore da prelevare tutta la merce
+                                    newTable.Rows.Add(codiceArt, descrizione, mov, locat, quantitaRichiesta);
+                                    return newTable;
+                                }
+
+                                //Nel caso non uscissi dalla funzione nell'if allora significa che la mia quantita nella locazione non è sufficiente a soddisfare quella totale
+                                //Quindi aggiungo una riga dicendo quanta prelevarne da quella li specifica (che corrispondera al totale dello scaffale)
+                                newTable.Rows.Add(codiceArt, descrizione, mov, locat, qtaPerLocazione);
+                                quantitaRichiesta -= qtaPerLocazione;
                             }
 
-                            newTable.Rows.Add(codiceArt, descrizione, mov, locat, qtaPerLocazione);
-                            quantitaRichiesta -= qtaPerLocazione;
-                            
-                        }
-
-                        if (quantitaRichiesta > 0)
-                        {
-                            newTable.Rows.Add(codiceArt, descrizione, null, "MANCANTE", quantitaRichiesta);
+                            if (quantitaRichiesta > 0)
+                            {
+                                newTable.Rows.Add(codiceArt, descrizione, null, "MANCANTE", quantitaRichiesta);
+                            }
                         }
                     }
-
                     return newTable;
+                    // Ora il DataTable contiene i dati letti dalla query
+                    // Puoi utilizzare il dataTable come necessario...
                 }
             }
             catch (Exception ex)

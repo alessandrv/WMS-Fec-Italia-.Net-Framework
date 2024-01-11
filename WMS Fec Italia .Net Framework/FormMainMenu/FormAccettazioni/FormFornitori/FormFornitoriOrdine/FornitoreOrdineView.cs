@@ -66,7 +66,13 @@ namespace WMS_Fec_Italia_MVC
             dataGridViewOggettiScaffale.Columns["ofc_stato"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_arti"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_qord"].ReadOnly = true;
-
+            dataGridViewOggettiScaffale.Columns["ofc_stato"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_arti"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_qord"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_stato"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_dtco"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_desc1"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dataGridViewOggettiScaffale.Columns["ofc_qtarrivata"].SortMode = DataGridViewColumnSortMode.NotSortable;
             dataGridViewOggettiScaffale.Columns["ofc_dtco"].ReadOnly = true;
             dataGridViewOggettiScaffale.Columns["ofc_dtco"].HeaderText = "Data prevista";
 
@@ -165,8 +171,9 @@ namespace WMS_Fec_Italia_MVC
                 }
 
                 if (int.TryParse(arrivedValueObject.ToString(), out int arrivedValueInt) &&
-                    int.TryParse(expectedValueObject.ToString(), out int expectedValueInt))
+                    double.TryParse(expectedValueObject.ToString(), out double expectedValueDouble))
                 {
+                    int expectedValueInt = (int)expectedValueDouble;
                     if (arrivedValueInt == expectedValueInt)
                     {
                         dataGridViewOggettiScaffale.Rows[e.RowIndex].Cells["ofc_stato"].Value = "Arrivato";
@@ -183,8 +190,9 @@ namespace WMS_Fec_Italia_MVC
                 }
                 else
                 {
+                    
                     MessageBox.Show("Il valore non è un numero intero valido.", "Errore di validazione");
-                    dataGridViewOggettiScaffale.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = expectedValueObject;  // Reimposta il valore precedente
+                    //dataGridViewOggettiScaffale.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = expectedValueObject;  // Reimposta il valore precedente
                 }
             }
             dataGridViewOggettiScaffale.Rows[e.RowIndex].Cells["checkColumn"].Value = true;

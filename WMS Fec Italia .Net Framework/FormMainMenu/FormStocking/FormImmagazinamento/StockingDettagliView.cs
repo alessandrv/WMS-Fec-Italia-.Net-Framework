@@ -165,5 +165,22 @@ namespace WMS_Fec_Italia_MVC
         {
             this.Close();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            articoloCodeTextBox.Clear();
+            descrizioneTextBox.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            fornitoreCode.Clear();
+            ragioneSocialTextBox.Clear();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            movimentoTextBox.Clear();
+        }
     }
 }
