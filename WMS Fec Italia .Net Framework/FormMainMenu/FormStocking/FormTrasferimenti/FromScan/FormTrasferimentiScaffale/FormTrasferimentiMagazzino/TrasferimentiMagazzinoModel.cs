@@ -86,10 +86,27 @@ namespace WMS_Fec_Italia_MVC
                     // Aggiungi gli aggiornamenti degli oggetti per ogni id_pacco
                     foreach (int id in idPacchi)
                     {
+                        
+                        updateQuery += $@"
+                          
+                        UPDATE wms_scaffali
+                        SET volume_libero = volume_libero + (SELECT volume from wms_volume where dimensione = (SELECT dimensione FROM wms_items where id_pacco = {id}))
+                        where area = (SELECT area from wms_items where id_pacco = {id})
+                        AND scaffale = (SELECT scaffale from wms_items where id_pacco = {id})
+                        AND colonna = (SELECT colonna from wms_items where id_pacco = {id})
+                        AND piano = (SELECT piano from wms_items where id_pacco = {id});
 
-                        updateQuery += $@"UPDATE wms_items 
+                          UPDATE wms_items 
                           SET area = '{area}' , scaffale='{scaffale}' , colonna='{colonna}' , piano = '{piano}' 
-                          WHERE id_pacco = {id};";
+                          WHERE id_pacco = {id};
+
+                          UPDATE wms_scaffali 
+                          SET volume_libero = volume_libero -  (SELECT volume from wms_volume where dimensione = (SELECT dimensione FROM wms_items where id_pacco = {id}))
+                          WHERE area = '{area}' AND scaffale='{scaffale}' AND colonna='{colonna}' AND piano = '{piano}';
+                        ";
+
+
+
                     }
 
                     // Aggiungi il COMMIT alla fine della transazione

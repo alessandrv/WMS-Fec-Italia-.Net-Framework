@@ -125,6 +125,7 @@ public class OggettiScaffaleController
             TrasferimentiMagazzinoModel modelTrasferimentiMagazzino = new TrasferimentiMagazzinoModel();
             modelTrasferimentiMagazzino.spostamentoDiVolume = spostamentoDiVolume;
             modelTrasferimentiMagazzino.idPacchi = id_pacchi;
+
             modelTrasferimentiMagazzino.fornitore = fornitore;
             modelTrasferimentiMagazzino.scaffaleProvenienza = model.scannedShelf;
 
