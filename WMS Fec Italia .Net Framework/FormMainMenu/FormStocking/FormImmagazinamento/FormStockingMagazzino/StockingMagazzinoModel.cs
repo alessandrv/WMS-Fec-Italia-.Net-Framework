@@ -67,6 +67,7 @@ namespace WMS_Fec_Italia_MVC
                         // Supponiamo che numPacchi sia il numero di iterazioni desiderate
                         for (int i = 0; i < numeroPacchi; i++)
                         {
+                        
                             insertQuery += $@"
 INSERT INTO wms_items (id_art, id_mov, fornitore, area, scaffale, colonna, piano, qta,  dimensione) 
 VALUES ('{codiceArticolo}', '{codiceMovimento}' , '{codiceFornitore}','{area}', '{scaffale}','{colonna}', '{piano}', {quantita}, '{dimensioni}');

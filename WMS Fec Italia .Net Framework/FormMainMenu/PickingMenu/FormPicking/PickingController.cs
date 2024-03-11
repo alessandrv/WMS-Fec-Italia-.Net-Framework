@@ -115,6 +115,16 @@ namespace WMS_Fec_Italia_MVC
 
                     }
 
+                    view.GetDataGridView().Columns["codice_art"].HeaderText = "Articolo";
+                    view.GetDataGridView().Columns["descrizione"].HeaderText = "Descrizione";
+                    view.GetDataGridView().Columns["movimento"].HeaderText = "Movimento";
+                    view.GetDataGridView().Columns["locat"].HeaderText = "Locazione";
+                    view.GetDataGridView().Columns["qta_perlocazione"].HeaderText = "Qta";
+
+                    view.GetDataGridView().Columns["descrizione"].AutoSizeMode =
+                        DataGridViewAutoSizeColumnMode
+                            .Fill; // Puoi anche impostare AutoSizeColumnMode su AllCells per alcune colonne
+
                 }
                 else
                 {
@@ -185,7 +195,7 @@ namespace WMS_Fec_Italia_MVC
 
                 newTable.Rows.Add(idArt, artDesc, null, "MANCANTE", quantitaDaAllocare);
 
-
+              
                 return newTable;
 
             }
@@ -277,7 +287,6 @@ namespace WMS_Fec_Italia_MVC
                     view.GetDataGridView().Columns["movimento"].HeaderText = "Movimento";
                     view.GetDataGridView().Columns["locat"].HeaderText = "Locazione";
                     view.GetDataGridView().Columns["qta_perlocazione"].HeaderText = "Qta";
-
                     view.GetDataGridView().Columns["descrizione"].AutoSizeMode =
                         DataGridViewAutoSizeColumnMode
                             .Fill; // Puoi anche impostare AutoSizeColumnMode su AllCells per alcune colonne

@@ -16,6 +16,7 @@ namespace WMS_Fec_Italia_MVC
         public StockingMagazzinoView()
         {
             InitializeComponent();
+            
         }
         public void AttachController(StockingMagazzinoController controller)
         {

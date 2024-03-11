@@ -459,7 +459,7 @@ ORDER BY
                                     $"UPDATE wms_items SET qta = qta - {qtaDaPrelevare} WHERE id_pacco = {idPacco}";
                                 database.AggiornaDatabase(queryUpdate);
 
-
+                                break;
                                 // Esci dal ciclo poiché hai soddisfatto la richiesta
 
                             }
@@ -491,10 +491,10 @@ DELETE FROM wms_items WHERE id_pacco={idPacco};";
 
 
                                 database.AggiornaDatabase(queryUpdate);
-
-                            }
                                 // Aggiorna la quantità da prelevare
                                 qtaDaPrelevare -= quantitaPacco;
+                            }
+                               
                             
                         }
                     }
